@@ -1,0 +1,935 @@
+configuration:
+  min_stars: 100
+  require_github: True
+  allowed_licenses: [ "Apache-2.0", "MIT", "BSD-3-Clause", "BSD-2-Clause", "ISC", "MPL-2.0", "EPL-2.0"]
+  projects_history_folder: "history"
+
+categories:
+- category: "data-viz"
+  title: "Data Visualization & Exploration"
+- category: "model-viz"
+  title: "Model Visualization"
+- category: "model-deployment"
+  title: "Model Deployment"
+- category: "ml-applications"
+  title: "ML Applications & Services"
+- category: "accelerators"
+  title: "Performance Optimization & Accelerators"
+  subtitle: "Compilers..."
+- category: "pipelines"
+  title: "Job & Data Pipelines"
+  subtitle: "Scheduling, Workflow, Dataflow, ETL..."
+- category: "data-labeling"
+  title: "Data Labeling & Annotation"
+- category: "dev-environments"
+  title: "IDEs & Notebook Editors"
+- category: "ml-platforms"
+  title: "Machine Learning Platforms"
+- category: "data-processing"
+  title: "Data Batch & Stream Processing"
+- category: "data-storage"
+  title: "Data Storage"
+- category: "db-gui"
+  title: "Database GUIs"
+- category: "business-intelligence"
+  title: "Business Intelligence"
+  subtitle: "Data Analytics, SQL.."
+- category: "faas"
+  title: "Function as a Service (FaaS)"
+
+labels:
+- label: "tensorflow"
+  image: "https://www.gstatic.com/devrel-devsite/v741200ba74cbd1989790411f8b27fb588884a771dac0e0472d95190dde1f7e2f/tensorflow/images/favicon.png"
+  url: "https://www.tensorflow.org/"
+  description: "Project is related to Tensorflow"
+- label: "spark"
+  image: "https://spark.apache.org/favicon.ico"
+  url: "https://spark.apache.org"
+  description: "Project is related to Apache Spark"
+- label: "jupyter"
+  image: "https://jupyter.org/favicon.ico"
+  url: "https://jupyter.org/"
+  description: "Project is related to Jupyter"
+
+projects:
+# IDEs & Notebook Editors
+- name: Jupyter
+  pypi_id: jupyter
+  github_id: jupyter/notebook
+  dockerhub_id: jupyter/datascience-notebook
+  # label: web
+  category: dev-environments
+- name: JupyterHub
+  pypi_id: jupyterhub
+  github_id: jupyterhub/jupyterhub
+  dockerhub_id: jupyterhub/jupyterhub
+  # label: web
+  category: dev-environments
+- name: JupyterLab
+  pypi_id: jupyterlab
+  github_id: jupyterlab/jupyterlab
+  # label: web
+  category: dev-environments
+- name: ML Workspace
+  dockerhub_id: mltooling/ml-workspace
+  github_id: ml-tooling/ml-workspace
+  # label: web
+  category: dev-environments
+- name: Zeppelin
+  github_id: apache/zeppelin
+  dockerhub_id: apache/zeppelin
+  helm_id: stable/zeppelin
+  maven_id: org.apache.zeppelin:zeppelin-server
+  # label: web
+  description: "Web-based notebook that enables interactive data analytics."
+  category: dev-environments
+- name: Spyder
+  github_id: spyder-ide/spyder
+  pypi_id: spyder
+  conda_id: spyder
+  apt_id: spyder3
+  # label: native
+  category: dev-environments
+- name: code-server
+  github_id: cdr/code-server
+  dockerhub_id: codercom/code-server
+  # label: web
+  category: dev-environments
+- name: nteract
+  github_id: nteract/nteract
+  pypi_id: nteract_on_jupyter
+  # label: native
+  category: dev-environments
+- name: Visual Studio Code
+  github_id: microsoft/vscode
+  npm_id: monaco-editor-core
+  # label: native
+  category: dev-environments
+- name: Atom
+  github_id: atom/atom
+  # label: native
+  category: dev-environments
+- name: Theia
+  github_id: eclipse-theia/theia
+  npm_id: "@theia/application-manager"
+  dockerhub_id: theiaide/theia
+  # label: web
+  category: dev-environments
+- name: Hydrogen
+  github_id: nteract/hydrogen
+  category: dev-environments
+- name: RStudio
+  github_id: rstudio/rstudio
+  license: AGPL-3.0
+  # label: web
+  category: dev-environments
+- name: Eclipse Che
+  github_id: eclipse/che
+  dockerhub_id: eclipse/che
+  maven_id: org.eclipse.che:bootstrapper
+  # label: web
+  category: dev-environments
+- name: Spark Notebook
+  github_id: spark-notebook/spark-notebook
+  # label: web
+  category: dev-environments
+- name: polynote
+  github_id: polynote/polynote
+  # label: web
+  category: dev-environments
+- name: h2o-flow
+  github_id: h2oai/h2o-flow
+  # label: web
+  category: dev-environments
+- name: DIGITS
+  github_id: NVIDIA/DIGITS
+  dockerhub_id: nvidia/digits
+  license: BSD-3-Clause
+  # label: web
+  category: dev-environments
+- name: ML Hub
+  github_id: ml-tooling/ml-hub
+  dockerhub_id: mltooling/ml-hub
+  # label: web
+  category: dev-environments
+- name: Deepo
+  github_id: ufoym/deepo
+  dockerhub_id: ufoym/deepo
+  # label: web
+  category: dev-environments
+- name: DataLab
+  github_id: googledatalab/datalab
+  # label: web
+  category: dev-environments
+- name: Jupyter Docker Stacks
+  github_id: jupyter/docker-stacks
+  dockerhub_id: jupyter/scipy-notebook
+  license: BSD-3-Clause
+  # label: web
+  category: dev-environments
+# Data Visualization
+- name: Kibana
+  github_id: elastic/kibana
+  dockerhub_id: kibana
+  license: Apache-2.0
+  docs_url: https://www.elastic.co/guide/en/kibana/current/index.html
+  # label: web
+  category: data-viz
+- name: Chronograf
+  github_id: influxdata/chronograf
+  dockerhub_id: chronograf
+  license: AGPL-3.0
+  go_id: github.com/influxdata/chronograf
+  # label: web
+  category: data-viz
+- name: Voyager 2
+  github_id: vega/voyager
+  npm_id: datavoyager
+  yarn_id: datavoyager
+  # label: web
+  category: data-viz
+- name: Visdom
+  pypi_id: visdom
+  github_id: facebookresearch/visdom
+  # label: web
+  category: data-viz
+- name: SandDance
+  github_id: microsoft/SandDance
+  npm_id: "@msrvida/sanddance"
+  # label: web
+  category: data-viz
+- name: Gephi
+  github_id: gephi/gephi
+  maven_id: org.gephi:project-api
+  license: GPL-3.0
+  # label: native
+  category: data-viz
+- name: CARTO
+  github_id: CartoDB/cartodb
+  dockerhub_id: sverhoeven/cartodb
+  docs_url: https://cartodb.readthedocs.io/en/latest/
+  # label: web
+  category: data-viz
+- name: Datawrapper
+  github_id: datawrapper/datawrapper
+  # label: web
+  category: data-viz
+- name: Orange
+  github_id: biolab/orange3
+  conda_id: orange3
+  pypi_id: orange3
+  # label: native
+  category: data-viz
+- name: Dex
+  github_id: PatMartin/Dex
+  # label: native
+  category: data-viz
+- name: Grafana
+  github_id: grafana/grafana
+  apt_id: grafana
+  brew_id: grafana
+  dockerhub_id: grafana/grafana
+  # label: web
+  category: data-viz
+# Business Intelligence
+- name: Redash
+  github_id: getredash/redash
+  dockerhub_id: redash/redash
+  docs_url: https://redash.io/help/
+  # label: web
+  category: business-intelligence
+- name: Hue
+  github_id: cloudera/hue
+  dockerhub_id: gethue/hue
+  helm_id: hue/hue
+  docs_url: https://docs.gethue.com/
+  # label: web
+  category: business-intelligence
+- name: Metabase
+  github_id: metabase/metabase
+  dockerhub_id: metabase/metabase
+  helm_id: table/metabase
+  docs_url: https://www.metabase.com/docs/latest/
+  license: AGPL-3.0
+  # label: web
+  category: business-intelligence
+- name: Poli
+  github_id: shzlw/poli
+  dockerhub_id: zhonglu/poli
+  docs_url: https://shzlw.github.io/poli/
+  # label: web
+  category: business-intelligence
+- name: Superset
+  github_id: apache/incubator-superset
+  pypi_id: apache-superset
+  helm_id: stable/superset
+  dockerhub_id: amancevice/superset
+  docs_url: https://superset.incubator.apache.org/
+  # label: web
+  category: business-intelligence
+- name: Azure Data Studio
+  github_id: microsoft/azuredatastudio
+  license: Custom EULA
+  # label: native
+  category: business-intelligence
+# Performance Optimization & Accelerators # Compilers
+- name: plaidML
+  github_id: plaidml/plaidml
+  pypi_id: plaidml-keras
+  category: accelerators
+- name: TensorRT
+  github_id: NVIDIA/TensorRT
+  category: accelerators
+- name: mkl-dnn
+  github_id: intel/mkl-dnn
+  conda_id: mkl
+  category: accelerators
+- name: nGraph
+  github_id: NervanaSystems/ngraph
+  pypi_id: ngraph-core
+  # label: mxnet/tensorflow
+  category: accelerators
+- name: TVM
+  github_id: dmlc/tvm
+  dockerhub_id: tvmai/demo-cpu
+  category: accelerators
+- name: Numba
+  pypi_id: numba
+  conda_id: numba
+  github_id: numba/numba
+  category: accelerators
+- name: Cython
+  pypi_id: Cython
+  conda_id: cython
+  github_id: cython/cython
+  category: accelerators
+- name: CuPy
+  github_id: cupy/cupy
+  pypi_id: cupy
+  dockerhub_id: cupy/cupy
+  category: accelerators
+- name: OpenBLAS
+  apt_id: libopenblas-dev
+  brew_id: openblas
+  conda_id: openblas
+  github_id: xianyi/OpenBLAS
+  category: accelerators
+- name: Glow
+  github_id: pytorch/glow
+  category: accelerators
+- name: PocketFlow
+  github_id: Tencent/PocketFlow
+  license: BSD-3-Clause
+  category: accelerators
+# Model Deployment
+- name: Hydrosphere Serving
+  github_id: Hydrospheredata/hydro-serving
+  pypi_id: hs
+  dockerhub_id: hydrosphere/serving-manager
+  category: model-deployment
+- name: KFServing
+  github_id: kubeflow/kfserving
+  pypi_id: kfserving
+  category: model-deployment
+- name: RedisAI
+  github_id: RedisAI/RedisAI
+  dockerhub_id: redisai/redisai
+  license: RSAL
+  category: model-deployment
+- name: MXNet Model Server
+  github_id: awslabs/mxnet-model-server
+  dockerhub_id: awsdeeplearningteam/mxnet-model-server
+  pypi_id: mxnet-model-server
+  category: model-deployment
+- name: DeepDetect
+  github_id: jolibrain/deepdetect
+  dockerhub_id: jolibrain/deepdetect_cpu
+  license: GPL-3.0
+  category: model-deployment
+- name: Clipper
+  github_id: ucbrise/clipper
+  dockerhub_id: clipper/management_frontend
+  pypi_id: clipper-admin
+  category: model-deployment
+- name: Seldon
+  github_id: SeldonIO/seldon-core
+  dockerhub_id: seldonio/seldon-core-operator
+  pypi_id: seldon-core
+  category: model-deployment
+- name: TensorRT Inference Server
+  github_id: NVIDIA/tensorrt-inference-server
+  license: BSD-3-Clause
+  category: model-deployment
+- name: OpenPAI
+  github_id: Microsoft/pai
+  pypi_id: paicli
+  category: model-deployment
+- name: MLeap
+  github_id: combust/mleap
+  pypi_id: mleap
+  dockerhub_id: combustml/mleap-serving
+  maven_id: ml.combust.mleap:mleap-base_2.11
+  # labels: spark
+  category: model-deployment
+- name: GraphPipe
+  github_id: oracle/graphpipe
+  pypi_id: graphpipe
+  dockerhub_id: sleepsonthefloor/graphpipe-tf
+  go_id: github.com/oracle/graphpipe-go
+  license: UPL-1.0
+  category: model-deployment
+- name: TensorFlow Serving
+  github_id: tensorflow/serving
+  pypi_id: tensorflow-serving-api
+  dockerhub_id: tensorflow/serving
+  docs_url: https://www.tensorflow.org/tfx/guide/serving
+  apt_id: tensorflow-model-server
+  category: model-deployment
+- name: BentoML
+  pypi_id: bentoml
+  github_id: bentoml/bentoml
+  dockerhub_id: bentoml/bento_api_server
+  category: model-deployment
+- name: PipelineAI
+  pypi_id: cli-pipeline
+  github_id: PipelineAI/pipeline
+  category: model-deployment
+- name: OpenVINO DLDT
+  github_id: opencv/dldt
+  category: model-deployment
+- name: ONNX Runtime
+  pypi_id: onnxruntime
+  nuget_id: Microsoft.ML.OnnxRuntime
+  dockerhub_id: onnx/onnx-ecosystem
+  github_id: microsoft/onnxruntime
+  category: model-deployment
+- name: Cortex
+  github_id: cortexlabs/cortex
+  category: model-deployment
+- name: Openscoring
+  github_id: openscoring/openscoring
+  maven_id: org.openscoring:openscoring
+  category: model-deployment
+- name: TensorFlow.js
+  github_id: tensorflow/tfjs
+  npm_id: "@tensorflow/tfjs"
+  category: model-deployment
+# ML Applications & Services
+- name: Real-Time-Voice-Cloning
+  github_id: CorentinJ/Real-Time-Voice-Cloning
+  license: MIT
+  # label: native
+  category: ml-applications
+- name: DeepFaceLab
+  github_id: iperov/DeepFaceLab
+  category: ml-applications
+- name: bert-as-service
+  github_id: hanxiao/bert-as-service
+  pypi_id: bert-serving-server
+  category: ml-applications
+- name: BERTsearch
+  github_id: Hironsan/bertsearch
+  category: ml-applications
+- name: face-api.js
+  github_id: justadudewhohacks/face-api.js
+  npm_id: face-api.js
+  category: ml-applications
+- name: DeOldify
+  github_id: jantic/DeOldify
+  # labels: cmd
+  category: ml-applications
+- name: neural-style
+  github_id: anishathalye/neural-style
+  # labels: cmd
+  category: ml-applications
+- name: AlphaPose
+  github_id: MVIG-SJTU/AlphaPose
+  # labels: cmd
+  category: ml-applications
+- name: Automatic-Speech-Recognition
+  github_id: zzw922cn/Automatic_Speech_Recognition
+  # labels: cmd
+  category: ml-applications
+- name: Deep Colorization
+  github_id: junyanz/interactive-deep-colorization
+  # labels: native
+  category: ml-applications
+- name: Deep Colorization
+  github_id: NVIDIA/FastPhotoStyle
+  # labels: cmd
+  category: ml-applications
+- name: GNES
+  github_id: gnes-ai/gnes
+  dockerhub_id: gnes/gnes
+  pypi_id: gnes
+  category: ml-applications
+- name: Hastic
+  github_id: hastic/hastic-server
+  dockerhub_id: hastic/server
+  # label: web
+  category: ml-applications
+# Data Labeling & Annotation
+- name: Labelme
+  github_id: wkentaro/labelme
+  pypi_id: labelme
+  dockerhub_id: wkentaro/labelme
+  apt_id: labelme
+  # label: native-gui
+  category: data-labeling
+- name: makesense.ai
+  github_id: SkalskiP/make-sense
+  # label: web
+  category: data-labeling
+- name: LabelImg
+  github_id: tzutalin/labelImg
+  pypi_id: labelImg
+  # label: native-gui
+  category: data-labeling
+- name: CVAT
+  github_id: opencv/cvat
+  license: MIT
+  # label: web
+  category: data-labeling
+- name: Label Studio
+  github_id: heartexlabs/label-studio
+  dockerhub_id: heartexlabs/label-studio
+  npm_id: label-studio
+  # label: web
+  category: data-labeling
+- name: doccano
+  github_id: chakki-works/doccano
+  dockerhub_id: chakkiworks/doccano
+  # label: web
+  category: data-labeling
+- name: ImgLab
+  github_id: NaturalIntelligence/imglab
+  # label: web
+  category: data-labeling
+- name: VoTT
+  github_id: Microsoft/VoTT
+  # label: web, native
+  category: data-labeling
+- name: jupyter-innotater
+  github_id: ideonate/jupyter-innotater
+  pypi_id: jupyter_innotater
+  # label: web
+  category: data-labeling
+- name: Labelbox
+  github_id: Labelbox/Labelbox
+  # label: web
+  category: data-labeling
+- name: LOST
+  github_id: l3p-cv/lost
+  dockerhub_id: l3pcv/lost
+  # label: web
+  category: data-labeling
+- name: PixelAnnotationTool
+  github_id: abreheret/PixelAnnotationTool
+  # label: native-windows/linux/mac
+  category: data-labeling
+- name: OpenLabeling
+  github_id: Cartucho/OpenLabeling
+  # label: native-linux
+  category: data-labeling
+- name: superintendent
+  github_id: janfreyberg/superintendent
+  # label: web
+  category: data-labeling
+- name: Semantic Segmentation Editor
+  github_id: Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor
+  dockerhub_id: hitachiail/semantic-segmentation-editor
+  # label: jupyter
+  category: data-labeling
+# Model Visualization
+- name: Fabrik
+  github_id: Cloud-CV/Fabrik
+  # label: web
+  category: model-viz
+- name: Netwulf
+  github_id: benmaier/netwulf
+  pypi_id: netwulf
+  # label: web
+  category: model-viz
+- name: BertViz
+  github_id: jessevig/bertviz
+  # label: web
+  category: model-viz
+- name: exBERT
+  github_id: bhoov/exbert
+  # label: web
+  category: model-viz
+- name: TensorSpace.js
+  github_id: tensorspace-team/tensorspace
+  npm_id: tensorspace
+  yarn_id: tensorspace
+  # label: web
+  category: model-viz
+- name: Netron
+  github_id: lutzroeder/netron
+  brew_id: netron
+  pypi_id: netron
+  # label: web
+  category: model-viz
+- name: GANDissect
+  github_id: CSAILVision/gandissect
+  # label: web
+  category: model-viz
+# Database GUIs
+- name: DBeaver
+  github_id: dbeaver/dbeaver
+  # label: native
+  category: db-gui
+- name: Robo 3T
+  github_id: Studio3T/robomongo
+  license: GPL-3.0
+  # label: native
+  category: db-gui
+- name: Sqlectron
+  github_id: sqlectron/sqlectron-gui
+  # label: native
+  category: db-gui
+- name: SQLite Browser
+  github_id: sqlitebrowser/sqlitebrowser
+  apt_id: sqlitebrowser
+  snap_id: sqlitebrowser
+  license: Apache-2.0
+  # label: native
+  category: db-gui
+- name: Redis Desktop Manager
+  github_id: uglide/RedisDesktopManager
+  license: GPL-3.0
+  # label: native
+  category: db-gui
+- name: Dejavu
+  github_id: appbaseio/dejavu
+  dockerhub_id: appbaseio/dejavu
+  # label: web
+  category: db-gui
+- name: Mirage
+  github_id: appbaseio/mirage
+  dockerhub_id: appbaseio/mirage
+  license: Apache-2.0
+  # label: web
+  category: db-gui
+- name: FastoNoSQL
+  github_id: fastogt/fastonosql
+  # label: native
+  category: db-gui
+- name: OmniDB
+  github_id: OmniDB/OmniDB
+  # label: native
+  category: db-gui
+- name: HeidiSQL
+  github_id: HeidiSQL/HeidiSQL
+  # label: native
+  category: db-gui
+- name: Mongoku
+  github_id: huggingface/Mongoku
+  npm_id: mongoku
+  dockerhub_id: huggingface/mongoku
+  # label: web
+  category: db-gui
+- name: Adminer
+  github_id: vrana/adminer
+  helm_id: mogaal/adminer
+  dockerhub_id: adminer
+  license: Apache-2.0
+  # label: web
+  category: db-gui
+- name: MySQL Workbench
+  github_id: mysql/mysql-workbench
+  license: GPL-2.0
+  # label: native
+  category: db-gui
+- name: phpMyAdmin
+  github_id: phpmyadmin/phpmyadmin
+  helm_id: stable/phpmyadmin
+  license: GPL-2.0
+  # label: web
+  category: db-gui
+- name: Sequel Pro
+  github_id: sequelpro/sequelpro
+  license: MIT
+  # label: native
+  category: db-gui
+- name: ElectroCRUD
+  github_id: garrylachman/ElectroCRUD
+  # label: native
+  category: db-gui
+- name: elasticsearch-head
+  github_id: mobz/elasticsearch-head
+  dockerhub_id: mobz/elasticsearch-head
+  license: Apache-2.0
+  # label: web
+  category: db-gui
+- name: Sequeler
+  github_id: Alecaddd/sequeler
+  # label: native
+  category: db-gui
+- name: Franchise
+  github_id: HVF/franchise
+  dockerhub_id: binakot/franchise
+  # label: web
+  category: db-gui
+# FAAS
+- name: OpenFaaS
+  github_id: openfaas/faas
+  helm_id: openfaas/openfaas
+  dockerhub_id: openfaas/gateway
+  category: faas
+- name: IronFunctions
+  github_id: iron-io/functions
+  dockerhub_id: iron/functions
+  brew_id: iron-functions
+  category: faas
+- name: Fission
+  github_id: fission/fission
+  category: faas
+- name: OpenWhisk
+  github_id: apache/openwhisk
+  dockerhub_id: openwhisk/controller
+  category: faas
+- name: fx
+  github_id: metrue/fx
+  dockerhub_id: metrue/fx-docker
+  category: faas
+- name: Kubeless
+  github_id: kubeless/kubeless
+  helm_id: incubator/kubeless
+  dockerhub_id: kubeless/function-controller
+  category: faas
+- name: Fn
+  github_id: fnproject/fn
+  helm_id: banzaicloud-stable/fn
+  brew_id: fn
+  dockerhub_id: fnproject/fnserver
+  category: faas
+- name: Hydrosphere Mist
+  github_id: Hydrospheredata/mist
+  dockerhub_id: hydrosphere/mist
+  category: faas
+# ML Platforms
+- name: Kubeflow
+  github_id: kubeflow/kubeflow
+  pypi_id: kfp
+  category: ml-platforms
+- name: Polyaxon
+  github_id: polyaxon/polyaxon
+  dockerhub_id: polyaxon/polyaxon-api
+  pypi_id: polyaxon-cli
+  category: ml-platforms
+- name: PredictionIO
+  github_id: apache/predictionio
+  dockerhub_id: predictionio/pio
+  pypi_id: predictionio
+  category: ml-platforms
+- name: H2O
+  github_id: h2oai/h2o-3
+  pypi_id: h2o
+  cran_id: h2o
+  category: ml-platforms
+- name: Pachyderm
+  github_id: pachyderm/pachyderm
+  pypi_id: python-pachyderm
+  dockerhub_id: pachyderm/pachd
+  category: ml-platforms
+- name: PennAI
+  github_id: EpistasisLab/pennai
+  dockerhub_id: moorelab/pennai_lab
+  category: ml-platforms
+- name: Oryx 2
+  github_id: OryxProject/oryx
+  maven_id: com.cloudera.oryx:oryx-api
+  category: ml-platforms
+# Pipelines
+- name: StreamSets Data Collector
+  github_id: streamsets/datacollector
+  dockerhub_id: streamsets/datacollector
+  pypi_id: streamsets
+  maven_id: com.streamsets:streamsets-datacollector
+  category: pipelines
+- name: Apache NiFi
+  github_id: apache/nifi
+  dockerhub_id: apache/nifi
+  maven_id:  org.apache.nifi:nifi-api
+  description: "Integrated data logistics platform for automating the movement of data between disparate systems."
+  category: pipelines
+- name: Dagster
+  github_id: dagster-io/dagster
+  pypi_id: dagster
+  category: pipelines
+- name: n8n.io
+  github_id: n8n-io/n8n
+  npm_id: n8n
+  dockerhub_id: n8nio/n8n
+  license: Apache-2.0
+  category: pipelines
+- name: Genie
+  github_id: Netflix/genie
+  dockerhub_id: netflixoss/genie-app
+  maven_id: com.netflix.genie:genie-common
+  pypi_id: nflx-genie-client
+  category: pipelines
+- name: Airflow
+  github_id: apache/airflow
+  helm_id: stable/airflow
+  pypi_id: apache-airflow
+  dockerhub_id: apache/airflow
+  conda_id: conda-forge/airflow
+  description: "Platform to programmatically author, schedule, and monitor workflows."
+  category: pipelines
+- name: Cadence
+  github_id: uber/cadence
+  dockerhub_id: ubercadence/server
+  go_id: go.uber.org/cadence
+  maven_id: com.uber.cadence:cadence-client
+  # label: web-ui
+  category: pipelines
+- name: Oozie
+  github_id: apache/oozie
+  maven_id: org.apache.oozie:oozie-client
+  description: "Server-based workflow scheduling system to manage Hadoop jobs."
+  category: pipelines
+- name: Azkaban
+  github_id: azkaban/azkaban
+  category: pipelines
+- name: luigi
+  github_id: spotify/luigi
+  pypi_id: luigi
+  helm_id: stable/luigi
+  conda_id: luigi
+  category: pipelines
+- name: argo
+  github_id: argoproj/argo
+  helm_id: argo/argo
+  dockerhub_id: argoproj/argoui
+  category: pipelines
+- name: Kubeflow Pipelines
+  github_id: kubeflow/pipelines
+  pypi_id: kfp
+  category: pipelines
+- name: Flotilla
+  github_id: stitchfix/flotilla-os
+  description: "Self-service framework for defining and executing containerized jobs."
+  category: pipelines
+# Batch & Stream Processing
+- name: Flume
+  github_id: apache/flume
+  maven_id: org.apache.flume:flume-ng-sdk
+  description: "Service for efficiently collecting, aggregating, and moving large amounts of log data."
+  category: data-processing
+- name: Brooklin
+  github_id: linkedin/brooklin
+  maven_id: com.github.datastream:datastream-client
+  category: data-processing
+- name: Storm
+  github_id: apache/storm
+  maven_id: org.apache.storm:storm-core
+  helm_id: gresearch/storm
+  license: Apache-2.0
+  dockerhub_id: storm
+  description: "Distributed real-time computational system for processing data streams."
+  category: data-processing
+- name: Vespa
+  github_id: vespa-engine/vespa
+  dockerhub_id: vespaengine/vespa
+  category: data-processing
+- name: Flink
+  github_id: apache/flink
+  dockerhub_id: flink
+  maven_id: org.apache.flink:flink-core
+  description: "Stream processing framework with powerful stream- and batch-processing capabilities."
+  category: data-processing
+- name: Spark
+  github_id: apache/spark
+  pypi_id: pyspark
+  helm_id: stable/spark
+  dockerhub_id: bde2020/spark-master
+  maven_id: org.apache.spark:spark-catalyst_2.11
+  description: "Unified analytics engine for big data processing, with built-in modules for streaming, SQL, machine learning and graph processing."
+  category: data-processing
+- name: Samza
+  github_id: apache/samza
+  maven_id: org.apache.samza:samza-core
+  description: "Near-realtime, asynchronous computational framework for stream processing."
+  category: data-processing
+- name: Kafka
+  github_id: apache/kafka
+  maven_id: org.apache.kafka:kafka
+  helm_id: incubator/kafka
+  pypi_id: kafka
+  dockerhub_id: bitnami/kafka
+  description: "Distributed streaming platform that is used to build real time streaming data pipelines and applications that adapt to data streams."
+  category: data-processing
+- name: Hadoop
+  github_id: apache/hadoop
+  maven_id: org.apache.hadoop:hadoop-common
+  helm_id: stable/hadoop
+  description: "Framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models."
+  category: data-processing
+- name: Beam
+  github_id: apache/beam
+  maven_id: org.apache.beam:beam-sdks-java-core
+  pypi_id: apache-beam
+  description: "Unified programming model to define and execute data processing pipelines, including ETL, batch and stream processing."
+  category: data-processing
+- name: Gearpump
+  github_id: gearpump/gearpump
+  maven_id: io.github.gearpump:gearpump-core
+  category: data-processing
+- name: Heron
+  brew_id: heron
+  dockerhub_id: heron/heron
+  github_id: apache/incubator-heron
+  category: data-processing
+- name: Wallaroo
+  github_id: WallarooLabs/wallaroo
+  category: data-processing
+# Others
+- name: File Browser
+  github_id: filebrowser/filebrowser
+  dockerhub_id: filebrowser/filebrowser
+  # label: web
+- name: Handout
+  github_id: danijar/handout
+  pypi_id: handout
+  # label: web
+- name: Botpress
+  github_id: botpress/botpress
+  npm_id: botpress
+- name: Portia
+  github_id: scrapinghub/portia
+  pypi_id: slybot
+  dockerhub_id: scrapinghub/portia
+  # label: web
+- name: Katib
+  github_id: kubeflow/katib
+  dockerhub_id: katib/metrics-collector
+- name: Feast
+  github_id: gojek/feast
+  pypi_id: feast
+- name: MLDB
+  github_id: mldbai/mldb
+- name: MediaPipe
+  github_id: google/mediapipe
+- name: s3cmd
+  github_id: s3tools/s3cmd
+  # label: cmd
+- name: s4cmd
+  github_id: bloomreach/s4cmd
+  pypi_id: s4cmd
+  # label: cmd
+- name: ungit
+  github_id: FredrikNoren/ungit
+  npm_id: ungit
+  # label: web
+- name: Glances
+  github_id: nicolargo/glances
+  pypi_id: glances
+  dockerhub_id: nicolargo/glances
+  brew_id: glances
+  # label: web
+- name: Netdata
+  github_id: netdata/netdata
+  dockerhub_id: netdata/netdata
+  # label: web
