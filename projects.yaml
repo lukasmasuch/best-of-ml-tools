@@ -1,12 +1,26 @@
 configuration:
   min_stars: 100
   require_github: True
-  allowed_licenses: [ "Apache-2.0", "MIT", "BSD-3-Clause", "BSD-2-Clause", "ISC", "MPL-2.0", "EPL-2.0"]
+  allowed_licenses: [ "Apache-2.0", "MIT", "BSD-3-Clause", "BSD-2-Clause", "ISC", "MPL-2.0", "EPL-2.0", "GPL-3.0", "LGPL-3.0"]
   projects_history_folder: "history"
 
 categories:
+- category: "dev-environments"
+  title: "IDEs & Notebook Editors"
+- category: "ml-platforms"
+  title: "Machine Learning Platforms"
+- category: "business-intelligence"
+  title: "Business Intelligence"
+  subtitle: "Data Analytics, SQL.."
 - category: "data-viz"
   title: "Data Visualization & Exploration"
+- category: "data-processing"
+  title: "Data Batch & Stream Processing"
+- category: "pipelines"
+  title: "Job & Data Pipelines"
+  subtitle: "Scheduling, Workflow, Dataflow, ETL..."
+- category: "data-labeling"
+  title: "Data Labeling & Annotation"
 - category: "model-viz"
   title: "Model Visualization"
 - category: "model-deployment"
@@ -16,40 +30,12 @@ categories:
 - category: "accelerators"
   title: "Performance Optimization & Accelerators"
   subtitle: "Compilers..."
-- category: "pipelines"
-  title: "Job & Data Pipelines"
-  subtitle: "Scheduling, Workflow, Dataflow, ETL..."
-- category: "data-labeling"
-  title: "Data Labeling & Annotation"
-- category: "dev-environments"
-  title: "IDEs & Notebook Editors"
-- category: "ml-platforms"
-  title: "Machine Learning Platforms"
-- category: "data-processing"
-  title: "Data Batch & Stream Processing"
+- category: "faas"
+  title: "Function as a Service (FaaS)"
 - category: "data-storage"
   title: "Data Storage"
 - category: "db-gui"
   title: "Database GUIs"
-- category: "business-intelligence"
-  title: "Business Intelligence"
-  subtitle: "Data Analytics, SQL.."
-- category: "faas"
-  title: "Function as a Service (FaaS)"
-
-labels:
-- label: "tensorflow"
-  image: "https://www.gstatic.com/devrel-devsite/v741200ba74cbd1989790411f8b27fb588884a771dac0e0472d95190dde1f7e2f/tensorflow/images/favicon.png"
-  url: "https://www.tensorflow.org/"
-  description: "Project is related to Tensorflow"
-- label: "spark"
-  image: "https://spark.apache.org/favicon.ico"
-  url: "https://spark.apache.org"
-  description: "Project is related to Apache Spark"
-- label: "jupyter"
-  image: "https://jupyter.org/favicon.ico"
-  url: "https://jupyter.org/"
-  description: "Project is related to Jupyter"
 
 projects:
 # IDEs & Notebook Editors
@@ -272,6 +258,11 @@ projects:
   license: Custom EULA
   # label: native
   category: business-intelligence
+- name: Blazer
+  github_id: ankane/blazer
+  gem_id: blazer
+  # label: web
+  category: business-intelligence
 # Performance Optimization & Accelerators # Compilers
 - name: plaidML
   github_id: plaidml/plaidml
@@ -414,6 +405,10 @@ projects:
   github_id: tensorflow/tfjs
   npm_id: "@tensorflow/tfjs"
   category: model-deployment
+- name: ONNX.js
+  github_id: microsoft/onnxjs
+  npm_id: "onnxjs"
+  category: model-deployment
 # ML Applications & Services
 - name: Real-Time-Voice-Cloning
   github_id: CorentinJ/Real-Time-Voice-Cloning
@@ -454,7 +449,7 @@ projects:
   github_id: junyanz/interactive-deep-colorization
   # labels: native
   category: ml-applications
-- name: Deep Colorization
+- name: FastPhotoStyle
   github_id: NVIDIA/FastPhotoStyle
   # labels: cmd
   category: ml-applications
@@ -671,6 +666,220 @@ projects:
   dockerhub_id: binakot/franchise
   # label: web
   category: db-gui
+- name: mongo-express
+  github_id: mongo-express/mongo-express
+  npm_id: mongo-express
+  dockerhub_id: mongo-express
+  # label: web
+  category: db-gui
+- name: pgweb
+  github_id: sosedoff/pgweb
+  brew_id: pgweb
+  dockerhub_id: sosedoff/pgweb
+  # label: web
+  category: db-gui
+- name: pgAdmin
+  github_id: postgres/pgadmin4
+  dockerhub_id: dpage/pgadmin4
+  description: "Web-based administration tool for the PostgreSQL database."
+  license: PostgreSQL
+  # label: web
+  category: db-gui
+# Data Storage
+- name: Minio
+  github_id: minio/minio
+  brew_id: minio/stable/minio
+  dockerhub_id: minio/minio
+  pypi_id: minio
+  npm_id: minio
+  helm_id: bitnami/minio
+  go_id: github.com/minio/minio-go/v6
+  conda_id: conda-forge/minio
+  maven_id: io.minio:minio
+  pkg_id: minio
+  # label: web
+  category: data-storage
+- name: Druid
+  github_id: apache/incubator-druid
+  dockerhub_id: apache/incubator-druid
+  helm_id: incubator/druid
+  # label: web
+  category: data-storage
+- name: Ignite
+  github_id: apache/ignite
+  dockerhub_id: apacheignite/ignite
+  pypi_id: pyignite
+  helm_id: stable/ignite
+  maven_id: org.apache.ignite:ignite-core
+  npm_id: apache-ignite-client
+  description: Memory-centric distributed database, caching and processing platform designed to store and compute on large volumes of data across a cluster of nodes.
+  category: data-storage
+- name: RethinkDB
+  github_id: rethinkdb/rethinkdb
+  dockerhub_id: rethinkdb
+  helm_id: stable/rethinkdb
+  npm_id: rethinkdb
+  gem_id: rethinkdb
+  maven_id: com.rethinkdb:rethinkdb-driver
+  pypi_id: rethinkdb
+  # label: web
+  category: data-storage
+- name: Prometheus
+  github_id: prometheus/prometheus
+  dockerhub_id: prom/prometheus
+  helm_id: stable/prometheus
+  pypi_id: prometheus_client
+  gem_id: prometheus-client
+  conda_id: conda-forge/prometheus_client
+  maven_id: io.prometheus:simpleclient
+  go_id: github.com/prometheus/client_golang/prometheus
+  # label: web
+  category: data-storage
+- name: Redis
+  github_id: antirez/redis
+  dockerhub_id: redis
+  helm_id: bitnami/redis
+  pypi_id: redis
+  gem_id: redis
+  npm_id: redis
+  conda_id: redis
+  maven_id: redis.clients:jedis
+  go_id: github.com/prometheus/client_golang/prometheus
+  # label: web
+  category: data-storage
+- name: MongoDB
+  github_id: mongodb/mongo
+  dockerhub_id: mongo
+  helm_id: incubator/mongodb
+  license: SSPL
+  pypi_id: pymongo
+  gem_id: redis
+  npm_id: mongodb
+  conda_id: mongodb
+  maven_id: org.mongodb:mongodb-driver-sync
+  go_id: go.mongodb.org/mongo-driver
+  category: data-storage
+- name: CrateDB
+  github_id: crate/crate
+  dockerhub_id: crate
+  helm_id: crate/crate
+  pypi_id: crate
+  maven_id: io.crate:crate-jdbc
+  # label: web
+  category: data-storage
+- name: InfluxDB
+  github_id: influxdata/influxdb
+  dockerhub_id: influxdb
+  helm_id: stable/influxdb
+  pypi_id: influxdb
+  apt_id: influxdb
+  pkg_id: influxdb
+  brew_id: influxdb
+  yum_id: influxdb
+  cran_od: influxdbr
+  npm_id: influx
+  maven_id: org.influxdb:influxdb-java
+  category: data-storage
+- name: Elasticsearch
+  github_id: elastic/elasticsearch
+  dockerhub_id: elasticsearch
+  pypi_id: elasticsearch
+  npm_id: elasticsearch
+  helm_id: elastic/elasticsearch
+  brew_id: elasticsearch
+  apt_id: elasticsearch
+  yum_id: elasticsearch
+  maven_id: org.elasticsearch.client:transport
+  category: data-storage
+- name: OrientDB
+  github_id: orientechnologies/orientdb
+  dockerhub_id: orientdb
+  helm_id: incubator/orientdb
+  pypi_id: pyorient
+  npm_id: orientjs
+  maven_id: com.orientechnologies:orientdb-core
+  # label: web
+  category: data-storage
+- name: ArangoDB
+  github_id: arangodb/arangodb
+  dockerhub_id: arangodb
+  brew_id: arangodb
+  pypi_id: pyarango
+  npm_id: arangojs
+  yarn_id: arangojs
+  go_id: github.com/arangodb/go-driver
+  maven_id: com.arangodb:arangodb-java-driver
+  # label: web
+  category: data-storage
+- name: Neo4j
+  github_id: neo4j/neo4j
+  dockerhub_id: neo4j
+  apt_id: neo4j
+  yum_id: neo4j
+  zypper_id: neo4j
+  pypi_id: neo4j
+  npm_id: neo4j-driver
+  go_id: github.com/neo4j/neo4j-go-driver/neo4j
+  maven_id: org.neo4j:neo4j
+  license: GPL-3.0
+  # label: web
+  category: data-storage
+- name: Hazelcast
+  github_id: hazelcast/hazelcast
+  dockerhub_id: hazelcast/hazelcas
+  helm_id: stable/hazelcast
+  pypi_id: hazelcast-python-client
+  npm_id: hazelcast-client
+  go_id: github.com/hazelcast/hazelcast-go-client
+  maven_id: com.hazelcast:hazelcast
+  category: data-storage
+- name: PostgreSQL
+  github_id: postgres/postgres
+  dockerhub_id: postgres
+  helm_id: stable/postgresql
+  pypi_id: psycopg2
+  npm_id: pg
+  go_id: github.com/lib/pq
+  maven_id: org.postgresql:postgresql
+  description: "Object-relational database that supports an extended subset of the SQL standard."
+  license: PostgreSQL
+  show: True
+  category: data-storage
+- name: Cassandra
+  github_id: apache/cassandra
+  dockerhub_id: cassandra
+  helm_id: incubator/cassandra
+  pypi_id: cassandra-driver
+  npm_id: cassandra-driver
+  gem_id: cassandra-driver
+  go_id: github.com/gocql/gocql
+  maven_id: com.datastax.oss:java-driver-core
+  description: "Distributed, wide column store, NoSQL database designed to handle large amounts of data across"
+  category: data-storage
+- name: MariaDB
+  github_id: MariaDB/server
+  dockerhub_id: mariadb
+  helm_id: bitnami/mariadb
+  apt_id: mariadb-server
+  brew_id: mariadb
+  npm_id: mariadb
+  category: data-storage
+- name: TimescaleDB
+  github_id: timescale/timescaledb
+  dockerhub_id: timescale/timescaledb
+  apt_id: timescaledb-postgresql-11
+  brew_id: timescaledb
+  category: data-storage
+- name: Cayley
+  github_id: cayleygraph/cayley
+  dockerhub_id: cayleygraph/cayley
+  snap_id: cayley
+  npm_id: "@cayleygraph/cayley"
+  pypi_id: pyley # TODO: https://github.com/cayleygraph/python-client
+  apt_id: timescaledb-postgresql-11
+  brew_id: cayley
+  # label: web
+  category: data-storage
 # FAAS
 - name: OpenFaaS
   github_id: openfaas/faas
@@ -933,3 +1142,10 @@ projects:
   github_id: netdata/netdata
   dockerhub_id: netdata/netdata
   # label: web
+- name: TensorFlow for R
+  github_id: rstudio/tensorflow
+  cran_id: tensorflow
+- name: Mahout
+  github_id: apache/mahout
+  maven_id: org.apache.mahout:mahout-math-scala_2.10
+  description: "Powerful, scalable machine-learning library that runs on top of Hadoop MapReduce."
