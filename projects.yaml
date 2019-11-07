@@ -34,6 +34,7 @@ categories:
   title: "Function as a Service (FaaS)"
 - category: "data-storage"
   title: "Data Storage"
+  subtitle: "Dart Storage tools such as relational, document, graph, time-series, and key-value databases. For a more in-depth comparison, take a look at the [DB Engines Ranking](https://db-engines.com/en/ranking)."
 - category: "db-gui"
   title: "Database GUIs"
 
@@ -217,6 +218,30 @@ projects:
   dockerhub_id: grafana/grafana
   # label: web
   category: data-viz
+- name: Arcade Analytics
+  github_id: ArcadeAnalytics/arcadeanalytics
+  dockerhub_id: arcadeanalytics/arcadeanalytics
+  # label: web
+  category: data-viz
+- name: Banana
+  github_id: LucidWorks/banana
+  # label: web
+  license: Apache-2.0
+  category: data-viz
+- name: Falcon
+  github_id: uwdata/falcon
+  npm_id: falcon-vis
+  # label: web
+  category: data-viz
+- name: Facette
+  github_id: facette/facette
+  # label: web
+  category: data-viz
+- name: ParaView
+  github_id: Kitware/ParaView
+  # label: native
+  license: BSD-3-Clause
+  category: data-viz
 # Business Intelligence
 - name: Redash
   github_id: getredash/redash
@@ -237,6 +262,7 @@ projects:
   helm_id: table/metabase
   docs_url: https://www.metabase.com/docs/latest/
   license: AGPL-3.0
+  show: True
   # label: web
   category: business-intelligence
 - name: Poli
@@ -256,11 +282,28 @@ projects:
 - name: Azure Data Studio
   github_id: microsoft/azuredatastudio
   license: Custom EULA
+  show: True
   # label: native
   category: business-intelligence
 - name: Blazer
   github_id: ankane/blazer
   gem_id: blazer
+  # label: web
+  category: business-intelligence
+- name: CBoard
+  github_id: TuiQiao/CBoard
+  dockerhub_id: peterzhang921/cboard
+  # label: web
+  category: business-intelligence
+- name: Meltano
+  gitlab_id: meltano/meltano
+  pypi_id: meltano
+  dockerhub_id: meltano/meltano
+  homepage: https://gitlab.com/meltano/meltano
+  description: "Convention-over-configuration product for the whole data lifecycle, all the way from loading data to analyzing it."
+  license: MIT
+  star_count: 318
+  show: True
   # label: web
   category: business-intelligence
 # Performance Optimization & Accelerators # Compilers
@@ -281,7 +324,7 @@ projects:
   # label: mxnet/tensorflow
   category: accelerators
 - name: TVM
-  github_id: dmlc/tvm
+  github_id: apache/incubator-tvm
   dockerhub_id: tvmai/demo-cpu
   category: accelerators
 - name: Numba
@@ -409,6 +452,12 @@ projects:
   github_id: microsoft/onnxjs
   npm_id: "onnxjs"
   category: model-deployment
+- name: Simple TensorFlow Serving
+  github_id: tobegit3hub/simple_tensorflow_serving
+  pypi_id: simple_tensorflow_serving
+  dockerhub_id: tobegit3hub/simple_tensorflow_serving
+  # label: web
+  category: model-deployment
 # ML Applications & Services
 - name: Real-Time-Voice-Cloning
   github_id: CorentinJ/Real-Time-Voice-Cloning
@@ -451,6 +500,7 @@ projects:
   category: ml-applications
 - name: FastPhotoStyle
   github_id: NVIDIA/FastPhotoStyle
+  license: CC-BY-4.0
   # labels: cmd
   category: ml-applications
 - name: GNES
@@ -685,6 +735,16 @@ projects:
   license: PostgreSQL
   # label: web
   category: db-gui
+- name: Nosqlclient
+  github_id: nosqlclient/nosqlclient
+  dockerhub_id: mongoclient/mongoclient
+  # label: web
+  category: db-gui
+- name: Kafka Manager
+  github_id: yahoo/kafka-manager
+  dockerhub_id: kafkamanager/kafka-manager
+  # label: web
+  category: db-gui
 # Data Storage
 - name: Minio
   github_id: minio/minio
@@ -758,6 +818,7 @@ projects:
   conda_id: mongodb
   maven_id: org.mongodb:mongodb-driver-sync
   go_id: go.mongodb.org/mongo-driver
+  show: True
   category: data-storage
 - name: CrateDB
   github_id: crate/crate
@@ -826,7 +887,7 @@ projects:
   category: data-storage
 - name: Hazelcast
   github_id: hazelcast/hazelcast
-  dockerhub_id: hazelcast/hazelcas
+  dockerhub_id: hazelcast/hazelcast
   helm_id: stable/hazelcast
   pypi_id: hazelcast-python-client
   npm_id: hazelcast-client
@@ -879,6 +940,180 @@ projects:
   apt_id: timescaledb-postgresql-11
   brew_id: cayley
   # label: web
+  category: data-storage
+- name: Quilt
+  github_id: quiltdata/quilt
+  pypi_id: quilt3
+  # label: web
+  category: data-storage # TODO data integration?
+- name: HBase
+  description: "Non-relational distributed database modeled after Google's Bigtable and written in Java."
+  github_id: apache/hbase
+  pypi_id: happybase
+  maven_id: org.apache.hbase:hbase-client
+  license: Apache-2.0
+  # label: web
+  category: data-storage
+- name: Solr
+  github_id: apache/lucene-solr
+  pypi_id: pysolr
+  dockerhub_id: solr
+  npm_id: solr-client
+  maven_id: org.apache.solr:solr-core
+  helm_id: incubator/solr
+  license: Apache-2.0
+  # label: web
+  category: data-storage
+- name: Dgraph
+  github_id: dgraph-io/dgraph
+  pypi_id: pydgraph
+  dockerhub_id: dgraph/dgraph
+  go_id: github.com/dgraph-io/dgraph/dgraph
+  npm_id: dgraph-js
+  maven_id: io.dgraph:dgraph4j
+  license: Apache-2.0
+  # label: web
+  category: data-storage
+- name: JanusGraph
+  github_id: JanusGraph/janusgraph
+  dockerhub_id: janusgraph/janusgraph
+  helm_id: stable/janusgraph
+  maven_id: org.janusgraph:janusgraph-core
+  license: Apache-2.0
+  category: data-storage
+- name: LevelDB
+  github_id: google/leveldb
+  npm_id: levelup
+  pypi_id: plyvel
+  license: Apache-2.0
+  category: data-storage
+- name: TiDB
+  github_id: pingcap/tidb
+  dockerhub_id: pingcap/tidb
+  go_id: github.com/pingcap/tidb
+  category: data-storage
+- name: Hive
+  github_id: apache/hive
+  description: "Data warehouse software facilitates reading, writing, and managing large datasets residing in distributed storage using SQL."
+  maven_id: org.apache.hive:hive-common
+  # label: web
+  category: data-storage # Data Integration / Data Processing?
+- name: Arrow
+  github_id: apache/arrow
+  pypi_id: pyarrow
+  conda_id: conda-forge/pyarrow
+  cran_id: arrow
+  npm_id: apache-arrow
+  yarn_id: apache-arrow
+  brew_id: apache-arrow
+  maven_id: org.apache.arrow:arrow-vector
+  go_id: github.com/apache/arrow/go/arrow
+  category: data-storage
+- name: Sonic
+  github_id: valeriansaliou/sonic
+  dockerhub_id: valeriansaliou/sonic
+  cargo_id: sonic-server
+  npm_id: sonic-channel
+  pypi_id: sonic-client
+  go_id: github.com/expectedsh/go-sonic
+  maven_id: com.github.twohou:java-sonic
+  category: data-storage
+- name: etcd
+  github_id: etcd-io/etcd
+  dockerhub_id: bitnami/etcd
+  helm_id: bitnami/etcd
+  go_id: go.etcd.io/etcd/client
+  pypi_id: etcd3
+  maven_id: io.etcd:jetcd-core
+  npm_id: etcd3
+  category: data-storage
+- name: Grakn
+  github_id: graknlabs/grakn
+  dockerhub_id: graknlabs/grakn
+  pypi_id: grakn-client
+  npm_id: grakn-client
+  maven_id: io.grakn.client:grakn-client
+  # label: web
+  category: data-storage
+- name: EdgeDB
+  github_id: edgedb/edgedb
+  dockerhub_id: edgedb/edgedb
+  pypi_id: edgedb
+  category: data-storage
+- name: ClickHouse
+  github_id: ClickHouse/ClickHouse
+  dockerhub_id: yandex/clickhouse-server
+  pypi_id: clickhouse-driver
+  go_id: github.com/kshvakov/clickhouse
+  npm_id: clickhouse
+  category: data-storage
+- name: Gaffer
+  github_id: gchq/Gaffer
+  maven_id: uk.gov.gchq.gaffer:graph
+  # label: web
+  category: data-storage
+- name: Nebula
+  github_id: vesoft-inc/nebula
+  dockerhub_id: vesoft/nebula-graph
+  license: Apache-2.0
+  category: data-storage
+- name: MySQL
+  github_id: mysql/mysql-server
+  dockerhub_id: mysql
+  helm_id: stable/mysql
+  apt_id: mysql-server
+  brew_id: mysql
+  go_id: github.com/go-sql-driver/mysql
+  pypi_id: mysqlclient
+  maven_id: mysql:mysql-connector-java
+  npm_id: mysql
+  conda_id: mysql-connector-python
+  license: GPL-2.0
+  category: data-storage
+- name: Graphite
+  github_id: graphite-project/graphite-web
+  dockerhub_id: graphiteapp/graphite-statsd
+  helm_id: kiwigrid/graphite
+  # label: web
+  category: data-storage # TODO monitoring / data-viz
+- name: Tile38
+  github_id: tidwall/tile38
+  dockerhub_id: tile38/tile38
+  brew_id: tile38
+  # label: geodata
+  category: data-storage
+- name: OmniSciDB
+  github_id: omnisci/omniscidb
+  npm_id: "@mapd/connector"
+  pypi_id: pymapd
+  conda_id: conda-forge/pymapd
+  category: data-storage
+- name: RavenDB
+  github_id: ravendb/ravendb
+  dockerhub_id: ravendb/ravendb
+  dotnet_id: RavenDB.Client
+  npm_id: ravendb
+  pypi_id: pyravendb
+  go_id: github.com/ravendb/ravendb-go-client
+  maven_id: net.ravendb:ravendb
+  license: AGPL-3.0
+  # label: web
+  category: data-storage
+- name: Riak
+  github_id: basho/riak
+  dockerhub_id: basho/riak-kv
+  npm_id: basho-riak-client
+  pypi_id: riak
+  go_id: github.com/basho/riak-go-client
+  maven_id: com.basho.riak:riak-client
+  category: data-storage
+- name: rqlite
+  github_id: rqlite/rqlite
+  dockerhub_id: rqlite/rqlite
+  npm_id: rqlite-js
+  go_id: github.com/rqlite/gorqlite
+  pypi_id: sqlalchemy_rqlite # pyrqlite
+  maven_id: com.rqlite:rqlite-java
   category: data-storage
 # FAAS
 - name: OpenFaaS
@@ -950,6 +1185,17 @@ projects:
   github_id: OryxProject/oryx
   maven_id: com.cloudera.oryx:oryx-api
   category: ml-platforms
+- name: SystemML
+  github_id: apache/systemml
+  pypi_id: systemml
+  maven_id: org.apache.systemml:systemml
+  description: "A machine learning platform optimal for big data running on Apache Spark,"
+  category: ml-platforms
+- name: Mahout
+  github_id: apache/mahout
+  maven_id: org.apache.mahout:mahout-math-scala_2.10
+  description: "Powerful, scalable machine-learning library that runs on top of Hadoop MapReduce."
+  category: ml-platforms
 # Pipelines
 - name: StreamSets Data Collector
   github_id: streamsets/datacollector
@@ -962,6 +1208,7 @@ projects:
   dockerhub_id: apache/nifi
   maven_id:  org.apache.nifi:nifi-api
   description: "Integrated data logistics platform for automating the movement of data between disparate systems."
+  # label: web
   category: pipelines
 - name: Dagster
   github_id: dagster-io/dagster
@@ -972,6 +1219,7 @@ projects:
   npm_id: n8n
   dockerhub_id: n8nio/n8n
   license: Apache-2.0
+  # label: web
   category: pipelines
 - name: Genie
   github_id: Netflix/genie
@@ -986,6 +1234,11 @@ projects:
   dockerhub_id: apache/airflow
   conda_id: conda-forge/airflow
   description: "Platform to programmatically author, schedule, and monitor workflows."
+  # label: web
+  category: pipelines
+- name: Dolphin Scheduler
+  github_id: apache/incubator-dolphinscheduler
+  # label: web
   category: pipelines
 - name: Cadence
   github_id: uber/cadence
@@ -1021,6 +1274,10 @@ projects:
   github_id: stitchfix/flotilla-os
   description: "Self-service framework for defining and executing containerized jobs."
   category: pipelines
+- name: Gobblin
+  github_id: apache/incubator-gobblin
+  maven_id: org.apache.gobblin:gobblin-api
+  category: pipelines # TODO: Data ingestion?
 # Batch & Stream Processing
 - name: Flume
   github_id: apache/flume
@@ -1094,6 +1351,14 @@ projects:
 - name: Wallaroo
   github_id: WallarooLabs/wallaroo
   category: data-processing
+- name: kapacitor
+  github_id: influxdata/kapacitor
+  go_id: github.com/influxdata/kapacitor/cmd/kapacitor
+  category: data-processing
+  license: MIT
+- name: Onyx
+  github_id: onyx-platform/onyx
+  category: data-processing
 # Others
 - name: File Browser
   github_id: filebrowser/filebrowser
@@ -1145,7 +1410,8 @@ projects:
 - name: TensorFlow for R
   github_id: rstudio/tensorflow
   cran_id: tensorflow
-- name: Mahout
-  github_id: apache/mahout
-  maven_id: org.apache.mahout:mahout-math-scala_2.10
-  description: "Powerful, scalable machine-learning library that runs on top of Hadoop MapReduce."
+- name: Shiny
+  github_id: rstudio/shiny
+  cran_id: shiny
+  # label: web
+  license: GPL-3.0
