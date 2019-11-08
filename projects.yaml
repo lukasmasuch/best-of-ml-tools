@@ -838,7 +838,7 @@ projects:
   pkg_id: influxdb
   brew_id: influxdb
   yum_id: influxdb
-  cran_od: influxdbr
+  cran_id: influxdbr
   npm_id: influx
   maven_id: org.influxdb:influxdb-java
   category: data-storage

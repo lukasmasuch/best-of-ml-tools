@@ -76,7 +76,7 @@ _Collaboration Tools..._
 	```
 	pip install jupyter
 	```
-- **[Dockerhub](https://hub.docker.com/r/jupyter/datascience-notebook)** (📥 6.3M · ⭐ 550):
+- **[Dockerhub](https://hub.docker.com/r/jupyter/datascience-notebook)** (📥 6.3M · ⭐ 550 · ⏱️ 11.09.2019):
 
 	```
 	docker pull jupyter/datascience-notebook
@@ -102,7 +102,7 @@ _Collaboration Tools..._
 </details>
 <details><summary><b><a href="https://github.com/atom/atom">Atom</a></b> (🥈30 ·  ⭐ 50K) - The hackable text editor. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
 
-- **[GitHub](https://github.com/atom/atom)** (👨‍💻 540 · 🔀 13K · 📥 4.6M · 📋 15K - 3% open · ⏱️ 06.11.2019):
+- **[GitHub](https://github.com/atom/atom)** (👨‍💻 540 · 🔀 13K · 📥 4.6M · 📋 15K - 3% open · ⏱️ 08.11.2019):
 
 	```
 	git clone https://github.com/atom/atom
@@ -115,7 +115,7 @@ _Collaboration Tools..._
 	```
 	git clone https://github.com/eclipse/che
 	```
-- **[Dockerhub](https://hub.docker.com/r/eclipse/che)** (📥 3.9M · ⭐ 130):
+- **[Dockerhub](https://hub.docker.com/r/eclipse/che)** (📥 3.9M · ⭐ 130 · ⏱️ 14.07.2019):
 
 	```
 	docker pull eclipse/che
@@ -142,7 +142,7 @@ _Collaboration Tools..._
 	```
 	pip install jupyterhub
 	```
-- **[Dockerhub](https://hub.docker.com/r/jupyterhub/jupyterhub)** (📥 1M · ⭐ 220):
+- **[Dockerhub](https://hub.docker.com/r/jupyterhub/jupyterhub)** (📥 1M · ⭐ 220 · ⏱️ 03.05.2019):
 
 	```
 	docker pull jupyterhub/jupyterhub
@@ -160,7 +160,7 @@ _Collaboration Tools..._
 	```
 	npm install @theia/application-manager
 	```
-- **[Dockerhub](https://hub.docker.com/r/theiaide/theia)** (📥 920K · ⭐ 32):
+- **[Dockerhub](https://hub.docker.com/r/theiaide/theia)** (📥 920K · ⭐ 32 · ⏱️ 08.11.2019):
 
 	```
 	docker pull theiaide/theia
@@ -173,7 +173,7 @@ _Collaboration Tools..._
 	```
 	git clone https://github.com/cdr/code-server
 	```
-- **[Dockerhub](https://hub.docker.com/r/codercom/code-server)** (📥 6.6M · ⭐ 120):
+- **[Dockerhub](https://hub.docker.com/r/codercom/code-server)** (📥 6.6M · ⭐ 120 · ⏱️ 07.11.2019):
 
 	```
 	docker pull codercom/code-server
@@ -199,7 +199,7 @@ _Collaboration Tools..._
 	```
 	git clone https://github.com/NVIDIA/DIGITS
 	```
-- **[Dockerhub](https://hub.docker.com/r/nvidia/digits)** (📥 730K · ⭐ 65):
+- **[Dockerhub](https://hub.docker.com/r/nvidia/digits)** (📥 730K · ⭐ 65 · ⏱️ 01.05.2018):
 
 	```
 	docker pull nvidia/digits
@@ -212,7 +212,7 @@ _Collaboration Tools..._
 	```
 	git clone https://github.com/jupyter/docker-stacks
 	```
-- **[Dockerhub](https://hub.docker.com/r/jupyter/scipy-notebook)** (📥 3.4M · ⭐ 190):
+- **[Dockerhub](https://hub.docker.com/r/jupyter/scipy-notebook)** (📥 3.4M · ⭐ 190 · ⏱️ 11.09.2019):
 
 	```
 	docker pull jupyter/scipy-notebook
@@ -225,7 +225,7 @@ _Collaboration Tools..._
 	```
 	git clone https://github.com/apache/zeppelin
 	```
-- **[Dockerhub](https://hub.docker.com/r/apache/zeppelin)** (📥 800K · ⭐ 100):
+- **[Dockerhub](https://hub.docker.com/r/apache/zeppelin)** (📥 800K · ⭐ 100 · ⏱️ 07.10.2019):
 
 	```
 	docker pull apache/zeppelin
@@ -263,7 +263,7 @@ _Collaboration Tools..._
 	```
 	git clone https://github.com/ufoym/deepo
 	```
-- **[Dockerhub](https://hub.docker.com/r/ufoym/deepo)** (📥 130K · ⭐ 140):
+- **[Dockerhub](https://hub.docker.com/r/ufoym/deepo)** (📥 130K · ⭐ 140 · ⏱️ 05.11.2019):
 
 	```
 	docker pull ufoym/deepo
@@ -300,7 +300,7 @@ _Collaboration Tools..._
 	```
 	git clone https://github.com/ml-tooling/ml-workspace
 	```
-- **[Dockerhub](https://hub.docker.com/r/mltooling/ml-workspace)** (📥 5.2K · ⭐ 4):
+- **[Dockerhub](https://hub.docker.com/r/mltooling/ml-workspace)** (📥 5.2K · ⭐ 4 · ⏱️ 04.10.2019):
 
 	```
 	docker pull mltooling/ml-workspace
@@ -322,7 +322,7 @@ _Collaboration Tools..._
 	```
 	git clone https://github.com/ml-tooling/ml-hub
 	```
-- **[Dockerhub](https://hub.docker.com/r/mltooling/ml-hub)** (📥 1.7K · ⭐ 1):
+- **[Dockerhub](https://hub.docker.com/r/mltooling/ml-hub)** (📥 1.7K · ⭐ 1 · ⏱️ 22.10.2019):
 
 	```
 	docker pull mltooling/ml-hub
@@ -360,7 +360,7 @@ _Collaboration Tools..._
 	```
 	pip install predictionio
 	```
-- **[Dockerhub](https://hub.docker.com/r/predictionio/pio)** (📥 1.4K · ⭐ 3):
+- **[Dockerhub](https://hub.docker.com/r/predictionio/pio)** (📥 1.4K · ⭐ 3 · ⏱️ 19.11.2018):
 
 	```
 	docker pull predictionio/pio
@@ -368,7 +368,7 @@ _Collaboration Tools..._
 </details>
 <details><summary><b><a href="https://github.com/kubeflow/kubeflow">Kubeflow</a></b> (🥈27 ·  ⭐ 7.8K) - Machine Learning Toolkit for Kubernetes. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/kubeflow/kubeflow)** (👨‍💻 190 · 🔀 1.2K · 📥 40K · 📋 2.3K - 15% open · ⏱️ 08.11.2019):
+- **[GitHub](https://github.com/kubeflow/kubeflow)** (👨‍💻 190 · 🔀 1.2K · 📥 41K · 📋 2.3K - 15% open · ⏱️ 08.11.2019):
 
 	```
 	git clone https://github.com/kubeflow/kubeflow
@@ -391,7 +391,7 @@ _Collaboration Tools..._
 	```
 	pip install python-pachyderm
 	```
-- **[Dockerhub](https://hub.docker.com/r/pachyderm/pachd)** (📥 1.3M · ⭐ 2):
+- **[Dockerhub](https://hub.docker.com/r/pachyderm/pachd)** (📥 1.3M · ⭐ 2 · ⏱️ 29.10.2019):
 
 	```
 	docker pull pachyderm/pachd
@@ -409,7 +409,7 @@ _Collaboration Tools..._
 	```
 	pip install polyaxon-cli
 	```
-- **[Dockerhub](https://hub.docker.com/r/polyaxon/polyaxon-api)** (📥 1.3M):
+- **[Dockerhub](https://hub.docker.com/r/polyaxon/polyaxon-api)** (📥 1.3M · ⏱️ 20.10.2019):
 
 	```
 	docker pull polyaxon/polyaxon-api
@@ -479,7 +479,7 @@ _Collaboration Tools..._
 	```
 	git clone https://github.com/EpistasisLab/pennai
 	```
-- **[Dockerhub](https://hub.docker.com/r/moorelab/pennai_lab)** (📥 27):
+- **[Dockerhub](https://hub.docker.com/r/moorelab/pennai_lab)** (📥 27 · ⏱️ 07.08.2019):
 
 	```
 	docker pull moorelab/pennai_lab
@@ -501,7 +501,7 @@ _Data Analytics, SQL.._
 	```
 	git clone https://github.com/metabase/metabase
 	```
-- **[Dockerhub](https://hub.docker.com/r/metabase/metabase)** (📥 27M · ⭐ 150):
+- **[Dockerhub](https://hub.docker.com/r/metabase/metabase)** (📥 27M · ⭐ 150 · ⏱️ 08.11.2019):
 
 	```
 	docker pull metabase/metabase
@@ -514,7 +514,7 @@ _Data Analytics, SQL.._
 	```
 	git clone https://github.com/getredash/redash
 	```
-- **[Dockerhub](https://hub.docker.com/r/redash/redash)** (📥 10M · ⭐ 130):
+- **[Dockerhub](https://hub.docker.com/r/redash/redash)** (📥 10M · ⭐ 130 · ⏱️ 07.11.2019):
 
 	```
 	docker pull redash/redash
@@ -532,20 +532,20 @@ _Data Analytics, SQL.._
 	```
 	pip install apache-superset
 	```
-- **[Dockerhub](https://hub.docker.com/r/amancevice/superset)** (📥 1.2M · ⭐ 210):
+- **[Dockerhub](https://hub.docker.com/r/amancevice/superset)** (📥 1.2M · ⭐ 210 · ⏱️ 02.11.2019):
 
 	```
 	docker pull amancevice/superset
 	```
 </details>
-<details><summary><b><a href="https://github.com/cloudera/hue">Hue</a></b> (🥈23 ·  ⭐ 3.9K) - Open source SQL Query Assistant for Databases/Warehouses. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/cloudera/hue">Hue</a></b> (🥈24 ·  ⭐ 3.9K) - Open source SQL Query Assistant for Databases/Warehouses. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/cloudera/hue)** (👨‍💻 220 · 🔀 1.5K · 📋 700 - 28% open · ⏱️ 08.11.2019):
+- **[GitHub](https://github.com/cloudera/hue)** (👨‍💻 220 · 🔀 1.5K · 📦 3 · 📋 700 - 28% open · ⏱️ 08.11.2019):
 
 	```
 	git clone https://github.com/cloudera/hue
 	```
-- **[Dockerhub](https://hub.docker.com/r/gethue/hue)** (📥 540K · ⭐ 56):
+- **[Dockerhub](https://hub.docker.com/r/gethue/hue)** (📥 540K · ⭐ 56 · ⏱️ 08.11.2019):
 
 	```
 	docker pull gethue/hue
@@ -574,7 +574,7 @@ _Data Analytics, SQL.._
 	```
 	git clone https://github.com/shzlw/poli
 	```
-- **[Dockerhub](https://hub.docker.com/r/zhonglu/poli)** (📥 470):
+- **[Dockerhub](https://hub.docker.com/r/zhonglu/poli)** (📥 470 · ⏱️ 15.08.2019):
 
 	```
 	docker pull zhonglu/poli
@@ -587,7 +587,7 @@ _Data Analytics, SQL.._
 	```
 	git clone https://github.com/TuiQiao/CBoard
 	```
-- **[Dockerhub](https://hub.docker.com/r/peterzhang921/cboard)** (📥 3.2K · ⭐ 4):
+- **[Dockerhub](https://hub.docker.com/r/peterzhang921/cboard)** (📥 3.2K · ⭐ 4 · ⏱️ 18.10.2017):
 
 	```
 	docker pull peterzhang921/cboard
@@ -600,7 +600,7 @@ _Data Analytics, SQL.._
 	```
 	pip install meltano
 	```
-- **[Dockerhub](https://hub.docker.com/r/meltano/meltano)** (📥 220K · ⭐ 3):
+- **[Dockerhub](https://hub.docker.com/r/meltano/meltano)** (📥 220K · ⭐ 3 · ⏱️ 04.11.2019):
 
 	```
 	docker pull meltano/meltano
@@ -619,7 +619,7 @@ _Data Analytics, SQL.._
 	```
 	git clone https://github.com/grafana/grafana
 	```
-- **[Dockerhub](https://hub.docker.com/r/grafana/grafana)** (📥 580M · ⭐ 1.3K):
+- **[Dockerhub](https://hub.docker.com/r/grafana/grafana)** (📥 580M · ⭐ 1.3K · ⏱️ 08.11.2019):
 
 	```
 	docker pull grafana/grafana
@@ -632,7 +632,7 @@ _Data Analytics, SQL.._
 	```
 	git clone https://github.com/elastic/kibana
 	```
-- **[Dockerhub](https://hub.docker.com/r/_/kibana)** (📥 71M · ⭐ 1.6K):
+- **[Dockerhub](https://hub.docker.com/r/_/kibana)** (📥 71M · ⭐ 1.6K · ⏱️ 01.11.2019):
 
 	```
 	docker pull kibana
@@ -680,7 +680,7 @@ _Data Analytics, SQL.._
 	```
 	git clone https://github.com/CartoDB/cartodb
 	```
-- **[Dockerhub](https://hub.docker.com/r/sverhoeven/cartodb)** (📥 15K · ⭐ 37):
+- **[Dockerhub](https://hub.docker.com/r/sverhoeven/cartodb)** (📥 15K · ⭐ 37 · ⏱️ 07.11.2019):
 
 	```
 	docker pull sverhoeven/cartodb
@@ -786,7 +786,7 @@ _Data Analytics, SQL.._
 	```
 	git clone https://github.com/influxdata/chronograf
 	```
-- **[Dockerhub](https://hub.docker.com/r/_/chronograf)** (📥 62M · ⭐ 170):
+- **[Dockerhub](https://hub.docker.com/r/_/chronograf)** (📥 62M · ⭐ 170 · ⏱️ 17.10.2019):
 
 	```
 	docker pull chronograf
@@ -799,7 +799,7 @@ _Data Analytics, SQL.._
 	```
 	git clone https://github.com/ArcadeAnalytics/arcadeanalytics
 	```
-- **[Dockerhub](https://hub.docker.com/r/arcadeanalytics/arcadeanalytics)** (📥 7.8K · ⭐ 1):
+- **[Dockerhub](https://hub.docker.com/r/arcadeanalytics/arcadeanalytics)** (📥 7.8K · ⭐ 1 · ⏱️ 08.11.2019):
 
 	```
 	docker pull arcadeanalytics/arcadeanalytics
@@ -824,7 +824,7 @@ _Data Analytics, SQL.._
 	```
 	pip install pyspark
 	```
-- **[Dockerhub](https://hub.docker.com/r/bde2020/spark-master)** (📥 140K · ⭐ 31):
+- **[Dockerhub](https://hub.docker.com/r/bde2020/spark-master)** (📥 140K · ⭐ 31 · ⏱️ 30.09.2019):
 
 	```
 	docker pull bde2020/spark-master
@@ -846,7 +846,7 @@ _Data Analytics, SQL.._
 	```
 	git clone https://github.com/apache/flink
 	```
-- **[Dockerhub](https://hub.docker.com/r/_/flink)** (📥 43M · ⭐ 120):
+- **[Dockerhub](https://hub.docker.com/r/_/flink)** (📥 43M · ⭐ 120 · ⏱️ 29.10.2019):
 
 	```
 	docker pull flink
@@ -890,7 +890,7 @@ _Data Analytics, SQL.._
 	```
 	git clone https://github.com/apache/storm
 	```
-- **[Dockerhub](https://hub.docker.com/r/_/storm)** (📥 3M · ⭐ 110):
+- **[Dockerhub](https://hub.docker.com/r/_/storm)** (📥 3M · ⭐ 110 · ⏱️ 19.10.2019):
 
 	```
 	docker pull storm
@@ -917,7 +917,7 @@ _Data Analytics, SQL.._
 	```
 	pip install kafka
 	```
-- **[Dockerhub](https://hub.docker.com/r/bitnami/kafka)** (📥 17M · ⭐ 87):
+- **[Dockerhub](https://hub.docker.com/r/bitnami/kafka)** (📥 17M · ⭐ 87 · ⏱️ 08.11.2019):
 
 	```
 	docker pull bitnami/kafka
@@ -956,7 +956,7 @@ _Data Analytics, SQL.._
 	```
 	git clone https://github.com/apache/incubator-heron
 	```
-- **[Dockerhub](https://hub.docker.com/r/heron/heron)** (📥 140K · ⭐ 2):
+- **[Dockerhub](https://hub.docker.com/r/heron/heron)** (📥 140K · ⭐ 2 · ⏱️ 01.04.2018):
 
 	```
 	docker pull heron/heron
@@ -969,7 +969,7 @@ _Data Analytics, SQL.._
 	```
 	git clone https://github.com/vespa-engine/vespa
 	```
-- **[Dockerhub](https://hub.docker.com/r/vespaengine/vespa)** (📥 490K · ⭐ 5):
+- **[Dockerhub](https://hub.docker.com/r/vespaengine/vespa)** (📥 490K · ⭐ 5 · ⏱️ 06.11.2019):
 
 	```
 	docker pull vespaengine/vespa
@@ -1094,7 +1094,7 @@ _Scheduling, Workflow, Dataflow, ETL..._
 	```
 	conda install -c conda-forge airflow
 	```
-- **[Dockerhub](https://hub.docker.com/r/apache/airflow)** (📥 270K · ⭐ 58):
+- **[Dockerhub](https://hub.docker.com/r/apache/airflow)** (📥 270K · ⭐ 58 · ⏱️ 08.11.2019):
 
 	```
 	docker pull apache/airflow
@@ -1125,7 +1125,7 @@ _Scheduling, Workflow, Dataflow, ETL..._
 	```
 	git clone https://github.com/apache/nifi
 	```
-- **[Dockerhub](https://hub.docker.com/r/apache/nifi)** (📥 1M · ⭐ 140):
+- **[Dockerhub](https://hub.docker.com/r/apache/nifi)** (📥 1M · ⭐ 140 · ⏱️ 05.11.2019):
 
 	```
 	docker pull apache/nifi
@@ -1160,7 +1160,7 @@ _Scheduling, Workflow, Dataflow, ETL..._
 	```
 	git clone https://github.com/uber/cadence
 	```
-- **[Dockerhub](https://hub.docker.com/r/ubercadence/server)** (📥 440K · ⭐ 2):
+- **[Dockerhub](https://hub.docker.com/r/ubercadence/server)** (📥 450K · ⭐ 2 · ⏱️ 08.11.2019):
 
 	```
 	docker pull ubercadence/server
@@ -1187,7 +1187,7 @@ _Scheduling, Workflow, Dataflow, ETL..._
 	```
 	pip install nflx-genie-client
 	```
-- **[Dockerhub](https://hub.docker.com/r/netflixoss/genie-app)** (📥 7K · ⭐ 3):
+- **[Dockerhub](https://hub.docker.com/r/netflixoss/genie-app)** (📥 7K · ⭐ 3 · ⏱️ 06.11.2019):
 
 	```
 	docker pull netflixoss/genie-app
@@ -1214,7 +1214,7 @@ _Scheduling, Workflow, Dataflow, ETL..._
 	```
 	pip install streamsets
 	```
-- **[Dockerhub](https://hub.docker.com/r/streamsets/datacollector)** (📥 1.6M · ⭐ 52):
+- **[Dockerhub](https://hub.docker.com/r/streamsets/datacollector)** (📥 1.6M · ⭐ 52 · ⏱️ 07.11.2019):
 
 	```
 	docker pull streamsets/datacollector
@@ -1236,7 +1236,7 @@ _Scheduling, Workflow, Dataflow, ETL..._
 	```
 	git clone https://github.com/argoproj/argo
 	```
-- **[Dockerhub](https://hub.docker.com/r/argoproj/argoui)** (📥 1.1M · ⭐ 1):
+- **[Dockerhub](https://hub.docker.com/r/argoproj/argoui)** (📥 1.1M · ⭐ 1 · ⏱️ 05.11.2019):
 
 	```
 	docker pull argoproj/argoui
@@ -1267,7 +1267,7 @@ _Scheduling, Workflow, Dataflow, ETL..._
 	```
 	npm install n8n
 	```
-- **[Dockerhub](https://hub.docker.com/r/n8nio/n8n)** (📥 81K · ⭐ 9):
+- **[Dockerhub](https://hub.docker.com/r/n8nio/n8n)** (📥 81K · ⭐ 9 · ⏱️ 07.11.2019):
 
 	```
 	docker pull n8nio/n8n
@@ -1300,7 +1300,7 @@ _Scheduling, Workflow, Dataflow, ETL..._
 </details>
 <details><summary><b><a href="https://github.com/apache/incubator-gobblin">Gobblin</a></b> (🥉21 ·  ⭐ 1.6K) - Gobblin is a distributed big data integration framework (ingestion,.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/apache/incubator-gobblin)** (👨‍💻 140 · 🔀 590 · 📥 120K · ⏱️ 07.11.2019):
+- **[GitHub](https://github.com/apache/incubator-gobblin)** (👨‍💻 140 · 🔀 590 · 📥 120K · ⏱️ 08.11.2019):
 
 	```
 	git clone https://github.com/apache/incubator-gobblin
@@ -1362,7 +1362,7 @@ _Scheduling, Workflow, Dataflow, ETL..._
 	```
 	pip install labelme
 	```
-- **[Dockerhub](https://hub.docker.com/r/wkentaro/labelme)** (📥 890 · ⭐ 2):
+- **[Dockerhub](https://hub.docker.com/r/wkentaro/labelme)** (📥 890 · ⭐ 2 · ⏱️ 07.11.2019):
 
 	```
 	docker pull wkentaro/labelme
@@ -1375,7 +1375,7 @@ _Scheduling, Workflow, Dataflow, ETL..._
 	```
 	git clone https://github.com/chakki-works/doccano
 	```
-- **[Dockerhub](https://hub.docker.com/r/chakkiworks/doccano)** (📥 310K · ⭐ 7):
+- **[Dockerhub](https://hub.docker.com/r/chakkiworks/doccano)** (📥 310K · ⭐ 7 · ⏱️ 06.11.2019):
 
 	```
 	docker pull chakkiworks/doccano
@@ -1399,7 +1399,7 @@ _Scheduling, Workflow, Dataflow, ETL..._
 </details>
 <details><summary><b><a href="https://github.com/heartexlabs/label-studio">Label Studio</a></b> (🥈16 ·  ⭐ 1.9K · 🐣) - Label Studio is a multi-type data labeling and annotation tool with.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/heartexlabs/label-studio)** (👨‍💻 11 · 🔀 100 · 📋 33 - 30% open · ⏱️ 07.11.2019):
+- **[GitHub](https://github.com/heartexlabs/label-studio)** (👨‍💻 11 · 🔀 100 · 📋 34 - 32% open · ⏱️ 07.11.2019):
 
 	```
 	git clone https://github.com/heartexlabs/label-studio
@@ -1409,7 +1409,7 @@ _Scheduling, Workflow, Dataflow, ETL..._
 	```
 	npm install label-studio
 	```
-- **[Dockerhub](https://hub.docker.com/r/heartexlabs/label-studio)** (📥 74):
+- **[Dockerhub](https://hub.docker.com/r/heartexlabs/label-studio)** (📥 74 · ⏱️ 02.10.2019):
 
 	```
 	docker pull heartexlabs/label-studio
@@ -1446,7 +1446,7 @@ _Scheduling, Workflow, Dataflow, ETL..._
 	```
 	git clone https://github.com/Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor
 	```
-- **[Dockerhub](https://hub.docker.com/r/hitachiail/semantic-segmentation-editor)** (📥 740 · ⭐ 5):
+- **[Dockerhub](https://hub.docker.com/r/hitachiail/semantic-segmentation-editor)** (📥 740 · ⭐ 5 · ⏱️ 30.07.2018):
 
 	```
 	docker pull hitachiail/semantic-segmentation-editor
@@ -1459,7 +1459,7 @@ _Scheduling, Workflow, Dataflow, ETL..._
 	```
 	git clone https://github.com/l3p-cv/lost
 	```
-- **[Dockerhub](https://hub.docker.com/r/l3pcv/lost)** (📥 430):
+- **[Dockerhub](https://hub.docker.com/r/l3pcv/lost)** (📥 430 · ⏱️ 17.10.2019):
 
 	```
 	docker pull l3pcv/lost
@@ -1614,7 +1614,7 @@ _Scheduling, Workflow, Dataflow, ETL..._
 	```
 	pip install tensorflow-serving-api
 	```
-- **[Dockerhub](https://hub.docker.com/r/tensorflow/serving)** (📥 8.1M · ⭐ 67):
+- **[Dockerhub](https://hub.docker.com/r/tensorflow/serving)** (📥 8.1M · ⭐ 67 · ⏱️ 08.11.2019):
 
 	```
 	docker pull tensorflow/serving
@@ -1632,7 +1632,7 @@ _Scheduling, Workflow, Dataflow, ETL..._
 	```
 	pip install onnxruntime
 	```
-- **[Dockerhub](https://hub.docker.com/r/onnx/onnx-ecosystem)** (📥 710 · ⭐ 6):
+- **[Dockerhub](https://hub.docker.com/r/onnx/onnx-ecosystem)** (📥 710 · ⭐ 6 · ⏱️ 31.10.2019):
 
 	```
 	docker pull onnx/onnx-ecosystem
@@ -1650,7 +1650,7 @@ _Scheduling, Workflow, Dataflow, ETL..._
 	```
 	pip install seldon-core
 	```
-- **[Dockerhub](https://hub.docker.com/r/seldonio/seldon-core-operator)** (📥 680K):
+- **[Dockerhub](https://hub.docker.com/r/seldonio/seldon-core-operator)** (📥 680K · ⏱️ 01.11.2019):
 
 	```
 	docker pull seldonio/seldon-core-operator
@@ -1681,7 +1681,7 @@ _Scheduling, Workflow, Dataflow, ETL..._
 	```
 	pip install mleap
 	```
-- **[Dockerhub](https://hub.docker.com/r/combustml/mleap-serving)** (📥 13K · ⭐ 5):
+- **[Dockerhub](https://hub.docker.com/r/combustml/mleap-serving)** (📥 13K · ⭐ 5 · ⏱️ 05.11.2019):
 
 	```
 	docker pull combustml/mleap-serving
@@ -1708,7 +1708,7 @@ _Scheduling, Workflow, Dataflow, ETL..._
 	```
 	pip install mxnet-model-server
 	```
-- **[Dockerhub](https://hub.docker.com/r/awsdeeplearningteam/mxnet-model-server)** (📥 30K · ⭐ 4):
+- **[Dockerhub](https://hub.docker.com/r/awsdeeplearningteam/mxnet-model-server)** (📥 30K · ⭐ 4 · ⏱️ 08.11.2019):
 
 	```
 	docker pull awsdeeplearningteam/mxnet-model-server
@@ -1721,7 +1721,7 @@ _Scheduling, Workflow, Dataflow, ETL..._
 	```
 	git clone https://github.com/jolibrain/deepdetect
 	```
-- **[Dockerhub](https://hub.docker.com/r/jolibrain/deepdetect_cpu)** (📥 18K):
+- **[Dockerhub](https://hub.docker.com/r/jolibrain/deepdetect_cpu)** (📥 18K · ⏱️ 03.11.2019):
 
 	```
 	docker pull jolibrain/deepdetect_cpu
@@ -1778,7 +1778,7 @@ _Scheduling, Workflow, Dataflow, ETL..._
 	```
 	pip install clipper-admin
 	```
-- **[Dockerhub](https://hub.docker.com/r/clipper/management_frontend)** (📥 1M):
+- **[Dockerhub](https://hub.docker.com/r/clipper/management_frontend)** (📥 1M · ⏱️ 08.11.2019):
 
 	```
 	docker pull clipper/management_frontend
@@ -1804,7 +1804,7 @@ _Scheduling, Workflow, Dataflow, ETL..._
 	```
 	pip install simple_tensorflow_serving
 	```
-- **[Dockerhub](https://hub.docker.com/r/tobegit3hub/simple_tensorflow_serving)** (📥 3.4K · ⭐ 1):
+- **[Dockerhub](https://hub.docker.com/r/tobegit3hub/simple_tensorflow_serving)** (📥 3.4K · ⭐ 1 · ⏱️ 24.09.2019):
 
 	```
 	docker pull tobegit3hub/simple_tensorflow_serving
@@ -1840,7 +1840,7 @@ _Scheduling, Workflow, Dataflow, ETL..._
 	```
 	pip install hs
 	```
-- **[Dockerhub](https://hub.docker.com/r/hydrosphere/serving-manager)** (📥 130K):
+- **[Dockerhub](https://hub.docker.com/r/hydrosphere/serving-manager)** (📥 130K · ⏱️ 11.10.2019):
 
 	```
 	docker pull hydrosphere/serving-manager
@@ -1870,7 +1870,7 @@ _Scheduling, Workflow, Dataflow, ETL..._
 	```
 	git clone https://github.com/RedisAI/RedisAI
 	```
-- **[Dockerhub](https://hub.docker.com/r/redisai/redisai)** (📥 13K):
+- **[Dockerhub](https://hub.docker.com/r/redisai/redisai)** (📥 13K · ⏱️ 06.11.2019):
 
 	```
 	docker pull redisai/redisai
@@ -1888,7 +1888,7 @@ _Scheduling, Workflow, Dataflow, ETL..._
 	```
 	pip install graphpipe
 	```
-- **[Dockerhub](https://hub.docker.com/r/sleepsonthefloor/graphpipe-tf)** (📥 1K):
+- **[Dockerhub](https://hub.docker.com/r/sleepsonthefloor/graphpipe-tf)** (📥 1K · ⏱️ 02.11.2018):
 
 	```
 	docker pull sleepsonthefloor/graphpipe-tf
@@ -1956,7 +1956,7 @@ _Scheduling, Workflow, Dataflow, ETL..._
 	```
 	pip install gnes
 	```
-- **[Dockerhub](https://hub.docker.com/r/gnes/gnes)** (📥 91K):
+- **[Dockerhub](https://hub.docker.com/r/gnes/gnes)** (📥 91K · ⏱️ 07.11.2019):
 
 	```
 	docker pull gnes/gnes
@@ -1969,7 +1969,7 @@ _Scheduling, Workflow, Dataflow, ETL..._
 	```
 	git clone https://github.com/hastic/hastic-server
 	```
-- **[Dockerhub](https://hub.docker.com/r/hastic/server)** (📥 41K):
+- **[Dockerhub](https://hub.docker.com/r/hastic/server)** (📥 41K · ⏱️ 07.11.2019):
 
 	```
 	docker pull hastic/server
@@ -1993,7 +1993,7 @@ _Scheduling, Workflow, Dataflow, ETL..._
 </details>
 <details><summary><b><a href="https://github.com/iperov/DeepFaceLab">DeepFaceLab</a></b> (🥉16 ·  ⭐ 11K) - DeepFaceLab is a tool that utilizes machine learning to replace.. <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)">❗️GPL-3.0</a></code></summary>
 
-- **[GitHub](https://github.com/iperov/DeepFaceLab)** (👨‍💻 17 · 🔀 2.4K · 📋 410 - 27% open · ⏱️ 07.11.2019):
+- **[GitHub](https://github.com/iperov/DeepFaceLab)** (👨‍💻 17 · 🔀 2.4K · 📋 410 - 27% open · ⏱️ 08.11.2019):
 
 	```
 	git clone https://github.com/iperov/DeepFaceLab
@@ -2105,7 +2105,7 @@ _Compilers..._
 	```
 	pip install cupy
 	```
-- **[Dockerhub](https://hub.docker.com/r/cupy/cupy)** (📥 43K · ⭐ 4):
+- **[Dockerhub](https://hub.docker.com/r/cupy/cupy)** (📥 43K · ⭐ 4 · ⏱️ 08.11.2019):
 
 	```
 	docker pull cupy/cupy
@@ -2157,7 +2157,7 @@ _Compilers..._
 	```
 	git clone https://github.com/apache/incubator-tvm
 	```
-- **[Dockerhub](https://hub.docker.com/r/tvmai/demo-cpu)** (📥 1.3K · ⭐ 2):
+- **[Dockerhub](https://hub.docker.com/r/tvmai/demo-cpu)** (📥 1.3K · ⭐ 2 · ⏱️ 27.09.2019):
 
 	```
 	docker pull tvmai/demo-cpu
@@ -2213,7 +2213,7 @@ _Compilers..._
 	```
 	git clone https://github.com/openfaas/faas
 	```
-- **[Dockerhub](https://hub.docker.com/r/openfaas/gateway)** (📥 7.3M · ⭐ 2):
+- **[Dockerhub](https://hub.docker.com/r/openfaas/gateway)** (📥 7.3M · ⭐ 2 · ⏱️ 21.10.2019):
 
 	```
 	docker pull openfaas/gateway
@@ -2226,7 +2226,7 @@ _Compilers..._
 	```
 	git clone https://github.com/fnproject/fn
 	```
-- **[Dockerhub](https://hub.docker.com/r/fnproject/fnserver)** (📥 2.9M · ⭐ 4):
+- **[Dockerhub](https://hub.docker.com/r/fnproject/fnserver)** (📥 2.9M · ⭐ 4 · ⏱️ 04.11.2019):
 
 	```
 	docker pull fnproject/fnserver
@@ -2239,7 +2239,7 @@ _Compilers..._
 	```
 	git clone https://github.com/apache/openwhisk
 	```
-- **[Dockerhub](https://hub.docker.com/r/openwhisk/controller)** (📥 4.6M · ⭐ 4):
+- **[Dockerhub](https://hub.docker.com/r/openwhisk/controller)** (📥 4.6M · ⭐ 4 · ⏱️ 08.11.2019):
 
 	```
 	docker pull openwhisk/controller
@@ -2252,7 +2252,7 @@ _Compilers..._
 	```
 	git clone https://github.com/kubeless/kubeless
 	```
-- **[Dockerhub](https://hub.docker.com/r/kubeless/function-controller)** (📥 1.5M · ⭐ 1):
+- **[Dockerhub](https://hub.docker.com/r/kubeless/function-controller)** (📥 1.5M · ⭐ 1 · ⏱️ 08.11.2019):
 
 	```
 	docker pull kubeless/function-controller
@@ -2273,7 +2273,7 @@ _Compilers..._
 	```
 	git clone https://github.com/Hydrospheredata/mist
 	```
-- **[Dockerhub](https://hub.docker.com/r/hydrosphere/mist)** (📥 12K · ⭐ 7):
+- **[Dockerhub](https://hub.docker.com/r/hydrosphere/mist)** (📥 12K · ⭐ 7 · ⏱️ 24.07.2019):
 
 	```
 	docker pull hydrosphere/mist
@@ -2286,7 +2286,7 @@ _Compilers..._
 	```
 	git clone https://github.com/metrue/fx
 	```
-- **[Dockerhub](https://hub.docker.com/r/metrue/fx-docker)** (📥 950):
+- **[Dockerhub](https://hub.docker.com/r/metrue/fx-docker)** (📥 950 · ⏱️ 16.10.2019):
 
 	```
 	docker pull metrue/fx-docker
@@ -2300,7 +2300,7 @@ _Compilers..._
 	```
 	git clone https://github.com/iron-io/functions
 	```
-- **[Dockerhub](https://hub.docker.com/r/iron/functions)** (📥 340K · ⭐ 13):
+- **[Dockerhub](https://hub.docker.com/r/iron/functions)** (📥 340K · ⭐ 13 · ⏱️ 26.01.2018):
 
 	```
 	docker pull iron/functions
@@ -2332,7 +2332,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	npm install elasticsearch
 	```
-- **[Dockerhub](https://hub.docker.com/r/_/elasticsearch)** (📥 320M · ⭐ 4K):
+- **[Dockerhub](https://hub.docker.com/r/_/elasticsearch)** (📥 320M · ⭐ 4K · ⏱️ 01.11.2019):
 
 	```
 	docker pull elasticsearch
@@ -2369,7 +2369,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	conda install -c anaconda mongodb
 	```
-- **[Dockerhub](https://hub.docker.com/r/_/mongo)** (📥 1.3B · ⭐ 6.3K):
+- **[Dockerhub](https://hub.docker.com/r/_/mongo)** (📥 1.3B · ⭐ 6.3K · ⏱️ 05.11.2019):
 
 	```
 	docker pull mongo
@@ -2401,7 +2401,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	npm install pg
 	```
-- **[Dockerhub](https://hub.docker.com/r/_/postgres)** (📥 1.6B · ⭐ 7.2K):
+- **[Dockerhub](https://hub.docker.com/r/_/postgres)** (📥 1.6B · ⭐ 7.2K · ⏱️ 22.10.2019):
 
 	```
 	docker pull postgres
@@ -2438,7 +2438,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	conda install -c anaconda redis
 	```
-- **[Dockerhub](https://hub.docker.com/r/_/redis)** (📥 1.3B · ⭐ 7.5K):
+- **[Dockerhub](https://hub.docker.com/r/_/redis)** (📥 1.3B · ⭐ 7.5K · ⏱️ 22.10.2019):
 
 	```
 	docker pull redis
@@ -2470,7 +2470,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	npm install influx
 	```
-- **[Dockerhub](https://hub.docker.com/r/_/influxdb)** (📥 350M · ⭐ 850):
+- **[Dockerhub](https://hub.docker.com/r/_/influxdb)** (📥 350M · ⭐ 850 · ⏱️ 18.10.2019):
 
 	```
 	docker pull influxdb
@@ -2502,7 +2502,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	conda install -c conda-forge prometheus_client
 	```
-- **[Dockerhub](https://hub.docker.com/r/prom/prometheus)** (📥 420M · ⭐ 870):
+- **[Dockerhub](https://hub.docker.com/r/prom/prometheus)** (📥 420M · ⭐ 870 · ⏱️ 07.11.2019):
 
 	```
 	docker pull prom/prometheus
@@ -2539,7 +2539,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	conda install -c conda-forge minio
 	```
-- **[Dockerhub](https://hub.docker.com/r/minio/minio)** (📥 280M · ⭐ 270):
+- **[Dockerhub](https://hub.docker.com/r/minio/minio)** (📥 280M · ⭐ 270 · ⏱️ 08.11.2019):
 
 	```
 	docker pull minio/minio
@@ -2571,7 +2571,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	npm install neo4j-driver
 	```
-- **[Dockerhub](https://hub.docker.com/r/_/neo4j)** (📥 61M · ⭐ 730):
+- **[Dockerhub](https://hub.docker.com/r/_/neo4j)** (📥 61M · ⭐ 730 · ⏱️ 01.11.2019):
 
 	```
 	docker pull neo4j
@@ -2635,7 +2635,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	npm install solr-client
 	```
-- **[Dockerhub](https://hub.docker.com/r/_/solr)** (📥 55M · ⭐ 710):
+- **[Dockerhub](https://hub.docker.com/r/_/solr)** (📥 55M · ⭐ 710 · ⏱️ 19.10.2019):
 
 	```
 	docker pull solr
@@ -2667,7 +2667,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	npm install etcd3
 	```
-- **[Dockerhub](https://hub.docker.com/r/bitnami/etcd)** (📥 2.8M · ⭐ 20):
+- **[Dockerhub](https://hub.docker.com/r/bitnami/etcd)** (📥 2.8M · ⭐ 20 · ⏱️ 08.11.2019):
 
 	```
 	docker pull bitnami/etcd
@@ -2717,7 +2717,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	npm install hazelcast-client
 	```
-- **[Dockerhub](https://hub.docker.com/r/hazelcast/hazelcast)** (📥 5.5M · ⭐ 57):
+- **[Dockerhub](https://hub.docker.com/r/hazelcast/hazelcast)** (📥 5.5M · ⭐ 57 · ⏱️ 05.11.2019):
 
 	```
 	docker pull hazelcast/hazelcast
@@ -2771,7 +2771,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	npm install rethinkdb
 	```
-- **[Dockerhub](https://hub.docker.com/r/_/rethinkdb)** (📥 51M · ⭐ 520):
+- **[Dockerhub](https://hub.docker.com/r/_/rethinkdb)** (📥 51M · ⭐ 520 · ⏱️ 10.07.2019):
 
 	```
 	docker pull rethinkdb
@@ -2803,7 +2803,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	npm install orientjs
 	```
-- **[Dockerhub](https://hub.docker.com/r/_/orientdb)** (📥 9.6M · ⭐ 120):
+- **[Dockerhub](https://hub.docker.com/r/_/orientdb)** (📥 9.6M · ⭐ 120 · ⏱️ 19.10.2019):
 
 	```
 	docker pull orientdb
@@ -2835,7 +2835,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	npm install arangojs
 	```
-- **[Dockerhub](https://hub.docker.com/r/_/arangodb)** (📥 15M · ⭐ 170):
+- **[Dockerhub](https://hub.docker.com/r/_/arangodb)** (📥 15M · ⭐ 170 · ⏱️ 21.10.2019):
 
 	```
 	docker pull arangodb
@@ -2867,7 +2867,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	npm install clickhouse
 	```
-- **[Dockerhub](https://hub.docker.com/r/yandex/clickhouse-server)** (📥 3.4M · ⭐ 190):
+- **[Dockerhub](https://hub.docker.com/r/yandex/clickhouse-server)** (📥 3.4M · ⭐ 190 · ⏱️ 06.11.2019):
 
 	```
 	docker pull yandex/clickhouse-server
@@ -2890,7 +2890,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	npm install apache-ignite-client
 	```
-- **[Dockerhub](https://hub.docker.com/r/apacheignite/ignite)** (📥 9.5M · ⭐ 56):
+- **[Dockerhub](https://hub.docker.com/r/apacheignite/ignite)** (📥 9.5M · ⭐ 56 · ⏱️ 19.09.2019):
 
 	```
 	docker pull apacheignite/ignite
@@ -2922,7 +2922,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	npm install cassandra-driver
 	```
-- **[Dockerhub](https://hub.docker.com/r/_/cassandra)** (📥 84M · ⭐ 1K):
+- **[Dockerhub](https://hub.docker.com/r/_/cassandra)** (📥 84M · ⭐ 1K · ⏱️ 31.10.2019):
 
 	```
 	docker pull cassandra
@@ -2944,7 +2944,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	git clone https://github.com/graphite-project/graphite-web
 	```
-- **[Dockerhub](https://hub.docker.com/r/graphiteapp/graphite-statsd)** (📥 6.4M · ⭐ 68):
+- **[Dockerhub](https://hub.docker.com/r/graphiteapp/graphite-statsd)** (📥 6.4M · ⭐ 68 · ⏱️ 24.10.2019):
 
 	```
 	docker pull graphiteapp/graphite-statsd
@@ -2957,7 +2957,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	git clone https://github.com/pingcap/tidb
 	```
-- **[Dockerhub](https://hub.docker.com/r/pingcap/tidb)** (📥 450K · ⭐ 47):
+- **[Dockerhub](https://hub.docker.com/r/pingcap/tidb)** (📥 450K · ⭐ 47 · ⏱️ 08.11.2019):
 
 	```
 	docker pull pingcap/tidb
@@ -2975,7 +2975,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	pip install crate
 	```
-- **[Dockerhub](https://hub.docker.com/r/_/crate)** (📥 13M · ⭐ 140):
+- **[Dockerhub](https://hub.docker.com/r/_/crate)** (📥 13M · ⭐ 140 · ⏱️ 28.10.2019):
 
 	```
 	docker pull crate
@@ -3007,7 +3007,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	npm install dgraph-js
 	```
-- **[Dockerhub](https://hub.docker.com/r/dgraph/dgraph)** (📥 1.6M · ⭐ 47):
+- **[Dockerhub](https://hub.docker.com/r/dgraph/dgraph)** (📥 1.6M · ⭐ 47 · ⏱️ 29.10.2019):
 
 	```
 	docker pull dgraph/dgraph
@@ -3046,7 +3046,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	git clone https://github.com/timescale/timescaledb
 	```
-- **[Dockerhub](https://hub.docker.com/r/timescale/timescaledb)** (📥 14M · ⭐ 60):
+- **[Dockerhub](https://hub.docker.com/r/timescale/timescaledb)** (📥 14M · ⭐ 60 · ⏱️ 31.10.2019):
 
 	```
 	docker pull timescale/timescaledb
@@ -3059,7 +3059,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	git clone https://github.com/JanusGraph/janusgraph
 	```
-- **[Dockerhub](https://hub.docker.com/r/janusgraph/janusgraph)** (📥 20K · ⭐ 5):
+- **[Dockerhub](https://hub.docker.com/r/janusgraph/janusgraph)** (📥 20K · ⭐ 5 · ⏱️ 21.10.2019):
 
 	```
 	docker pull janusgraph/janusgraph
@@ -3114,7 +3114,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	npm install @cayleygraph/cayley
 	```
-- **[Dockerhub](https://hub.docker.com/r/cayleygraph/cayley)** (📥 590 · ⭐ 4):
+- **[Dockerhub](https://hub.docker.com/r/cayleygraph/cayley)** (📥 590 · ⭐ 4 · ⏱️ 08.11.2019):
 
 	```
 	docker pull cayleygraph/cayley
@@ -3127,7 +3127,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	git clone https://github.com/apache/incubator-druid
 	```
-- **[Dockerhub](https://hub.docker.com/r/apache/incubator-druid)** (📥 12K · ⭐ 5):
+- **[Dockerhub](https://hub.docker.com/r/apache/incubator-druid)** (📥 12K · ⭐ 5 · ⏱️ 24.09.2019):
 
 	```
 	docker pull apache/incubator-druid
@@ -3150,7 +3150,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	npm install basho-riak-client
 	```
-- **[Dockerhub](https://hub.docker.com/r/basho/riak-kv)** (📥 600K · ⭐ 29):
+- **[Dockerhub](https://hub.docker.com/r/basho/riak-kv)** (📥 600K · ⭐ 29 · ⏱️ 04.04.2017):
 
 	```
 	docker pull basho/riak-kv
@@ -3172,7 +3172,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	git clone https://github.com/tidwall/tile38
 	```
-- **[Dockerhub](https://hub.docker.com/r/tile38/tile38)** (📥 630K · ⭐ 14):
+- **[Dockerhub](https://hub.docker.com/r/tile38/tile38)** (📥 630K · ⭐ 14 · ⏱️ 05.11.2019):
 
 	```
 	docker pull tile38/tile38
@@ -3208,7 +3208,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	npm install sonic-channel
 	```
-- **[Dockerhub](https://hub.docker.com/r/valeriansaliou/sonic)** (📥 3.3K · ⭐ 3):
+- **[Dockerhub](https://hub.docker.com/r/valeriansaliou/sonic)** (📥 3.3K · ⭐ 3 · ⏱️ 14.10.2019):
 
 	```
 	docker pull valeriansaliou/sonic
@@ -3240,7 +3240,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	npm install rqlite-js
 	```
-- **[Dockerhub](https://hub.docker.com/r/rqlite/rqlite)** (📥 2.4K · ⭐ 8):
+- **[Dockerhub](https://hub.docker.com/r/rqlite/rqlite)** (📥 2.4K · ⭐ 8 · ⏱️ 10.05.2019):
 
 	```
 	docker pull rqlite/rqlite
@@ -3284,7 +3284,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	pip install edgedb
 	```
-- **[Dockerhub](https://hub.docker.com/r/edgedb/edgedb)** (📥 460 · ⭐ 2):
+- **[Dockerhub](https://hub.docker.com/r/edgedb/edgedb)** (📥 460 · ⭐ 2 · ⏱️ 17.10.2019):
 
 	```
 	docker pull edgedb/edgedb
@@ -3297,7 +3297,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	git clone https://github.com/vesoft-inc/nebula
 	```
-- **[Dockerhub](https://hub.docker.com/r/vesoft/nebula-graph)** (📥 1.8K · ⭐ 3):
+- **[Dockerhub](https://hub.docker.com/r/vesoft/nebula-graph)** (📥 1.8K · ⭐ 3 · ⏱️ 08.11.2019):
 
 	```
 	docker pull vesoft/nebula-graph
@@ -3326,7 +3326,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	conda install -c anaconda mysql-connector-python
 	```
-- **[Dockerhub](https://hub.docker.com/r/_/mysql)** (📥 1.2B · ⭐ 8.8K):
+- **[Dockerhub](https://hub.docker.com/r/_/mysql)** (📥 1.2B · ⭐ 8.8K · ⏱️ 17.10.2019):
 
 	```
 	docker pull mysql
@@ -3353,7 +3353,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	npm install mariadb
 	```
-- **[Dockerhub](https://hub.docker.com/r/_/mariadb)** (📥 920M · ⭐ 3.1K):
+- **[Dockerhub](https://hub.docker.com/r/_/mariadb)** (📥 920M · ⭐ 3.1K · ⏱️ 01.11.2019):
 
 	```
 	docker pull mariadb
@@ -3376,7 +3376,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	npm install ravendb
 	```
-- **[Dockerhub](https://hub.docker.com/r/ravendb/ravendb)** (📥 290K · ⭐ 27):
+- **[Dockerhub](https://hub.docker.com/r/ravendb/ravendb)** (📥 290K · ⭐ 27 · ⏱️ 14.10.2019):
 
 	```
 	docker pull ravendb/ravendb
@@ -3408,7 +3408,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	npm install grakn-client
 	```
-- **[Dockerhub](https://hub.docker.com/r/graknlabs/grakn)** (📥 21K · ⭐ 10):
+- **[Dockerhub](https://hub.docker.com/r/graknlabs/grakn)** (📥 21K · ⭐ 10 · ⏱️ 24.09.2019):
 
 	```
 	docker pull graknlabs/grakn
@@ -3437,7 +3437,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	git clone https://github.com/vrana/adminer
 	```
-- **[Dockerhub](https://hub.docker.com/r/_/adminer)** (📥 82M · ⭐ 300):
+- **[Dockerhub](https://hub.docker.com/r/_/adminer)** (📥 82M · ⭐ 300 · ⏱️ 31.10.2019):
 
 	```
 	docker pull adminer
@@ -3455,7 +3455,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	npm install mongo-express
 	```
-- **[Dockerhub](https://hub.docker.com/r/_/mongo-express)** (📥 34M · ⭐ 550):
+- **[Dockerhub](https://hub.docker.com/r/_/mongo-express)** (📥 34M · ⭐ 550 · ⏱️ 29.10.2019):
 
 	```
 	docker pull mongo-express
@@ -3484,7 +3484,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	git clone https://github.com/sosedoff/pgweb
 	```
-- **[Dockerhub](https://hub.docker.com/r/sosedoff/pgweb)** (📥 3.9M · ⭐ 21):
+- **[Dockerhub](https://hub.docker.com/r/sosedoff/pgweb)** (📥 3.9M · ⭐ 21 · ⏱️ 05.10.2019):
 
 	```
 	docker pull sosedoff/pgweb
@@ -3505,7 +3505,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	git clone https://github.com/mobz/elasticsearch-head
 	```
-- **[Dockerhub](https://hub.docker.com/r/mobz/elasticsearch-head)** (📥 1.4M · ⭐ 50):
+- **[Dockerhub](https://hub.docker.com/r/mobz/elasticsearch-head)** (📥 1.4M · ⭐ 50 · ⏱️ 31.01.2017):
 
 	```
 	docker pull mobz/elasticsearch-head
@@ -3518,7 +3518,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	git clone https://github.com/appbaseio/dejavu
 	```
-- **[Dockerhub](https://hub.docker.com/r/appbaseio/dejavu)** (📥 980K · ⭐ 23):
+- **[Dockerhub](https://hub.docker.com/r/appbaseio/dejavu)** (📥 980K · ⭐ 23 · ⏱️ 28.10.2019):
 
 	```
 	docker pull appbaseio/dejavu
@@ -3539,7 +3539,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	git clone https://github.com/yahoo/kafka-manager
 	```
-- **[Dockerhub](https://hub.docker.com/r/kafkamanager/kafka-manager)** (📥 300K · ⭐ 31):
+- **[Dockerhub](https://hub.docker.com/r/kafkamanager/kafka-manager)** (📥 300K · ⭐ 31 · ⏱️ 12.04.2019):
 
 	```
 	docker pull kafkamanager/kafka-manager
@@ -3560,7 +3560,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	git clone https://github.com/appbaseio/mirage
 	```
-- **[Dockerhub](https://hub.docker.com/r/appbaseio/mirage)** (📥 320K · ⭐ 6):
+- **[Dockerhub](https://hub.docker.com/r/appbaseio/mirage)** (📥 320K · ⭐ 6 · ⏱️ 11.10.2019):
 
 	```
 	docker pull appbaseio/mirage
@@ -3594,7 +3594,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	npm install mongoku
 	```
-- **[Dockerhub](https://hub.docker.com/r/huggingface/mongoku)** (📥 170K · ⭐ 1):
+- **[Dockerhub](https://hub.docker.com/r/huggingface/mongoku)** (📥 170K · ⭐ 1 · ⏱️ 31.07.2019):
 
 	```
 	docker pull huggingface/mongoku
@@ -3623,7 +3623,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	git clone https://github.com/HVF/franchise
 	```
-- **[Dockerhub](https://hub.docker.com/r/binakot/franchise)** (📥 310 · ⭐ 2):
+- **[Dockerhub](https://hub.docker.com/r/binakot/franchise)** (📥 310 · ⭐ 2 · ⏱️ 27.02.2019):
 
 	```
 	docker pull binakot/franchise
@@ -3637,7 +3637,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	git clone https://github.com/nosqlclient/nosqlclient
 	```
-- **[Dockerhub](https://hub.docker.com/r/mongoclient/mongoclient)** (📥 8.5M · ⭐ 77):
+- **[Dockerhub](https://hub.docker.com/r/mongoclient/mongoclient)** (📥 8.5M · ⭐ 77 · ⏱️ 25.09.2019):
 
 	```
 	docker pull mongoclient/mongoclient
@@ -3666,7 +3666,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	git clone https://github.com/postgres/pgadmin4
 	```
-- **[Dockerhub](https://hub.docker.com/r/dpage/pgadmin4)** (📥 21M · ⭐ 430):
+- **[Dockerhub](https://hub.docker.com/r/dpage/pgadmin4)** (📥 21M · ⭐ 430 · ⏱️ 08.11.2019):
 
 	```
 	docker pull dpage/pgadmin4
@@ -3702,7 +3702,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	git clone https://github.com/netdata/netdata
 	```
-- **[Dockerhub](https://hub.docker.com/r/netdata/netdata)** (📥 72M · ⭐ 110):
+- **[Dockerhub](https://hub.docker.com/r/netdata/netdata)** (📥 72M · ⭐ 110 · ⏱️ 08.11.2019):
 
 	```
 	docker pull netdata/netdata
@@ -3715,7 +3715,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	git clone https://github.com/ApolloAuto/apollo
 	```
-- **[Dockerhub](https://hub.docker.com/r/apolloauto/apollo)** (📥 1.7M · ⭐ 34):
+- **[Dockerhub](https://hub.docker.com/r/apolloauto/apollo)** (📥 1.7M · ⭐ 34 · ⏱️ 31.10.2019):
 
 	```
 	docker pull apolloauto/apollo
@@ -3733,7 +3733,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	pip install glances
 	```
-- **[Dockerhub](https://hub.docker.com/r/nicolargo/glances)** (📥 27M · ⭐ 46):
+- **[Dockerhub](https://hub.docker.com/r/nicolargo/glances)** (📥 27M · ⭐ 46 · ⏱️ 29.01.2019):
 
 	```
 	docker pull nicolargo/glances
@@ -3759,7 +3759,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	git clone https://github.com/filebrowser/filebrowser
 	```
-- **[Dockerhub](https://hub.docker.com/r/filebrowser/filebrowser)** (📥 9.1M · ⭐ 58):
+- **[Dockerhub](https://hub.docker.com/r/filebrowser/filebrowser)** (📥 9.1M · ⭐ 58 · ⏱️ 04.11.2019):
 
 	```
 	docker pull filebrowser/filebrowser
@@ -3777,7 +3777,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	pip install slybot
 	```
-- **[Dockerhub](https://hub.docker.com/r/scrapinghub/portia)** (📥 330K · ⭐ 25):
+- **[Dockerhub](https://hub.docker.com/r/scrapinghub/portia)** (📥 330K · ⭐ 25 · ⏱️ 10.07.2019):
 
 	```
 	docker pull scrapinghub/portia
@@ -3824,7 +3824,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	git clone https://github.com/kubeflow/katib
 	```
-- **[Dockerhub](https://hub.docker.com/r/katib/metrics-collector)** (📥 660K):
+- **[Dockerhub](https://hub.docker.com/r/katib/metrics-collector)** (📥 660K · ⏱️ 08.05.2019):
 
 	```
 	docker pull katib/metrics-collector
