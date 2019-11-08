@@ -7,6 +7,7 @@ configuration:
 categories:
 - category: "dev-environments"
   title: "IDEs & Notebook Editors"
+  subtitle: "Collaboration Tools..."
 - category: "ml-platforms"
   title: "Machine Learning Platforms"
 - category: "business-intelligence"
@@ -1415,3 +1416,10 @@ projects:
   cran_id: shiny
   # label: web
   license: GPL-3.0
+- name: Apollo
+  github_id: ApolloAuto/apollo
+  dockerhub_id: apolloauto/apollo
+  # label: web
+- name: guess
+  github_id: guess-js/guess
+  npm_id: guess-webpack
