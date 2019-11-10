@@ -13,15 +13,18 @@ categories:
 - category: "business-intelligence"
   title: "Business Intelligence"
   subtitle: "Data Analytics, SQL.."
-- category: "data-viz"
-  title: "Data Visualization & Exploration"
+- category: "job-scheduler"
+  title: "Job Scheduler & Pipelines"
+  subtitle: "Scheduling, Workflow, Dataflow, ETL...,  job orchestration "
+- category: "data-integration"
+  title: "Data Integration & Ingestion"
+  subtitle: "Query Engines,..."
 - category: "data-processing"
   title: "Data Batch & Stream Processing"
-- category: "pipelines"
-  title: "Job & Data Pipelines"
-  subtitle: "Scheduling, Workflow, Dataflow, ETL..."
 - category: "data-labeling"
   title: "Data Labeling & Annotation"
+- category: "data-viz"
+  title: "Data Visualization & Exploration"
 - category: "model-viz"
   title: "Model Visualization"
 - category: "model-deployment"
@@ -155,6 +158,140 @@ projects:
   license: BSD-3-Clause
   # label: web
   category: dev-environments
+# Data Ingestion & Integration
+- name: Hive
+  github_id: apache/hive
+  description: "Data warehouse software facilitates reading, writing, and managing large datasets residing in distributed storage using SQL."
+  pypi_id: pyhive
+  maven_id: org.apache.hive:hive-common
+  # label: web
+  category: data-integration
+- name: Impala
+  github_id: cloudera/Impala # apache/impala
+  pypi_id: impyla
+  description: "Lightning-fast, distributed SQL queries for petabytes of data stored in Apache Hadoop clusters."
+  # label: web, hadoop
+  category: data-integration
+- name: Drill
+  github_id: apache/drill
+  maven_id: org.apache.drill:drill-common
+  dockerhub_id: drill/apache-drill
+  pypi_id: pydrill
+  description: "Schema-free SQL Query Engine for Hadoop, NoSQL and Cloud Storage."
+  # label: web
+  category: data-integration
+- name: Camel
+  github_id: apache/camel
+  dockerhub: apache/camel-k
+  maven_id: org.apache.camel:camel-core
+  description: "Integration framework that empowers you to easily integrate various systems consuming or producing data."
+  category: data-integration
+- name: Sqoop
+  github_id: apache/sqoop
+  pypi_id: pysqoop
+  description: "Sqoop allows easy imports and exports of data sets between databases and HDFS."
+  # label: cmd
+  category: data-integration
+- name: Tika
+  github_id: apache/tika
+  maven_id: org.apache.tika:tika-core
+  dockerhub_id: logicalspark/docker-tikaserver
+  pypi_id: tika
+  npm_id: tika
+  description: "Toolkit for detecting and extracting metadata and structured text content from various documents using existing parser libraries."
+  # label: cmd, native
+  category: data-integration
+- name: Embulk
+  github_id: embulk/embulk
+  description: "Parallel bulk data loader that helps data transfer between various storages, databases, NoSQL and cloud services."
+  license: Apache-2.0
+  category: data-integration
+- name: Calcite
+  github_id: apache/calcite
+  maven_id: org.apache.calcite:calcite-core
+  description: "Framework for building databases and data management systems. Includes a SQL parser, an API for building expressions in relational algebra, and a query planning engine."
+  category: data-integration
+- name: Presto
+  github_id: prestodb/presto
+  dockerhub_id: prestosql/presto
+  helm_id: stable/presto
+  pypi_id: presto-python-client
+  npm_id: presto-client
+  gem_id: presto-client
+  go_id: github.com/prestodb/presto-go-client/presto
+  maven_id: com.facebook.presto:presto-spi
+  description: "High performance, distributed SQL query engine for a variety of data sources."
+  # label: web
+  category: data-integration
+- name: Delta Lake
+  github_id: delta-io/delta
+  maven_id: io.delta:delta-core_2.11
+  # label: spark
+  category: data-integration
+- name: Alluxio
+  github_id: Alluxio/alluxio
+  dockerhub_id: alluxio/alluxio
+  pypi_id: alluxio
+  go_id: github.com/Alluxio/alluxio-go
+  brew_id: alluxio
+  maven_id: org.alluxio:alluxio-core-client-fs
+  category: data-integration
+- name: s3cmd
+  github_id: s3tools/s3cmd
+  apt_id: s3cmd
+  yum_id: s3cmd
+  # label: cmd
+  category: data-integration
+- name: s4cmd
+  github_id: bloomreach/s4cmd
+  pypi_id: s4cmd
+  # label: cmd
+  category: data-integration
+- name: Gobblin
+  github_id: apache/incubator-gobblin
+  maven_id: org.apache.gobblin:gobblin-api
+  category: data-integration
+- name: Data Collector
+  github_id: streamsets/datacollector
+  dockerhub_id: streamsets/datacollector
+  pypi_id: streamsets
+  maven_id: com.streamsets:streamsets-datacollector
+  category: data-integration
+- name: Apache NiFi
+  github_id: apache/nifi
+  dockerhub_id: apache/nifi
+  maven_id:  org.apache.nifi:nifi-api
+  description: "Integrated data logistics platform for automating the movement of data between disparate systems."
+  # label: web
+  category: data-integration
+- name: TinkerPop Gremlin
+  github_id: apache/tinkerpop
+  pypi_id: gremlinpython
+  npm_id: gremlin
+  go_id: github.com/northwesternmutual/grammes
+  maven_id: org.apache.tinkerpop:gremlin-core
+  category: data-integration
+- name: Zenko
+  github_id: scality/Zenko
+  dockerhub_id: zenko/cloudserver
+  category: data-integration
+- name: Prisma
+  github_id: prisma/prisma
+  brew_id: prisma
+  npm_id: prisma-client-lib
+  dockerhub_id: prismagraphql/prisma
+  helm_id: stable/prisma
+  go_id: github.com/prisma/prisma-client-lib-go
+  # label: web
+  category: data-integration
+- name: Pentaho Kettle
+  github_id: pentaho/pentaho-kettle
+  # label: native
+  category: data-integration
+- name: Dagster
+  github_id: dagster-io/dagster
+  pypi_id: dagster
+  category: data-integration
 # Data Visualization
 - name: Kibana
   github_id: elastic/kibana
@@ -620,6 +757,9 @@ projects:
   github_id: CSAILVision/gandissect
   # label: web
   category: model-viz
+- name: PlotNeuralNet
+  github_id: HarisIqbal88/PlotNeuralNet
+  category: model-viz
 # Database GUIs
 - name: DBeaver
   github_id: dbeaver/dbeaver
@@ -746,6 +886,11 @@ projects:
   dockerhub_id: kafkamanager/kafka-manager
   # label: web
   category: db-gui
+- name: Filestash
+  github_id: mickael-kerjean/filestash
+  dockerhub_id: machines/filestash
+  # label: web
+  category: db-gui
 # Data Storage
 - name: Minio
   github_id: minio/minio
@@ -765,7 +910,7 @@ projects:
   dockerhub_id: apache/incubator-druid
   helm_id: incubator/druid
   # label: web
-  category: data-storage
+  category: data-storage # analytics, data integration
 - name: Ignite
   github_id: apache/ignite
   dockerhub_id: apacheignite/ignite
@@ -993,12 +1138,6 @@ projects:
   dockerhub_id: pingcap/tidb
   go_id: github.com/pingcap/tidb
   category: data-storage
-- name: Hive
-  github_id: apache/hive
-  description: "Data warehouse software facilitates reading, writing, and managing large datasets residing in distributed storage using SQL."
-  maven_id: org.apache.hive:hive-common
-  # label: web
-  category: data-storage # Data Integration / Data Processing?
 - name: Arrow
   github_id: apache/arrow
   pypi_id: pyarrow
@@ -1116,43 +1255,18 @@ projects:
   pypi_id: sqlalchemy_rqlite # pyrqlite
   maven_id: com.rqlite:rqlite-java
   category: data-storage
-# FAAS
-- name: OpenFaaS
-  github_id: openfaas/faas
-  helm_id: openfaas/openfaas
-  dockerhub_id: openfaas/gateway
-  category: faas
-- name: IronFunctions
-  github_id: iron-io/functions
-  dockerhub_id: iron/functions
-  brew_id: iron-functions
-  category: faas
-- name: Fission
-  github_id: fission/fission
-  category: faas
-- name: OpenWhisk
-  github_id: apache/openwhisk
-  dockerhub_id: openwhisk/controller
-  category: faas
-- name: fx
-  github_id: metrue/fx
-  dockerhub_id: metrue/fx-docker
-  category: faas
-- name: Kubeless
-  github_id: kubeless/kubeless
-  helm_id: incubator/kubeless
-  dockerhub_id: kubeless/function-controller
-  category: faas
-- name: Fn
-  github_id: fnproject/fn
-  helm_id: banzaicloud-stable/fn
-  brew_id: fn
-  dockerhub_id: fnproject/fnserver
-  category: faas
-- name: Hydrosphere Mist
-  github_id: Hydrospheredata/mist
-  dockerhub_id: hydrosphere/mist
-  category: faas
+- name: Doris
+  github_id: apache/incubator-doris
+  description: "MPP-based interactive SQL data warehousing for reporting and analysis."
+  dockerhub_id: apachedoris/doris-dev
+  category: data-storage
+- name: Geode
+  github_id: apache/geode
+  dockerhub_id: apachegeode/geode
+  maven_id: org.apache.geode:geode-core
+  brew_id: apache-geode
+  description: "Data management platform that provides real-time, consistent access to data-intensive applications throughout widely distributed cloud architectures."
+  category: data-storage
 # ML Platforms
 - name: Kubeflow
   github_id: kubeflow/kubeflow
@@ -1197,37 +1311,26 @@ projects:
   maven_id: org.apache.mahout:mahout-math-scala_2.10
   description: "Powerful, scalable machine-learning library that runs on top of Hadoop MapReduce."
   category: ml-platforms
-# Pipelines
-- name: StreamSets Data Collector
-  github_id: streamsets/datacollector
-  dockerhub_id: streamsets/datacollector
-  pypi_id: streamsets
-  maven_id: com.streamsets:streamsets-datacollector
-  category: pipelines
-- name: Apache NiFi
-  github_id: apache/nifi
-  dockerhub_id: apache/nifi
-  maven_id:  org.apache.nifi:nifi-api
-  description: "Integrated data logistics platform for automating the movement of data between disparate systems."
-  # label: web
-  category: pipelines
-- name: Dagster
-  github_id: dagster-io/dagster
-  pypi_id: dagster
-  category: pipelines
+- name: Singa
+  github_id: apache/singa
+  dockerhub_id: apache/singa
+  conda_id: conda-forge/singa-cpu
+  description: "Flexible architecture for scalable distributed training, it is extensible to run over a wide range of hardware, and has a focus on health-care applications."
+  category: ml-platforms
+# Job Scheduler & Pipelines
 - name: n8n.io
   github_id: n8n-io/n8n
   npm_id: n8n
   dockerhub_id: n8nio/n8n
   license: Apache-2.0
   # label: web
-  category: pipelines
+  category: job-scheduler
 - name: Genie
   github_id: Netflix/genie
   dockerhub_id: netflixoss/genie-app
   maven_id: com.netflix.genie:genie-common
   pypi_id: nflx-genie-client
-  category: pipelines
+  category: job-scheduler
 - name: Airflow
   github_id: apache/airflow
   helm_id: stable/airflow
@@ -1236,49 +1339,61 @@ projects:
   conda_id: conda-forge/airflow
   description: "Platform to programmatically author, schedule, and monitor workflows."
   # label: web
-  category: pipelines
+  category: job-scheduler
 - name: Dolphin Scheduler
   github_id: apache/incubator-dolphinscheduler
   # label: web
-  category: pipelines
+  category: job-scheduler
 - name: Cadence
   github_id: uber/cadence
   dockerhub_id: ubercadence/server
   go_id: go.uber.org/cadence
   maven_id: com.uber.cadence:cadence-client
   # label: web-ui
-  category: pipelines
+  category: job-scheduler
 - name: Oozie
   github_id: apache/oozie
   maven_id: org.apache.oozie:oozie-client
   description: "Server-based workflow scheduling system to manage Hadoop jobs."
-  category: pipelines
+  category: job-scheduler
 - name: Azkaban
   github_id: azkaban/azkaban
-  category: pipelines
+  description: "Batch workflow job scheduler created at LinkedIn to run Hadoop jobs."
+  category: job-scheduler
 - name: luigi
   github_id: spotify/luigi
   pypi_id: luigi
   helm_id: stable/luigi
   conda_id: luigi
-  category: pipelines
+  category: job-scheduler
 - name: argo
   github_id: argoproj/argo
   helm_id: argo/argo
   dockerhub_id: argoproj/argoui
-  category: pipelines
+  category: job-scheduler
 - name: Kubeflow Pipelines
   github_id: kubeflow/pipelines
   pypi_id: kfp
-  category: pipelines
+  category: job-scheduler
 - name: Flotilla
   github_id: stitchfix/flotilla-os
   description: "Self-service framework for defining and executing containerized jobs."
-  category: pipelines
-- name: Gobblin
-  github_id: apache/incubator-gobblin
-  maven_id: org.apache.gobblin:gobblin-api
-  category: pipelines # TODO: Data ingestion?
+  category: job-scheduler
+- name: Ofelia
+  github_id: mcuadros/ofelia
+  dockerhub_id: mcuadros/ofelia
+  category: job-scheduler
+- name: Aurora
+  github_id: apache/aurora
+  brew_id: aurora-cli
+  # label: web
+  category: job-scheduler
+- name: dkron
+  github_id: distribworks/dkron
+  dockerhub_id: dkron/dkron
+  license: LGPL-3.0
+  # label: web
+  category: job-scheduler
 # Batch & Stream Processing
 - name: Flume
   github_id: apache/flume
@@ -1387,13 +1502,6 @@ projects:
   github_id: mldbai/mldb
 - name: MediaPipe
   github_id: google/mediapipe
-- name: s3cmd
-  github_id: s3tools/s3cmd
-  # label: cmd
-- name: s4cmd
-  github_id: bloomreach/s4cmd
-  pypi_id: s4cmd
-  # label: cmd
 - name: ungit
   github_id: FredrikNoren/ungit
   npm_id: ungit
@@ -1423,3 +1531,31 @@ projects:
 - name: guess
   github_id: guess-js/guess
   npm_id: guess-webpack
+- name: EuclidesDB
+  github_id: perone/euclidesdb
+  dockerhub_id: euclidesdb/euclidesdb
+  license: Apache-2.0
+  pypi_id: euclides
+- name: Pravega
+  github_id: pravega/pravega
+  dockerhub_id: pravega/pravega
+- name: Kylin
+  github_id: apache/kylin
+  pypi_id: kylinpy
+  dockerhub_id: apachekylin/apache-kylin-standalone
+  description: "Distributed Analytics Engine that provides SQL interface and multi-dimensional analysis (OLAP) on Hadoop supporting extremely large datasets."
+  # label: web
+  # category: analytics
+- name: Aleph
+  github_id: alephdata/aleph
+  dockerhub_id: alephdata/aleph
+  # label: web
+- name: SQLFlow
+  github_id: sql-machine-learning/sqlflow
+  dockerhub_id: sqlflow/sqlflow
+  # label: web
+- name: OpenRefine
+  github_id: OpenRefine/OpenRefine
+  dockerhub_id: vimagick/openrefine
+  brew_id: openrefine
+  # label: web
