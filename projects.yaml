@@ -7,40 +7,46 @@ configuration:
 categories:
 - category: "dev-environments"
   title: "IDEs & Notebook Editors"
-  subtitle: "Collaboration Tools..."
+  subtitle: "Development Environments, Collaboration Tools..."
 - category: "ml-platforms"
   title: "Machine Learning Platforms"
+  subtitle: "Distributed, scalable, ..."
 - category: "business-intelligence"
   title: "Business Intelligence"
   subtitle: "Data Analytics, SQL.."
 - category: "job-scheduler"
   title: "Job Scheduler & Pipelines"
-  subtitle: "Scheduling, Workflow, Dataflow, ETL...,  job orchestration "
+  subtitle: "Platforms and tools to schedule, orchestrate, and monitor jobs for workflow automation and data pipeline tasks."
 - category: "data-integration"
   title: "Data Integration & Ingestion"
-  subtitle: "Query Engines,..."
+  subtitle: "Tools to integrate and ingest data from a variety of data sources. This includes query engines, ETL tools, data pipeline software, and command-line database clients."
 - category: "data-processing"
   title: "Data Batch & Stream Processing"
+  subtitle: "Frameworks and computing-engines for large-scale (distributed) data batch- and stream-processing."
 - category: "data-labeling"
   title: "Data Labeling & Annotation"
+  subtitle: "Tools to label and annotate any type of data (e.g. images, text, videos, and audio)."
 - category: "data-viz"
   title: "Data Visualization & Exploration"
+  subtitle: "GUI tools to visualize, explore, and analyze data."
 - category: "model-viz"
   title: "Model Visualization"
+  subtitle: "Tools to visualize, explore, and understand neural networks and other machine learning models."
 - category: "model-deployment"
   title: "Model Deployment"
+  subtitle: "Tools and platforms to deploy, run, and serve machine learning models."
 - category: "ml-applications"
   title: "ML Applications & Services"
+  subtitle: "Task-specific machine learning applications and services."
 - category: "accelerators"
   title: "Performance Optimization & Accelerators"
-  subtitle: "Compilers..."
-- category: "faas"
-  title: "Function as a Service (FaaS)"
+  subtitle: "Compilers, accelerators, and libraries to improve compute performance and optimize machine learning models."
 - category: "data-storage"
   title: "Data Storage"
   subtitle: "Dart Storage tools such as relational, document, graph, time-series, and key-value databases. For a more in-depth comparison, take a look at the [DB Engines Ranking](https://db-engines.com/en/ranking)."
 - category: "db-gui"
   title: "Database GUIs"
+  subtitle: "GUI tools for database administration and data management for a variety of databases."
 
 projects:
 # IDEs & Notebook Editors
@@ -136,11 +142,6 @@ projects:
   github_id: NVIDIA/DIGITS
   dockerhub_id: nvidia/digits
   license: BSD-3-Clause
-  # label: web
-  category: dev-environments
-- name: ML Hub
-  github_id: ml-tooling/ml-hub
-  dockerhub_id: mltooling/ml-hub
   # label: web
   category: dev-environments
 - name: Deepo
@@ -445,10 +446,6 @@ projects:
   # label: web
   category: business-intelligence
 # Performance Optimization & Accelerators # Compilers
-- name: plaidML
-  github_id: plaidml/plaidml
-  pypi_id: plaidml-keras
-  category: accelerators
 - name: TensorRT
   github_id: NVIDIA/TensorRT
   category: accelerators
@@ -595,6 +592,10 @@ projects:
   pypi_id: simple_tensorflow_serving
   dockerhub_id: tobegit3hub/simple_tensorflow_serving
   # label: web
+  category: model-deployment
+- name: plaidML
+  github_id: plaidml/plaidml
+  pypi_id: plaidml-keras
   category: model-deployment
 # ML Applications & Services
 - name: Real-Time-Voice-Cloning
@@ -1317,6 +1318,11 @@ projects:
   conda_id: conda-forge/singa-cpu
   description: "Flexible architecture for scalable distributed training, it is extensible to run over a wide range of hardware, and has a focus on health-care applications."
   category: ml-platforms
+- name: ML Hub
+  github_id: ml-tooling/ml-hub
+  dockerhub_id: mltooling/ml-hub
+  # label: web
+  category: ml-platforms
 # Job Scheduler & Pipelines
 - name: n8n.io
   github_id: n8n-io/n8n
@@ -1474,6 +1480,12 @@ projects:
   license: MIT
 - name: Onyx
   github_id: onyx-platform/onyx
+  category: data-processing
+- name: Hazelcast Jet
+  github_id: hazelcast/hazelcast-jet
+  maven_id: com.hazelcast.jet:hazelcast-jet
+  dockerhub_id: hazelcast/hazelcast-jet
+  helm_id: hazelcast/hazelcast-jet
   category: data-processing
 # Others
 - name: File Browser
