@@ -1,17 +1,17 @@
 ## Contents
 
-- [IDEs & Notebook Editors](#ides--notebook-editors) _22 projects_
-- [Machine Learning Platforms](#machine-learning-platforms) _10 projects_
+- [IDEs & Notebook Editors](#ides--notebook-editors) _21 projects_
+- [Machine Learning Platforms](#machine-learning-platforms) _11 projects_
 - [Business Intelligence](#business-intelligence) _9 projects_
-- [Job Scheduler & Pipelines](#job-scheduler--pipelines) _15 projects_
-- [Data Integration & Ingestion](#data-integration--ingestion) _20 projects_
-- [Data Batch & Stream Processing](#data-batch--stream-processing) _15 projects_
+- [Job Scheduler & Pipelines](#job-scheduler--pipelines) _14 projects_
+- [Data Integration & Ingestion](#data-integration--ingestion) _21 projects_
+- [Data Batch & Stream Processing](#data-batch--stream-processing) _16 projects_
 - [Data Labeling & Annotation](#data-labeling--annotation) _15 projects_
 - [Data Visualization & Exploration](#data-visualization--exploration) _16 projects_
 - [Model Visualization](#model-visualization) _8 projects_
-- [Model Deployment](#model-deployment) _21 projects_
+- [Model Deployment](#model-deployment) _22 projects_
 - [ML Applications & Services](#ml-applications--services) _13 projects_
-- [Performance Optimization & Accelerators](#performance-optimization--accelerators) _11 projects_
+- [Performance Optimization & Accelerators](#performance-optimization--accelerators) _10 projects_
 - [Data Storage](#data-storage) _43 projects_
 - [Database GUIs](#database-guis) _25 projects_
 - [Others](#others) _21 projects_
@@ -36,16 +36,16 @@
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://i.ibb.co/2PS8bhR/up-arrow.png" alt="Back to top"></a>
 
-_Collaboration Tools..._
+_Development Environments, Collaboration Tools..._
 
 <details><summary><b><a href="https://github.com/microsoft/vscode">Visual Studio Code</a></b> (🥇36 ·  ⭐ 86K) - Visual Studio Code. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
 
-- **[GitHub](https://github.com/microsoft/vscode)** (👨‍💻 1.2K · 🔀 13K · 📦 510 · 📋 77K - 5% open · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/microsoft/vscode)** (👨‍💻 1.2K · 🔀 13K · 📦 510 · 📋 78K - 5% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/microsoft/vscode
 	```
-- **[NPM](https://www.npmjs.com/package/monaco-editor-core)** (📥 15K / month · 📦 450 · ⏱️ 19.09.2019):
+- **[NPM](https://www.npmjs.com/package/monaco-editor-core)** (📥 14K / month · 📦 450 · ⏱️ 19.09.2019):
 
 	```
 	npm install monaco-editor-core
@@ -53,43 +53,43 @@ _Collaboration Tools..._
 </details>
 <details><summary><b><a href="https://github.com/jupyterlab/jupyterlab">JupyterLab</a></b> (🥇35 ·  ⭐ 9K) - JupyterLab computational environment. <code><a href="https://tldrlegal.com/license/bsd-3-clause-license-(revised)">BSD-3</a></code></summary>
 
-- **[GitHub](https://github.com/jupyterlab/jupyterlab)** (👨‍💻 300 · 🔀 1.4K · 📦 11K · 📋 4.2K - 30% open · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/jupyterlab/jupyterlab)** (👨‍💻 300 · 🔀 1.4K · 📦 11K · 📋 4.2K - 30% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/jupyterlab/jupyterlab
 	```
-- **[PyPi](https://pypi.org/project/jupyterlab)** (📥 350K / month · 📦 1.9K · ⏱️ 02.11.2019):
+- **[PyPi](https://pypi.org/project/jupyterlab)** (📥 340K / month · 📦 1.9K · ⏱️ 02.11.2019):
 
 	```
 	pip install jupyterlab
 	```
 </details>
-<details><summary><b><a href="https://github.com/jupyter/notebook">Jupyter</a></b> (🥇34 ·  ⭐ 7K) - Jupyter Interactive Notebook. <code><a href="https://tldrlegal.com/license/bsd-3-clause-license-(revised)">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/jupyter/notebook">Jupyter</a></b> (🥇35 ·  ⭐ 7K) - Jupyter Interactive Notebook. <code><a href="https://tldrlegal.com/license/bsd-3-clause-license-(revised)">BSD-3</a></code></summary>
 
-- **[GitHub](https://github.com/jupyter/notebook)** (👨‍💻 460 · 🔀 2.7K · 📦 42K · 📋 3.5K - 48% open · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/jupyter/notebook)** (👨‍💻 460 · 🔀 2.7K · 📦 42K · 📋 3.5K - 47% open · ⏱️ 09.11.2019):
 
 	```
 	git clone https://github.com/jupyter/notebook
 	```
-- **[PyPi](https://pypi.org/project/jupyter)** (📦 13K · ⏱️ 12.08.2015):
+- **[PyPi](https://pypi.org/project/jupyter)** (📥 1.8M / month · 📦 13K · ⏱️ 12.08.2015):
 
 	```
 	pip install jupyter
 	```
-- **[Dockerhub](https://hub.docker.com/r/jupyter/datascience-notebook)** (📥 6.3M · ⭐ 550 · ⏱️ 11.09.2019):
+- **[Dockerhub](https://hub.docker.com/r/jupyter/datascience-notebook)** (📥 6.3M · ⭐ 550 · ⏱️ 10.11.2019):
 
 	```
 	docker pull jupyter/datascience-notebook
 	```
 </details>
-<details><summary><b><a href="https://github.com/spyder-ide/spyder">Spyder</a></b> (🥈32 ·  ⭐ 4.9K) - Official repository for Spyder - The Scientific Python Development.. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/spyder-ide/spyder">Spyder</a></b> (🥈32 ·  ⭐ 4.9K) - Official repository for Spyder - The Scientific Python Development Environment. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
 
-- **[GitHub](https://github.com/spyder-ide/spyder)** (👨‍💻 180 · 🔀 970 · 📦 7.9K · 📋 8.7K - 9% open · ⏱️ 10.11.2019):
+- **[GitHub](https://github.com/spyder-ide/spyder)** (👨‍💻 180 · 🔀 970 · 📦 7.9K · 📋 8.7K - 9% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/spyder-ide/spyder
 	```
-- **[PyPi](https://pypi.org/project/spyder)** (📥 35K / month · 📦 1.5K · ⏱️ 03.11.2019):
+- **[PyPi](https://pypi.org/project/spyder)** (📥 34K / month · 📦 1.5K · ⏱️ 03.11.2019):
 
 	```
 	pip install spyder
@@ -108,9 +108,9 @@ _Collaboration Tools..._
 	git clone https://github.com/atom/atom
 	```
 </details>
-<details><summary><b><a href="https://github.com/eclipse/che">Eclipse Che</a></b> (🥈30 ·  ⭐ 5.9K) - Eclipse Che: Next-generation Eclipse IDE. Open source workspace.. <code><a href="https://opensource.org/licenses/EPL-2.0">EPL-2.0</a></code></summary>
+<details><summary><b><a href="https://github.com/eclipse/che">Eclipse Che</a></b> (🥈30 ·  ⭐ 5.9K) - Eclipse Che: Next-generation Eclipse IDE. Open source workspace server and.. <code><a href="https://opensource.org/licenses/EPL-2.0">EPL-2.0</a></code></summary>
 
-- **[GitHub](https://github.com/eclipse/che)** (👨‍💻 160 · 🔀 1.1K · 📦 72 · 📋 8.8K - 10% open · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/eclipse/che)** (👨‍💻 160 · 🔀 1.1K · 📦 72 · 📋 8.8K - 10% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/eclipse/che
@@ -132,12 +132,12 @@ _Collaboration Tools..._
 </details>
 <details><summary><b><a href="https://github.com/jupyterhub/jupyterhub">JupyterHub</a></b> (🥈30 ·  ⭐ 5.4K) - Multi-user server for Jupyter notebooks. <code><a href="https://tldrlegal.com/license/bsd-3-clause-license-(revised)">BSD-3</a></code></summary>
 
-- **[GitHub](https://github.com/jupyterhub/jupyterhub)** (👨‍💻 180 · 🔀 1.2K · 📦 650 · 📋 1.6K - 22% open · ⏱️ 05.11.2019):
+- **[GitHub](https://github.com/jupyterhub/jupyterhub)** (👨‍💻 180 · 🔀 1.2K · 📦 650 · 📋 1.6K - 22% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/jupyterhub/jupyterhub
 	```
-- **[PyPi](https://pypi.org/project/jupyterhub)** (📦 450 · ⏱️ 03.05.2019):
+- **[PyPi](https://pypi.org/project/jupyterhub)** (📥 40K / month · 📦 450 · ⏱️ 03.05.2019):
 
 	```
 	pip install jupyterhub
@@ -148,9 +148,9 @@ _Collaboration Tools..._
 	docker pull jupyterhub/jupyterhub
 	```
 </details>
-<details><summary><b><a href="https://github.com/eclipse-theia/theia">Theia</a></b> (🥈28 ·  ⭐ 6.2K) - Eclipse Theia is a cloud & desktop IDE framework implemented in.. <code><a href="https://opensource.org/licenses/EPL-2.0">EPL-2.0</a></code></summary>
+<details><summary><b><a href="https://github.com/eclipse-theia/theia">Theia</a></b> (🥈28 ·  ⭐ 6.3K) - Eclipse Theia is a cloud & desktop IDE framework implemented in TypeScript. <code><a href="https://opensource.org/licenses/EPL-2.0">EPL-2.0</a></code></summary>
 
-- **[GitHub](https://github.com/eclipse-theia/theia)** (👨‍💻 130 · 🔀 780 · 📦 190 · 📋 3.8K - 31% open · ⏱️ 08.11.2019):
+- **[GitHub](https://github.com/eclipse-theia/theia)** (👨‍💻 130 · 🔀 780 · 📦 190 · 📋 3.8K - 31% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/eclipse-theia/theia
@@ -160,7 +160,7 @@ _Collaboration Tools..._
 	```
 	npm install @theia/application-manager
 	```
-- **[Dockerhub](https://hub.docker.com/r/theiaide/theia)** (📥 920K · ⭐ 32 · ⏱️ 09.11.2019):
+- **[Dockerhub](https://hub.docker.com/r/theiaide/theia)** (📥 920K · ⭐ 32 · ⏱️ 11.11.2019):
 
 	```
 	docker pull theiaide/theia
@@ -181,12 +181,12 @@ _Collaboration Tools..._
 </details>
 <details><summary><b><a href="https://github.com/nteract/nteract">nteract</a></b> (🥈26 ·  ⭐ 4.5K) - The interactive computing suite for you!. <code><a href="https://tldrlegal.com/license/bsd-3-clause-license-(revised)">BSD-3</a></code></summary>
 
-- **[GitHub](https://github.com/nteract/nteract)** (👨‍💻 130 · 🔀 440 · 📥 670K · 📋 1.4K - 19% open · ⏱️ 08.11.2019):
+- **[GitHub](https://github.com/nteract/nteract)** (👨‍💻 130 · 🔀 440 · 📥 670K · 📋 1.5K - 19% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/nteract/nteract
 	```
-- **[PyPi](https://pypi.org/project/nteract_on_jupyter)** (📥 3.3K / month · 📦 5 · ⏱️ 16.07.2019):
+- **[PyPi](https://pypi.org/project/nteract_on_jupyter)** (📥 3.2K / month · 📦 5 · ⏱️ 16.07.2019):
 
 	```
 	pip install nteract_on_jupyter
@@ -199,7 +199,7 @@ _Collaboration Tools..._
 	```
 	git clone https://github.com/jupyter/docker-stacks
 	```
-- **[Dockerhub](https://hub.docker.com/r/jupyter/scipy-notebook)** (📥 3.4M · ⭐ 190 · ⏱️ 11.09.2019):
+- **[Dockerhub](https://hub.docker.com/r/jupyter/scipy-notebook)** (📥 3.4M · ⭐ 190 · ⏱️ 10.11.2019):
 
 	```
 	docker pull jupyter/scipy-notebook
@@ -220,7 +220,7 @@ _Collaboration Tools..._
 </details>
 <details><summary><b><a href="https://github.com/apache/zeppelin">Zeppelin</a></b> (🥉23 ·  ⭐ 4.5K) - Web-based notebook that enables interactive data analytics. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/apache/zeppelin)** (👨‍💻 380 · 🔀 2.1K · ⏱️ 05.11.2019):
+- **[GitHub](https://github.com/apache/zeppelin)** (👨‍💻 380 · 🔀 2.1K · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/apache/zeppelin
@@ -240,15 +240,15 @@ _Collaboration Tools..._
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/polynote/polynote">polynote</a></b> (🥉22 ·  ⭐ 2.8K) - A better notebook for Scala (and more). <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/polynote/polynote">polynote</a></b> (🥉22 ·  ⭐ 2.9K) - A better notebook for Scala (and more). <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/polynote/polynote)** (👨‍💻 15 · 🔀 200 · 📥 8.8K · 📋 280 - 37% open · ⏱️ 08.11.2019):
+- **[GitHub](https://github.com/polynote/polynote)** (👨‍💻 15 · 🔀 210 · 📥 9.2K · 📋 290 - 38% open · ⏱️ 08.11.2019):
 
 	```
 	git clone https://github.com/polynote/polynote
 	```
 </details>
-<details><summary><b><a href="https://github.com/nteract/hydrogen">Hydrogen</a></b> (🥉20 ·  ⭐ 3.4K) - Run code interactively, inspect data, and plot. All the power of.. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/nteract/hydrogen">Hydrogen</a></b> (🥉20 ·  ⭐ 3.4K) - Run code interactively, inspect data, and plot. All the power of Jupyter kernels,.. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
 
 - **[GitHub](https://github.com/nteract/hydrogen)** (👨‍💻 74 · 🔀 260 · 📋 1K - 8% open · ⏱️ 02.11.2019):
 
@@ -277,7 +277,7 @@ _Collaboration Tools..._
 	git clone https://github.com/spark-notebook/spark-notebook
 	```
 </details>
-<details><summary><b><a href="https://github.com/googledatalab/datalab">DataLab</a></b> (🥉18 ·  ⭐ 890) - Interactive tools and developer experiences for Big Data on Google.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/googledatalab/datalab">DataLab</a></b> (🥉18 ·  ⭐ 890) - Interactive tools and developer experiences for Big Data on Google Cloud Platform. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
 - **[GitHub](https://github.com/googledatalab/datalab)** (👨‍💻 50 · 🔀 240 · 📋 870 - 24% open · ⏱️ 05.06.2019):
 
@@ -293,39 +293,26 @@ _Collaboration Tools..._
 	git clone https://github.com/h2oai/h2o-flow
 	```
 </details>
-<details><summary><b><a href="https://github.com/ml-tooling/ml-workspace">ML Workspace</a></b> (🥉15 ·  ⭐ 680 · 🐣) - All-in-one web-based IDE specialized for machine learning and data.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/ml-tooling/ml-workspace">ML Workspace</a></b> (🥉15 ·  ⭐ 690 · 🐣) - All-in-one web-based IDE specialized for machine learning and data.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
 - **[GitHub](https://github.com/ml-tooling/ml-workspace)** (👨‍💻 6 · 🔀 65 · 📋 9 - 55% open · ⏱️ 30.10.2019):
 
 	```
 	git clone https://github.com/ml-tooling/ml-workspace
 	```
-- **[Dockerhub](https://hub.docker.com/r/mltooling/ml-workspace)** (📥 5.2K · ⭐ 4 · ⏱️ 04.10.2019):
+- **[Dockerhub](https://hub.docker.com/r/mltooling/ml-workspace)** (📥 5.3K · ⭐ 4 · ⏱️ 04.10.2019):
 
 	```
 	docker pull mltooling/ml-workspace
 	```
 </details>
-<details><summary>Show 2 hidden projects...</summary>
+<details><summary>Show 1 hidden projects...</summary>
 <br><details><summary><b><a href="https://github.com/rstudio/rstudio">RStudio</a></b> (🥉17 ·  ⭐ 3K) - RStudio is an integrated development environment (IDE) for R. <code><a href="https://tldrlegal.com/license/gnu-affero-general-public-license-v3-(agpl-3.0)">❗️AGPL-3.0</a></code></summary>
 
-- **[GitHub](https://github.com/rstudio/rstudio)** (👨‍💻 92 · 🔀 730 · 📋 3K - 45% open · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/rstudio/rstudio)** (👨‍💻 92 · 🔀 730 · 📋 3K - 45% open · ⏱️ 10.11.2019):
 
 	```
 	git clone https://github.com/rstudio/rstudio
-	```
-</details>
-<details><summary><b><a href="https://github.com/ml-tooling/ml-hub">ML Hub</a></b> (🥉14 ·  ⭐ 36 · 🐣) - Multi-user development platform for machine learning teams. Simple.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
-
-- **[GitHub](https://github.com/ml-tooling/ml-hub)** (👨‍💻 4 · 🔀 4 · 📥 42 · ⏱️ 22.10.2019):
-
-	```
-	git clone https://github.com/ml-tooling/ml-hub
-	```
-- **[Dockerhub](https://hub.docker.com/r/mltooling/ml-hub)** (📥 1.7K · ⭐ 1 · ⏱️ 22.10.2019):
-
-	```
-	docker pull mltooling/ml-hub
 	```
 </details>
 </details>
@@ -335,20 +322,22 @@ _Collaboration Tools..._
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://i.ibb.co/2PS8bhR/up-arrow.png" alt="Back to top"></a>
 
-<details><summary><b><a href="https://github.com/h2oai/h2o-3">H2O</a></b> (🥇30 ·  ⭐ 4.4K) - Open Source Fast Scalable Machine Learning Platform For Smarter.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+_Distributed, scalable, ..._
+
+<details><summary><b><a href="https://github.com/h2oai/h2o-3">H2O</a></b> (🥇30 ·  ⭐ 4.4K) - Open Source Fast Scalable Machine Learning Platform For Smarter Applications: Deep.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
 - **[GitHub](https://github.com/h2oai/h2o-3)** (👨‍💻 180 · 🔀 1.6K · 📦 210 · ⏱️ 09.11.2019):
 
 	```
 	git clone https://github.com/h2oai/h2o-3
 	```
-- **[PyPi](https://pypi.org/project/h2o)** (📥 73K / month · 📦 48 · ⏱️ 29.10.2019):
+- **[PyPi](https://pypi.org/project/h2o)** (📥 71K / month · 📦 48 · ⏱️ 29.10.2019):
 
 	```
 	pip install h2o
 	```
 </details>
-<details><summary><b><a href="https://github.com/apache/predictionio">PredictionIO</a></b> (🥈27 ·  ⭐ 12K) - PredictionIO, a machine learning server for developers and ML.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/apache/predictionio">PredictionIO</a></b> (🥇27 ·  ⭐ 12K) - PredictionIO, a machine learning server for developers and ML engineers. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
 - **[GitHub](https://github.com/apache/predictionio)** (👨‍💻 160 · 🔀 1.9K · 📥 3.8K · ⏱️ 05.11.2019):
 
@@ -366,14 +355,14 @@ _Collaboration Tools..._
 	docker pull predictionio/pio
 	```
 </details>
-<details><summary><b><a href="https://github.com/kubeflow/kubeflow">Kubeflow</a></b> (🥈27 ·  ⭐ 7.8K) - Machine Learning Toolkit for Kubernetes. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/kubeflow/kubeflow">Kubeflow</a></b> (🥇27 ·  ⭐ 7.8K) - Machine Learning Toolkit for Kubernetes. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
 - **[GitHub](https://github.com/kubeflow/kubeflow)** (👨‍💻 190 · 🔀 1.2K · 📥 41K · 📋 2.3K - 15% open · ⏱️ 09.11.2019):
 
 	```
 	git clone https://github.com/kubeflow/kubeflow
 	```
-- **[PyPi](https://pypi.org/project/kfp)** (📥 12K / month · 📦 6 · ⏱️ 09.11.2019):
+- **[PyPi](https://pypi.org/project/kfp)** (📥 11K / month · 📦 6 · ⏱️ 09.11.2019):
 
 	```
 	pip install kfp
@@ -381,12 +370,12 @@ _Collaboration Tools..._
 </details>
 <details><summary><b><a href="https://github.com/pachyderm/pachyderm">Pachyderm</a></b> (🥈26 ·  ⭐ 4K) - Reproducible Data Science at Scale!. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/pachyderm/pachyderm)** (👨‍💻 100 · 🔀 390 · 📥 33K · 📋 2.2K - 22% open · ⏱️ 08.11.2019):
+- **[GitHub](https://github.com/pachyderm/pachyderm)** (👨‍💻 100 · 🔀 390 · 📥 33K · 📋 2.2K - 22% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/pachyderm/pachyderm
 	```
-- **[PyPi](https://pypi.org/project/python-pachyderm)** (📥 1.3K / month · 📦 3 · ⏱️ 06.11.2019):
+- **[PyPi](https://pypi.org/project/python-pachyderm)** (📥 1.2K / month · 📦 3 · ⏱️ 06.11.2019):
 
 	```
 	pip install python-pachyderm
@@ -397,14 +386,14 @@ _Collaboration Tools..._
 	docker pull pachyderm/pachd
 	```
 </details>
-<details><summary><b><a href="https://github.com/polyaxon/polyaxon">Polyaxon</a></b> (🥉25 ·  ⭐ 2.2K) - A platform for reproducible and scalable machine learning and deep.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/polyaxon/polyaxon">Polyaxon</a></b> (🥈25 ·  ⭐ 2.2K) - A platform for reproducible and scalable machine learning and deep learning on.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
 - **[GitHub](https://github.com/polyaxon/polyaxon)** (👨‍💻 64 · 🔀 200 · 📋 440 - 26% open · ⏱️ 08.11.2019):
 
 	```
 	git clone https://github.com/polyaxon/polyaxon
 	```
-- **[PyPi](https://pypi.org/project/polyaxon-cli)** (📥 2.8K / month · ⏱️ 15.08.2019):
+- **[PyPi](https://pypi.org/project/polyaxon-cli)** (📥 2.5K / month · ⏱️ 15.08.2019):
 
 	```
 	pip install polyaxon-cli
@@ -415,7 +404,7 @@ _Collaboration Tools..._
 	docker pull polyaxon/polyaxon-api
 	```
 </details>
-<details><summary><b><a href="https://github.com/apache/mahout">Mahout</a></b> (🥉22 ·  ⭐ 1.7K) - Powerful, scalable machine-learning library that runs on top of.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/apache/mahout">Mahout</a></b> (🥉22 ·  ⭐ 1.7K) - Powerful, scalable machine-learning library that runs on top of Hadoop MapReduce. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
 - **[GitHub](https://github.com/apache/mahout)** (👨‍💻 57 · 🔀 910 · 📦 55 · ⏱️ 31.05.2019):
 
@@ -432,7 +421,7 @@ _Collaboration Tools..._
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/OryxProject/oryx">Oryx 2</a></b> (🥉21 ·  ⭐ 1.7K) - Oryx 2: Lambda architecture on Apache Spark, Apache Kafka for real-.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/OryxProject/oryx">Oryx 2</a></b> (🥉21 ·  ⭐ 1.7K) - Oryx 2: Lambda architecture on Apache Spark, Apache Kafka for real-time large.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
 - **[GitHub](https://github.com/OryxProject/oryx)** (👨‍💻 16 · 🔀 380 · 📥 14K · 📋 200 - 1% open · ⏱️ 31.08.2019):
 
@@ -449,14 +438,14 @@ _Collaboration Tools..._
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/apache/systemml">SystemML</a></b> (🥉21 ·  ⭐ 780) - A machine learning platform optimal for big data running on Apache.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/apache/systemml">SystemML</a></b> (🥉21 ·  ⭐ 790) - A machine learning platform optimal for big data running on Apache Spark,. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
 - **[GitHub](https://github.com/apache/systemml)** (👨‍💻 85 · 🔀 290 · 📦 3 · ⏱️ 09.08.2019):
 
 	```
 	git clone https://github.com/apache/systemml
 	```
-- **[PyPi](https://pypi.org/project/systemml)** (📥 1.9K / month · ⏱️ 27.08.2018):
+- **[PyPi](https://pypi.org/project/systemml)** (📥 1.8K / month · ⏱️ 27.08.2018):
 
 	```
 	pip install systemml
@@ -471,7 +460,7 @@ _Collaboration Tools..._
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/apache/singa">Singa</a></b> (🥉17 ·  ⭐ 1.8K) - Flexible architecture for scalable distributed training, it is.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/apache/singa">Singa</a></b> (🥉17 ·  ⭐ 1.8K) - Flexible architecture for scalable distributed training, it is extensible to run.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
 - **[GitHub](https://github.com/apache/singa)** (👨‍💻 60 · 🔀 480 · ⏱️ 06.11.2019):
 
@@ -489,7 +478,7 @@ _Collaboration Tools..._
 	docker pull apache/singa
 	```
 </details>
-<details><summary>Show 1 hidden projects...</summary>
+<details><summary>Show 2 hidden projects...</summary>
 <br><details><summary><b><a href="https://github.com/EpistasisLab/pennai">PennAI</a></b> (🥉14 ·  ⭐ 93) - the Penn AI engine. <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)">❗️GPL-3.0</a></code></summary>
 
 - **[GitHub](https://github.com/EpistasisLab/pennai)** (👨‍💻 38 · 🔀 23 · 📥 160 · 📋 180 - 28% open · ⏱️ 17.10.2019):
@@ -497,10 +486,23 @@ _Collaboration Tools..._
 	```
 	git clone https://github.com/EpistasisLab/pennai
 	```
-- **[Dockerhub](https://hub.docker.com/r/moorelab/pennai_lab)** (📥 28 · ⏱️ 07.08.2019):
+- **[Dockerhub](https://hub.docker.com/r/moorelab/pennai_lab)** (📥 29 · ⏱️ 07.08.2019):
 
 	```
 	docker pull moorelab/pennai_lab
+	```
+</details>
+<details><summary><b><a href="https://github.com/ml-tooling/ml-hub">ML Hub</a></b> (🥉14 ·  ⭐ 37 · 🐣) - Multi-user development platform for machine learning teams. Simple to setup.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+
+- **[GitHub](https://github.com/ml-tooling/ml-hub)** (👨‍💻 4 · 🔀 4 · 📥 42 · ⏱️ 22.10.2019):
+
+	```
+	git clone https://github.com/ml-tooling/ml-hub
+	```
+- **[Dockerhub](https://hub.docker.com/r/mltooling/ml-hub)** (📥 2.2K · ⭐ 1 · ⏱️ 11.11.2019):
+
+	```
+	docker pull mltooling/ml-hub
 	```
 </details>
 </details>
@@ -512,7 +514,7 @@ _Collaboration Tools..._
 
 _Data Analytics, SQL.._
 
-<details><summary><b><a href="https://github.com/metabase/metabase">Metabase</a></b> (🥇29 ·  ⭐ 18K) - The simplest, fastest way to get business intelligence and analytics.. <code><a href="https://tldrlegal.com/license/gnu-affero-general-public-license-v3-(agpl-3.0)">❗️AGPL-3.0</a></code></summary>
+<details><summary><b><a href="https://github.com/metabase/metabase">Metabase</a></b> (🥇29 ·  ⭐ 18K) - The simplest, fastest way to get business intelligence and analytics to.. <code><a href="https://tldrlegal.com/license/gnu-affero-general-public-license-v3-(agpl-3.0)">❗️AGPL-3.0</a></code></summary>
 
 - **[GitHub](https://github.com/metabase/metabase)** (👨‍💻 220 · 🔀 2.3K · 📥 1K · 📦 1 · 📋 6.4K - 32% open · ⏱️ 08.11.2019):
 
@@ -525,27 +527,27 @@ _Data Analytics, SQL.._
 	docker pull metabase/metabase
 	```
 </details>
-<details><summary><b><a href="https://github.com/getredash/redash">Redash</a></b> (🥈28 ·  ⭐ 14K) - Make Your Company Data Driven. Connect to any data source, easily.. <code><a href="https://tldrlegal.com/license/bsd-2-clause-license-(freebsd)">BSD-2</a></code></summary>
+<details><summary><b><a href="https://github.com/getredash/redash">Redash</a></b> (🥈28 ·  ⭐ 14K) - Make Your Company Data Driven. Connect to any data source, easily visualize,.. <code><a href="https://tldrlegal.com/license/bsd-2-clause-license-(freebsd)">BSD-2</a></code></summary>
 
-- **[GitHub](https://github.com/getredash/redash)** (👨‍💻 330 · 🔀 2.3K · 📥 14K · 📋 1.8K - 24% open · ⏱️ 07.11.2019):
+- **[GitHub](https://github.com/getredash/redash)** (👨‍💻 330 · 🔀 2.3K · 📥 14K · 📋 1.8K - 24% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/getredash/redash
 	```
-- **[Dockerhub](https://hub.docker.com/r/redash/redash)** (📥 10M · ⭐ 130 · ⏱️ 07.11.2019):
+- **[Dockerhub](https://hub.docker.com/r/redash/redash)** (📥 10M · ⭐ 130 · ⏱️ 11.11.2019):
 
 	```
 	docker pull redash/redash
 	```
 </details>
-<details><summary><b><a href="https://github.com/apache/incubator-superset">Superset</a></b> (🥈27 ·  ⭐ 27K) - Apache Superset (incubating) is a modern, enterprise-ready business.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/apache/incubator-superset">Superset</a></b> (🥈27 ·  ⭐ 27K) - Apache Superset (incubating) is a modern, enterprise-ready business intelligence.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/apache/incubator-superset)** (👨‍💻 440 · 🔀 5.3K · 📋 4K - 5% open · ⏱️ 08.11.2019):
+- **[GitHub](https://github.com/apache/incubator-superset)** (👨‍💻 440 · 🔀 5.3K · 📋 4K - 5% open · ⏱️ 10.11.2019):
 
 	```
 	git clone https://github.com/apache/incubator-superset
 	```
-- **[PyPi](https://pypi.org/project/apache-superset)** (📥 660 / month · ⏱️ 18.09.2019):
+- **[PyPi](https://pypi.org/project/apache-superset)** (📥 620 / month · ⏱️ 18.09.2019):
 
 	```
 	pip install apache-superset
@@ -563,7 +565,7 @@ _Data Analytics, SQL.._
 	```
 	git clone https://github.com/cloudera/hue
 	```
-- **[Dockerhub](https://hub.docker.com/r/gethue/hue)** (📥 540K · ⭐ 56 · ⏱️ 08.11.2019):
+- **[Dockerhub](https://hub.docker.com/r/gethue/hue)** (📥 540K · ⭐ 56 · ⏱️ 11.11.2019):
 
 	```
 	docker pull gethue/hue
@@ -571,7 +573,7 @@ _Data Analytics, SQL.._
 </details>
 <details><summary><b><a href="https://github.com/microsoft/azuredatastudio">Azure Data Studio</a></b> (🥉22 ·  ⭐ 5.4K) - Azure Data Studio is a data management tool that enables working.. <code><a href="https://tldrlegal.com/search?q=Custom%20EULA">❗️Custom EULA</a></code></summary>
 
-- **[GitHub](https://github.com/microsoft/azuredatastudio)** (👨‍💻 92 · 🔀 430 · 📥 160K · 📋 5.1K - 34% open · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/microsoft/azuredatastudio)** (👨‍💻 92 · 🔀 440 · 📥 160K · 📋 5.1K - 34% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/microsoft/azuredatastudio
@@ -585,7 +587,7 @@ _Data Analytics, SQL.._
 	git clone https://github.com/ankane/blazer
 	```
 </details>
-<details><summary><b><a href="https://github.com/shzlw/poli">Poli</a></b> (🥉19 ·  ⭐ 1.5K) - An easy-to-use BI server built for SQL lovers. Power data analysis.. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/shzlw/poli">Poli</a></b> (🥉19 ·  ⭐ 1.5K) - An easy-to-use BI server built for SQL lovers. Power data analysis in SQL and gain.. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
 
 - **[GitHub](https://github.com/shzlw/poli)** (👨‍💻 2 · 🔀 200 · 📥 2.8K · 📋 37 - 21% open · ⏱️ 05.10.2019):
 
@@ -598,7 +600,7 @@ _Data Analytics, SQL.._
 	docker pull zhonglu/poli
 	```
 </details>
-<details><summary><b><a href="https://github.com/TuiQiao/CBoard">CBoard</a></b> (🥉18 ·  ⭐ 2.2K) - An easy to use, self-service open BI reporting and BI dashboard.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/TuiQiao/CBoard">CBoard</a></b> (🥉18 ·  ⭐ 2.2K) - An easy to use, self-service open BI reporting and BI dashboard platform. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
 - **[GitHub](https://github.com/TuiQiao/CBoard)** (👨‍💻 30 · 🔀 940 · 📋 560 - 13% open · ⏱️ 22.09.2019):
 
@@ -611,14 +613,14 @@ _Data Analytics, SQL.._
 	docker pull peterzhang921/cboard
 	```
 </details>
-<details><summary><b><a href="https://gitlab.com/meltano/meltano">Meltano</a></b> (🥉14 ·  ⭐ 320) - Convention-over-configuration product for the whole data lifecycle,.. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
+<details><summary><b><a href="https://gitlab.com/meltano/meltano">Meltano</a></b> (🥉14 ·  ⭐ 320) - Convention-over-configuration product for the whole data lifecycle, all the way from.. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
 
-- **[PyPi](https://pypi.org/project/meltano)** (📥 870 / month · ⏱️ 28.10.2019):
+- **[PyPi](https://pypi.org/project/meltano)** (📥 860 / month · ⏱️ 11.11.2019):
 
 	```
 	pip install meltano
 	```
-- **[Dockerhub](https://hub.docker.com/r/meltano/meltano)** (📥 220K · ⭐ 3 · ⏱️ 04.11.2019):
+- **[Dockerhub](https://hub.docker.com/r/meltano/meltano)** (📥 220K · ⭐ 3 · ⏱️ 11.11.2019):
 
 	```
 	docker pull meltano/meltano
@@ -630,16 +632,16 @@ _Data Analytics, SQL.._
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://i.ibb.co/2PS8bhR/up-arrow.png" alt="Back to top"></a>
 
-_Scheduling, Workflow, Dataflow, ETL...,  job orchestration_
+_Platforms and tools to schedule, orchestrate, and monitor jobs for workflow automation and data pipeline tasks._
 
 <details><summary><b><a href="https://github.com/apache/airflow">Airflow</a></b> (🥇33 ·  ⭐ 15K) - Platform to programmatically author, schedule, and monitor workflows. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/apache/airflow)** (👨‍💻 1.2K · 🔀 5.5K · 📥 260 · 📦 600 · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/apache/airflow)** (👨‍💻 1.2K · 🔀 5.5K · 📥 260 · 📦 600 · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/apache/airflow
 	```
-- **[PyPi](https://pypi.org/project/apache-airflow)** (📥 380K / month · 📦 210 · ⏱️ 25.10.2019):
+- **[PyPi](https://pypi.org/project/apache-airflow)** (📥 370K / month · 📦 210 · ⏱️ 25.10.2019):
 
 	```
 	pip install apache-airflow
@@ -649,20 +651,20 @@ _Scheduling, Workflow, Dataflow, ETL...,  job orchestration_
 	```
 	conda install -c conda-forge airflow
 	```
-- **[Dockerhub](https://hub.docker.com/r/apache/airflow)** (📥 270K · ⭐ 59 · ⏱️ 09.11.2019):
+- **[Dockerhub](https://hub.docker.com/r/apache/airflow)** (📥 270K · ⭐ 60 · ⏱️ 11.11.2019):
 
 	```
 	docker pull apache/airflow
 	```
 </details>
-<details><summary><b><a href="https://github.com/spotify/luigi">luigi</a></b> (🥇33 ·  ⭐ 12K) - Luigi is a Python module that helps you build complex pipelines of.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/spotify/luigi">luigi</a></b> (🥇33 ·  ⭐ 12K) - Luigi is a Python module that helps you build complex pipelines of batch jobs. It.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
 - **[GitHub](https://github.com/spotify/luigi)** (👨‍💻 520 · 🔀 2K · 📦 900 · 📋 810 - 7% open · ⏱️ 01.11.2019):
 
 	```
 	git clone https://github.com/spotify/luigi
 	```
-- **[PyPi](https://pypi.org/project/luigi)** (📥 180K / month · 📦 610 · ⏱️ 27.08.2019):
+- **[PyPi](https://pypi.org/project/luigi)** (📥 170K / month · 📦 610 · ⏱️ 27.08.2019):
 
 	```
 	pip install luigi
@@ -675,25 +677,25 @@ _Scheduling, Workflow, Dataflow, ETL...,  job orchestration_
 </details>
 <details><summary><b><a href="https://github.com/kubeflow/pipelines">Kubeflow Pipelines</a></b> (🥈25 ·  ⭐ 1.2K) - Machine Learning Pipelines for Kubeflow. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/kubeflow/pipelines)** (👨‍💻 92 · 🔀 360 · 📋 960 - 36% open · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/kubeflow/pipelines)** (👨‍💻 92 · 🔀 360 · 📋 970 - 36% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/kubeflow/pipelines
 	```
-- **[PyPi](https://pypi.org/project/kfp)** (📥 12K / month · 📦 6 · ⏱️ 09.11.2019):
+- **[PyPi](https://pypi.org/project/kfp)** (📥 11K / month · 📦 6 · ⏱️ 09.11.2019):
 
 	```
 	pip install kfp
 	```
 </details>
-<details><summary><b><a href="https://github.com/uber/cadence">Cadence</a></b> (🥈24 ·  ⭐ 3K) - Cadence is a distributed, scalable, durable, and highly available.. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/uber/cadence">Cadence</a></b> (🥈24 ·  ⭐ 3K) - Cadence is a distributed, scalable, durable, and highly available orchestration engine.. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
 
-- **[GitHub](https://github.com/uber/cadence)** (👨‍💻 48 · 🔀 240 · 📥 7K · 📋 1K - 30% open · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/uber/cadence)** (👨‍💻 48 · 🔀 240 · 📥 7K · 📋 1K - 30% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/uber/cadence
 	```
-- **[Dockerhub](https://hub.docker.com/r/ubercadence/server)** (📥 480K · ⭐ 2 · ⏱️ 09.11.2019):
+- **[Dockerhub](https://hub.docker.com/r/ubercadence/server)** (📥 520K · ⭐ 2 · ⏱️ 11.11.2019):
 
 	```
 	docker pull ubercadence/server
@@ -715,7 +717,7 @@ _Scheduling, Workflow, Dataflow, ETL...,  job orchestration_
 	```
 	git clone https://github.com/Netflix/genie
 	```
-- **[PyPi](https://pypi.org/project/nflx-genie-client)** (📥 50K / month · 📦 5 · ⏱️ 31.01.2019):
+- **[PyPi](https://pypi.org/project/nflx-genie-client)** (📥 49K / month · 📦 5 · ⏱️ 31.01.2019):
 
 	```
 	pip install nflx-genie-client
@@ -737,7 +739,7 @@ _Scheduling, Workflow, Dataflow, ETL...,  job orchestration_
 </details>
 <details><summary><b><a href="https://github.com/argoproj/argo">argo</a></b> (🥈23 ·  ⭐ 4K) - Argo Workflows: Get stuff done with Kubernetes. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/argoproj/argo)** (👨‍💻 140 · 🔀 580 · 📥 200K · 📋 1K - 23% open · ⏱️ 07.11.2019):
+- **[GitHub](https://github.com/argoproj/argo)** (👨‍💻 140 · 🔀 580 · 📥 200K · 📋 1K - 23% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/argoproj/argo
@@ -748,7 +750,7 @@ _Scheduling, Workflow, Dataflow, ETL...,  job orchestration_
 	docker pull argoproj/argoui
 	```
 </details>
-<details><summary><b><a href="https://github.com/distribworks/dkron">dkron</a></b> (🥈23 ·  ⭐ 2K) - Dkron - Distributed, fault tolerant job scheduling system.. <code><a href="https://tldrlegal.com/license/gnu-lesser-general-public-license-v3-(lgpl-3)">❗️LGPL-3.0</a></code></summary>
+<details><summary><b><a href="https://github.com/distribworks/dkron">dkron</a></b> (🥈23 ·  ⭐ 2K) - Dkron - Distributed, fault tolerant job scheduling system https://dkron.io. <code><a href="https://tldrlegal.com/license/gnu-lesser-general-public-license-v3-(lgpl-3)">❗️LGPL-3.0</a></code></summary>
 
 - **[GitHub](https://github.com/distribworks/dkron)** (👨‍💻 42 · 🔀 190 · 📥 260K · 📋 320 - 10% open · ⏱️ 29.10.2019):
 
@@ -761,32 +763,19 @@ _Scheduling, Workflow, Dataflow, ETL...,  job orchestration_
 	docker pull dkron/dkron
 	```
 </details>
-<details><summary><b><a href="https://github.com/dagster-io/dagster">Dagster</a></b> (🥈23 ·  ⭐ 980) - A Python library for building data applications: ETL, ML, Data.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/n8n-io/n8n">n8n.io</a></b> (🥉22 ·  ⭐ 4.9K · 🐣) - Free node based Workflow Automation Tool. Easily automate tasks across.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/dagster-io/dagster)** (👨‍💻 38 · 🔀 73 · 📦 34 · 📋 970 - 23% open · ⏱️ 08.11.2019):
-
-	```
-	git clone https://github.com/dagster-io/dagster
-	```
-- **[PyPi](https://pypi.org/project/dagster)** (📥 4.6K / month · 📦 2 · ⏱️ 01.11.2019):
-
-	```
-	pip install dagster
-	```
-</details>
-<details><summary><b><a href="https://github.com/n8n-io/n8n">n8n.io</a></b> (🥉22 ·  ⭐ 4.8K · 🐣) - Free node based Workflow Automation Tool. Easily automate tasks.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
-
-- **[GitHub](https://github.com/n8n-io/n8n)** (👨‍💻 21 · 🔀 240 · 📋 70 - 38% open · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/n8n-io/n8n)** (👨‍💻 21 · 🔀 240 · 📋 70 - 38% open · ⏱️ 10.11.2019):
 
 	```
 	git clone https://github.com/n8n-io/n8n
 	```
-- **[NPM](https://www.npmjs.com/package/n8n)** (📥 2.4K / month · ⏱️ 07.11.2019):
+- **[NPM](https://www.npmjs.com/package/n8n)** (📥 2.3K / month · ⏱️ 07.11.2019):
 
 	```
 	npm install n8n
 	```
-- **[Dockerhub](https://hub.docker.com/r/n8nio/n8n)** (📥 85K · ⭐ 9 · ⏱️ 07.11.2019):
+- **[Dockerhub](https://hub.docker.com/r/n8nio/n8n)** (📥 91K · ⭐ 9 · ⏱️ 07.11.2019):
 
 	```
 	docker pull n8nio/n8n
@@ -838,7 +827,7 @@ _Scheduling, Workflow, Dataflow, ETL...,  job orchestration_
 	docker pull mcuadros/ofelia
 	```
 </details>
-<details><summary><b><a href="https://github.com/apache/aurora">Aurora</a></b> (🥉16 ·  ⭐ 620) - Apache Aurora - A Mesos framework for long-running services, cron.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/apache/aurora">Aurora</a></b> (🥉16 ·  ⭐ 620) - Apache Aurora - A Mesos framework for long-running services, cron jobs, and ad-hoc.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
 - **[GitHub](https://github.com/apache/aurora)** (👨‍💻 140 · 🔀 220 · 📋 34 - 32% open · ⏱️ 07.11.2019):
 
@@ -848,7 +837,7 @@ _Scheduling, Workflow, Dataflow, ETL...,  job orchestration_
 </details>
 <details><summary><b><a href="https://github.com/stitchfix/flotilla-os">Flotilla</a></b> (🥉11 ·  ⭐ 140) - Self-service framework for defining and executing containerized jobs. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/stitchfix/flotilla-os)** (👨‍💻 8 · 🔀 7 · 📋 45 - 42% open · ⏱️ 08.11.2019):
+- **[GitHub](https://github.com/stitchfix/flotilla-os)** (👨‍💻 8 · 🔀 7 · 📋 45 - 42% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/stitchfix/flotilla-os
@@ -860,11 +849,11 @@ _Scheduling, Workflow, Dataflow, ETL...,  job orchestration_
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://i.ibb.co/2PS8bhR/up-arrow.png" alt="Back to top"></a>
 
-_Query Engines,..._
+_Tools to integrate and ingest data from a variety of data sources. This includes query engines, ETL tools, ..._
 
-<details><summary><b><a href="https://github.com/prisma/prisma">Prisma</a></b> (🥇35 ·  ⭐ 16K) - Database Tools incl. ORM, Migrations and Admin UI (Postgres, MySQL &.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/prisma/prisma">Prisma</a></b> (🥇35 ·  ⭐ 16K) - Database Tools incl. ORM, Migrations and Admin UI (Postgres, MySQL & MongoDB). <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/prisma/prisma)** (👨‍💻 250 · 🔀 910 · 📦 5.6K · 📋 3.4K - 18% open · ⏱️ 17.10.2019):
+- **[GitHub](https://github.com/prisma/prisma)** (👨‍💻 250 · 🔀 910 · 📦 5.6K · 📋 3.4K - 18% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/prisma/prisma
@@ -874,15 +863,15 @@ _Query Engines,..._
 	```
 	npm install prisma-client-lib
 	```
-- **[Dockerhub](https://hub.docker.com/r/prismagraphql/prisma)** (📥 16M · ⭐ 72 · ⏱️ 14.10.2019):
+- **[Dockerhub](https://hub.docker.com/r/prismagraphql/prisma)** (📥 16M · ⭐ 72 · ⏱️ 11.11.2019):
 
 	```
 	docker pull prismagraphql/prisma
 	```
 </details>
-<details><summary><b><a href="https://github.com/apache/hive">Hive</a></b> (🥇33 ·  ⭐ 2.8K) - Data warehouse software facilitates reading, writing, and managing.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/apache/hive">Hive</a></b> (🥇33 ·  ⭐ 2.8K) - Data warehouse software facilitates reading, writing, and managing large datasets.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/apache/hive)** (👨‍💻 350 · 🔀 2.4K · 📦 9 · ⏱️ 10.11.2019):
+- **[GitHub](https://github.com/apache/hive)** (👨‍💻 350 · 🔀 2.4K · 📦 9 · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/apache/hive
@@ -902,9 +891,9 @@ _Query Engines,..._
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/prestodb/presto">Presto</a></b> (🥈32 ·  ⭐ 9.8K) - High performance, distributed SQL query engine for a variety of data.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/prestodb/presto">Presto</a></b> (🥇32 ·  ⭐ 9.8K) - High performance, distributed SQL query engine for a variety of data sources. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/prestodb/presto)** (👨‍💻 440 · 🔀 3.2K · 📦 1 · 📋 4K - 24% open · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/prestodb/presto)** (👨‍💻 440 · 🔀 3.4K · 📦 1 · 📋 4K - 24% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/prestodb/presto
@@ -919,12 +908,12 @@ _Query Engines,..._
 	```
 	npm install presto-client
 	```
-- **[Dockerhub](https://hub.docker.com/r/prestosql/presto)** (📥 71K · ⭐ 4 · ⏱️ 02.11.2019):
+- **[Dockerhub](https://hub.docker.com/r/prestosql/presto)** (📥 72K · ⭐ 4 · ⏱️ 02.11.2019):
 
 	```
 	docker pull prestosql/presto
 	```
-- **[Maven](https://search.maven.org/artifact/com.facebook.presto/presto-spi)** (📦 340 · ⏱️ 22.02.2019):
+- **[Maven](https://search.maven.org/artifact/com.facebook.presto/presto-spi)** (📦 350 · ⏱️ 22.02.2019):
 
 	```
 	<dependency>
@@ -934,14 +923,14 @@ _Query Engines,..._
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/cloudera/Impala">Impala</a></b> (🥈30 ·  ⭐ 2.2K) - Lightning-fast, distributed SQL queries for petabytes of data stored.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/cloudera/Impala">Impala</a></b> (🥈30 ·  ⭐ 2.2K) - Lightning-fast, distributed SQL queries for petabytes of data stored in Apache.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
 - **[GitHub](https://github.com/cloudera/Impala)** (👨‍💻 170 · 🔀 810 · ⏱️ 26.06.2019):
 
 	```
 	git clone https://github.com/cloudera/Impala
 	```
-- **[PyPi](https://pypi.org/project/impyla)** (📥 98K / month · 📦 540 · ⏱️ 08.11.2019):
+- **[PyPi](https://pypi.org/project/impyla)** (📥 96K / month · 📦 540 · ⏱️ 08.11.2019):
 
 	```
 	pip install impyla
@@ -949,17 +938,17 @@ _Query Engines,..._
 </details>
 <details><summary><b><a href="https://github.com/apache/tinkerpop">TinkerPop Gremlin</a></b> (🥈30 ·  ⭐ 980) - Apache TinkerPop - a graph computing framework. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/apache/tinkerpop)** (👨‍💻 150 · 🔀 500 · 📦 200 · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/apache/tinkerpop)** (👨‍💻 150 · 🔀 500 · 📦 200 · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/apache/tinkerpop
 	```
-- **[PyPi](https://pypi.org/project/gremlinpython)** (📥 74K / month · 📦 150 · ⏱️ 09.08.2019):
+- **[PyPi](https://pypi.org/project/gremlinpython)** (📥 72K / month · 📦 150 · ⏱️ 09.08.2019):
 
 	```
 	pip install gremlinpython
 	```
-- **[NPM](https://www.npmjs.com/package/gremlin)** (📥 17K / month · 📦 86 · ⏱️ 09.08.2019):
+- **[NPM](https://www.npmjs.com/package/gremlin)** (📥 16K / month · 📦 86 · ⏱️ 09.08.2019):
 
 	```
 	npm install gremlin
@@ -974,19 +963,19 @@ _Query Engines,..._
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/Alluxio/alluxio">Alluxio</a></b> (🥈29 ·  ⭐ 4.4K) - Alluxio, data orchestration for analytics and machine learning in.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/Alluxio/alluxio">Alluxio</a></b> (🥈29 ·  ⭐ 4.4K) - Alluxio, data orchestration for analytics and machine learning in the cloud. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
 - **[GitHub](https://github.com/Alluxio/alluxio)** (👨‍💻 1.2K · 🔀 2.2K · 📥 20K · 📦 1 · 📋 520 - 38% open · ⏱️ 06.11.2019):
 
 	```
 	git clone https://github.com/Alluxio/alluxio
 	```
-- **[PyPi](https://pypi.org/project/alluxio)** (📥 68 / month · ⏱️ 07.09.2017):
+- **[PyPi](https://pypi.org/project/alluxio)** (📥 65 / month · ⏱️ 07.09.2017):
 
 	```
 	pip install alluxio
 	```
-- **[Dockerhub](https://hub.docker.com/r/alluxio/alluxio)** (📥 480K · ⭐ 3 · ⏱️ 08.11.2019):
+- **[Dockerhub](https://hub.docker.com/r/alluxio/alluxio)** (📥 490K · ⭐ 3 · ⏱️ 11.11.2019):
 
 	```
 	docker pull alluxio/alluxio
@@ -1001,7 +990,7 @@ _Query Engines,..._
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/apache/nifi">Apache NiFi</a></b> (🥈29 ·  ⭐ 1.9K) - Integrated data logistics platform for automating the movement of.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/apache/nifi">Apache NiFi</a></b> (🥈29 ·  ⭐ 1.9K) - Integrated data logistics platform for automating the movement of data.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
 - **[GitHub](https://github.com/apache/nifi)** (👨‍💻 350 · 🔀 1.5K · ⏱️ 08.11.2019):
 
@@ -1023,9 +1012,9 @@ _Query Engines,..._
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/apache/camel">Camel</a></b> (🥈28 ·  ⭐ 3K) - Integration framework that empowers you to easily integrate various.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/apache/camel">Camel</a></b> (🥈28 ·  ⭐ 3K) - Integration framework that empowers you to easily integrate various systems.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/apache/camel)** (👨‍💻 780 · 🔀 3.8K · 📦 8 · ⏱️ 08.11.2019):
+- **[GitHub](https://github.com/apache/camel)** (👨‍💻 780 · 🔀 3.8K · 📦 8 · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/apache/camel
@@ -1040,19 +1029,19 @@ _Query Engines,..._
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/apache/tika">Tika</a></b> (🥉27 ·  ⭐ 930) - Toolkit for detecting and extracting metadata and structured text.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/apache/tika">Tika</a></b> (🥈27 ·  ⭐ 930) - Toolkit for detecting and extracting metadata and structured text content from.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/apache/tika)** (👨‍💻 100 · 🔀 480 · 📦 93 · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/apache/tika)** (👨‍💻 100 · 🔀 490 · 📦 93 · ⏱️ 09.11.2019):
 
 	```
 	git clone https://github.com/apache/tika
 	```
-- **[PyPi](https://pypi.org/project/tika)** (📥 37K / month · 📦 160 · ⏱️ 09.11.2019):
+- **[PyPi](https://pypi.org/project/tika)** (📥 36K / month · 📦 160 · ⏱️ 09.11.2019):
 
 	```
 	pip install tika
 	```
-- **[NPM](https://www.npmjs.com/package/tika)** (📥 890 / month · 📦 28 · ⏱️ 22.02.2017):
+- **[NPM](https://www.npmjs.com/package/tika)** (📥 880 / month · 📦 28 · ⏱️ 22.02.2017):
 
 	```
 	npm install tika
@@ -1079,7 +1068,7 @@ _Query Engines,..._
 	```
 	git clone https://github.com/apache/drill
 	```
-- **[PyPi](https://pypi.org/project/pydrill)** (📥 910 / month · 📦 3 · ⏱️ 24.04.2018):
+- **[PyPi](https://pypi.org/project/pydrill)** (📥 820 / month · 📦 3 · ⏱️ 24.04.2018):
 
 	```
 	pip install pydrill
@@ -1099,9 +1088,9 @@ _Query Engines,..._
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/streamsets/datacollector">Data Collector</a></b> (🥉25 ·  ⭐ 900) - StreamSets Data Collector - Continuous big data and cloud platform.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/streamsets/datacollector">Data Collector</a></b> (🥉25 ·  ⭐ 910) - StreamSets Data Collector - Continuous big data and cloud platform ingest.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/streamsets/datacollector)** (👨‍💻 92 · 🔀 440 · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/streamsets/datacollector)** (👨‍💻 92 · 🔀 440 · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/streamsets/datacollector
@@ -1126,9 +1115,9 @@ _Query Engines,..._
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/apache/calcite">Calcite</a></b> (🥉24 ·  ⭐ 1.5K) - Framework for building databases and data management systems... <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/apache/calcite">Calcite</a></b> (🥉24 ·  ⭐ 1.5K) - Framework for building databases and data management systems. Includes a SQL.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/apache/calcite)** (👨‍💻 280 · 🔀 960 · 📦 3 · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/apache/calcite)** (👨‍💻 280 · 🔀 960 · 📦 3 · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/apache/calcite
@@ -1143,15 +1132,28 @@ _Query Engines,..._
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/embulk/embulk">Embulk</a></b> (🥉23 ·  ⭐ 1.3K) - Parallel bulk data loader that helps data transfer between various.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/embulk/embulk">Embulk</a></b> (🥉23 ·  ⭐ 1.3K) - Parallel bulk data loader that helps data transfer between various storages,.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/embulk/embulk)** (👨‍💻 49 · 🔀 160 · 📥 88K · 📋 420 - 39% open · ⏱️ 03.11.2019):
+- **[GitHub](https://github.com/embulk/embulk)** (👨‍💻 49 · 🔀 160 · 📥 89K · 📋 420 - 39% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/embulk/embulk
 	```
 </details>
-<details><summary><b><a href="https://github.com/scality/Zenko">Zenko</a></b> (🥉22 ·  ⭐ 280) - Zenko is the open source multi-cloud data controller: own and keep.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/dagster-io/dagster">Dagster</a></b> (🥉23 ·  ⭐ 980) - A Python library for building data applications: ETL, ML, Data Pipelines, and more. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+
+- **[GitHub](https://github.com/dagster-io/dagster)** (👨‍💻 38 · 🔀 73 · 📦 34 · 📋 970 - 23% open · ⏱️ 11.11.2019):
+
+	```
+	git clone https://github.com/dagster-io/dagster
+	```
+- **[PyPi](https://pypi.org/project/dagster)** (📥 4.4K / month · 📦 2 · ⏱️ 01.11.2019):
+
+	```
+	pip install dagster
+	```
+</details>
+<details><summary><b><a href="https://github.com/scality/Zenko">Zenko</a></b> (🥉22 ·  ⭐ 280) - Zenko is the open source multi-cloud data controller: own and keep control of your.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
 - **[GitHub](https://github.com/scality/Zenko)** (👨‍💻 38 · 🔀 46 · 📥 250 · 📋 43 - 25% open · ⏱️ 07.11.2019):
 
@@ -1164,9 +1166,9 @@ _Query Engines,..._
 	docker pull zenko/cloudserver
 	```
 </details>
-<details><summary><b><a href="https://github.com/apache/incubator-gobblin">Gobblin</a></b> (🥉21 ·  ⭐ 1.6K) - Gobblin is a distributed big data integration framework (ingestion,.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/apache/incubator-gobblin">Gobblin</a></b> (🥉21 ·  ⭐ 1.6K) - Gobblin is a distributed big data integration framework (ingestion, replication,.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/apache/incubator-gobblin)** (👨‍💻 140 · 🔀 590 · 📥 120K · ⏱️ 08.11.2019):
+- **[GitHub](https://github.com/apache/incubator-gobblin)** (👨‍💻 140 · 🔀 590 · 📥 120K · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/apache/incubator-gobblin
@@ -1196,15 +1198,15 @@ _Query Engines,..._
 </details>
 <details><summary><b><a href="https://github.com/pentaho/pentaho-kettle">Pentaho Kettle</a></b> (🥉20 ·  ⭐ 3.4K) - Pentaho Data Integration ( ETL ) a.k.a Kettle. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/pentaho/pentaho-kettle)** (👨‍💻 340 · 🔀 2K · ⏱️ 08.11.2019):
+- **[GitHub](https://github.com/pentaho/pentaho-kettle)** (👨‍💻 340 · 🔀 2K · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/pentaho/pentaho-kettle
 	```
 </details>
-<details><summary><b><a href="https://github.com/delta-io/delta">Delta Lake</a></b> (🥉19 ·  ⭐ 1.9K) - An open-source storage layer that brings scalable, ACID transactions.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/delta-io/delta">Delta Lake</a></b> (🥉19 ·  ⭐ 1.9K) - An open-source storage layer that brings scalable, ACID transactions to.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/delta-io/delta)** (👨‍💻 45 · 🔀 350 · 📋 150 - 46% open · ⏱️ 01.11.2019):
+- **[GitHub](https://github.com/delta-io/delta)** (👨‍💻 45 · 🔀 360 · 📋 150 - 46% open · ⏱️ 01.11.2019):
 
 	```
 	git clone https://github.com/delta-io/delta
@@ -1219,7 +1221,7 @@ _Query Engines,..._
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/apache/sqoop">Sqoop</a></b> (🥉18 ·  ⭐ 650) - Sqoop allows easy imports and exports of data sets between databases.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/apache/sqoop">Sqoop</a></b> (🥉18 ·  ⭐ 650) - Sqoop allows easy imports and exports of data sets between databases and HDFS. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
 - **[GitHub](https://github.com/apache/sqoop)** (👨‍💻 39 · 🔀 410 · ⏱️ 16.10.2019):
 
@@ -1233,7 +1235,7 @@ _Query Engines,..._
 	```
 </details>
 <details><summary>Show 1 hidden projects...</summary>
-<br><details><summary><b><a href="https://github.com/s3tools/s3cmd">s3cmd</a></b> (🥉22 ·  ⭐ 3.1K) - Official s3cmd repo -- Command line tool for managing Amazon S3 and.. <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v2">❗️GPL-2.0</a></code></summary>
+<br><details><summary><b><a href="https://github.com/s3tools/s3cmd">s3cmd</a></b> (🥉22 ·  ⭐ 3.1K) - Official s3cmd repo -- Command line tool for managing Amazon S3 and CloudFront.. <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v2">❗️GPL-2.0</a></code></summary>
 
 - **[GitHub](https://github.com/s3tools/s3cmd)** (👨‍💻 180 · 🔀 740 · 📥 2.6M · 📋 690 - 41% open · ⏱️ 21.05.2019):
 
@@ -1248,14 +1250,16 @@ _Query Engines,..._
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://i.ibb.co/2PS8bhR/up-arrow.png" alt="Back to top"></a>
 
-<details><summary><b><a href="https://github.com/apache/spark">Spark</a></b> (🥇36 ·  ⭐ 24K) - Unified analytics engine for big data processing, with built-in.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+_Frameworks and computing-engines for large-scale (distributed) data batch- and stream-processing._
 
-- **[GitHub](https://github.com/apache/spark)** (👨‍💻 2.1K · 🔀 20K · 📦 240 · ⏱️ 10.11.2019):
+<details><summary><b><a href="https://github.com/apache/spark">Spark</a></b> (🥇36 ·  ⭐ 24K) - Unified analytics engine for big data processing, with built-in modules for.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+
+- **[GitHub](https://github.com/apache/spark)** (👨‍💻 2.1K · 🔀 20K · 📦 240 · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/apache/spark
 	```
-- **[PyPi](https://pypi.org/project/pyspark)** (📥 2.4M / month · 📦 650 · ⏱️ 07.05.2019):
+- **[PyPi](https://pypi.org/project/pyspark)** (📥 2.3M / month · 📦 680 · ⏱️ 07.05.2019):
 
 	```
 	pip install pyspark
@@ -1265,7 +1269,7 @@ _Query Engines,..._
 	```
 	docker pull bde2020/spark-master
 	```
-- **[Maven](https://search.maven.org/artifact/org.apache.spark/spark-catalyst_2.11)** (📦 100 · ⏱️ 29.10.2018):
+- **[Maven](https://search.maven.org/artifact/org.apache.spark/spark-catalyst_2.11)** (📦 110 · ⏱️ 29.10.2018):
 
 	```
 	<dependency>
@@ -1275,9 +1279,9 @@ _Query Engines,..._
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/apache/flink">Flink</a></b> (🥇33 ·  ⭐ 11K) - Stream processing framework with powerful stream- and batch-.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/apache/flink">Flink</a></b> (🥇33 ·  ⭐ 11K) - Stream processing framework with powerful stream- and batch-processing capabilities. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/apache/flink)** (👨‍💻 860 · 🔀 5.8K · 📦 100 · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/apache/flink)** (👨‍💻 860 · 🔀 5.8K · 📦 100 · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/apache/flink
@@ -1297,9 +1301,9 @@ _Query Engines,..._
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/apache/beam">Beam</a></b> (🥇33 ·  ⭐ 3.5K) - Unified programming model to define and execute data processing.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/apache/beam">Beam</a></b> (🥇33 ·  ⭐ 3.5K) - Unified programming model to define and execute data processing pipelines,.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/apache/beam)** (👨‍💻 700 · 🔀 2.1K · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/apache/beam)** (👨‍💻 700 · 🔀 2.1K · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/apache/beam
@@ -1319,7 +1323,7 @@ _Query Engines,..._
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/apache/storm">Storm</a></b> (🥈32 ·  ⭐ 6K) - Distributed real-time computational system for processing data.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/apache/storm">Storm</a></b> (🥈32 ·  ⭐ 6K) - Distributed real-time computational system for processing data streams. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
 - **[GitHub](https://github.com/apache/storm)** (👨‍💻 470 · 🔀 4K · 📦 3 · ⏱️ 05.11.2019):
 
@@ -1341,19 +1345,19 @@ _Query Engines,..._
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/apache/kafka">Kafka</a></b> (🥈29 ·  ⭐ 14K) - Distributed streaming platform that is used to build real time.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/apache/kafka">Kafka</a></b> (🥈29 ·  ⭐ 14K) - Distributed streaming platform that is used to build real time streaming data.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/apache/kafka)** (👨‍💻 750 · 🔀 7.4K · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/apache/kafka)** (👨‍💻 750 · 🔀 7.4K · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/apache/kafka
 	```
-- **[PyPi](https://pypi.org/project/kafka)** (📥 500K / month · 📦 330 · ⏱️ 07.10.2017):
+- **[PyPi](https://pypi.org/project/kafka)** (📥 510K / month · 📦 330 · ⏱️ 07.10.2017):
 
 	```
 	pip install kafka
 	```
-- **[Dockerhub](https://hub.docker.com/r/bitnami/kafka)** (📥 17M · ⭐ 87 · ⏱️ 09.11.2019):
+- **[Dockerhub](https://hub.docker.com/r/bitnami/kafka)** (📥 17M · ⭐ 88 · ⏱️ 11.11.2019):
 
 	```
 	docker pull bitnami/kafka
@@ -1368,9 +1372,9 @@ _Query Engines,..._
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/apache/hadoop">Hadoop</a></b> (🥈29 ·  ⭐ 9.8K) - Framework that allows for the distributed processing of large data.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/apache/hadoop">Hadoop</a></b> (🥈29 ·  ⭐ 9.8K) - Framework that allows for the distributed processing of large data sets across.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/apache/hadoop)** (👨‍💻 400 · 🔀 6.1K · 📦 58 · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/apache/hadoop)** (👨‍💻 400 · 🔀 6.1K · 📦 58 · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/apache/hadoop
@@ -1385,9 +1389,9 @@ _Query Engines,..._
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/apache/incubator-heron">Heron</a></b> (🥉23 ·  ⭐ 3.4K) - Apache Heron (Incubating) is a realtime, distributed, fault-tolerant.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/apache/incubator-heron">Heron</a></b> (🥈23 ·  ⭐ 3.4K) - Apache Heron (Incubating) is a realtime, distributed, fault-tolerant stream.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/apache/incubator-heron)** (👨‍💻 130 · 🔀 600 · 📥 58K · 📋 940 - 41% open · ⏱️ 08.11.2019):
+- **[GitHub](https://github.com/apache/incubator-heron)** (👨‍💻 130 · 🔀 600 · 📥 58K · 📋 940 - 41% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/apache/incubator-heron
@@ -1400,18 +1404,18 @@ _Query Engines,..._
 </details>
 <details><summary><b><a href="https://github.com/vespa-engine/vespa">Vespa</a></b> (🥉22 ·  ⭐ 3K) - Vespa is an engine for low-latency computation over large data sets. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/vespa-engine/vespa)** (👨‍💻 86 · 🔀 360 · 📦 1 · 📋 290 - 28% open · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/vespa-engine/vespa)** (👨‍💻 86 · 🔀 360 · 📦 1 · 📋 290 - 28% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/vespa-engine/vespa
 	```
-- **[Dockerhub](https://hub.docker.com/r/vespaengine/vespa)** (📥 490K · ⭐ 5 · ⏱️ 06.11.2019):
+- **[Dockerhub](https://hub.docker.com/r/vespaengine/vespa)** (📥 490K · ⭐ 5 · ⏱️ 11.11.2019):
 
 	```
 	docker pull vespaengine/vespa
 	```
 </details>
-<details><summary><b><a href="https://github.com/apache/flume">Flume</a></b> (🥉22 ·  ⭐ 1.8K) - Service for efficiently collecting, aggregating, and moving large.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/apache/flume">Flume</a></b> (🥉22 ·  ⭐ 1.8K) - Service for efficiently collecting, aggregating, and moving large amounts of log.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
 - **[GitHub](https://github.com/apache/flume)** (👨‍💻 67 · 🔀 1.2K · 📦 110 · ⏱️ 24.10.2019):
 
@@ -1428,7 +1432,29 @@ _Query Engines,..._
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/linkedin/brooklin">Brooklin</a></b> (🥉20 ·  ⭐ 490) - An extensible distributed system for reliable nearline data.. <code><a href="https://tldrlegal.com/license/bsd-2-clause-license-(freebsd)">BSD-2</a></code></summary>
+<details><summary><b><a href="https://github.com/hazelcast/hazelcast-jet">Hazelcast Jet</a></b> (🥉22 ·  ⭐ 390) - Distributed stream and batch processing engine, built on top of Hazelcast. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+
+- **[GitHub](https://github.com/hazelcast/hazelcast-jet)** (👨‍💻 30 · 🔀 110 · 📥 2 · 📦 120 · 📋 460 - 12% open · ⏱️ 11.11.2019):
+
+	```
+	git clone https://github.com/hazelcast/hazelcast-jet
+	```
+- **[Dockerhub](https://hub.docker.com/r/hazelcast/hazelcast-jet)** (📥 7.6K · ⭐ 2 · ⏱️ 11.11.2019):
+
+	```
+	docker pull hazelcast/hazelcast-jet
+	```
+- **[Maven](https://search.maven.org/artifact/com.hazelcast.jet/hazelcast-jet)** (📦 12 · ⏱️ 14.06.2017):
+
+	```
+	<dependency>
+		<groupId>com.hazelcast.jet</groupId>
+		<artifactId>hazelcast-jet</artifactId>
+		<version>[VERSION]</version>
+	</dependency>
+	```
+</details>
+<details><summary><b><a href="https://github.com/linkedin/brooklin">Brooklin</a></b> (🥉20 ·  ⭐ 490) - An extensible distributed system for reliable nearline data streaming at scale. <code><a href="https://tldrlegal.com/license/bsd-2-clause-license-(freebsd)">BSD-2</a></code></summary>
 
 - **[GitHub](https://github.com/linkedin/brooklin)** (👨‍💻 35 · 🔀 60 · 📥 720 · 📋 16 - 37% open · ⏱️ 08.11.2019):
 
@@ -1447,7 +1473,7 @@ _Query Engines,..._
 </details>
 <details><summary><b><a href="https://github.com/WallarooLabs/wallaroo">Wallaroo</a></b> (🥉18 ·  ⭐ 1.3K) - Distributed Stream Processing. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/WallarooLabs/wallaroo)** (👨‍💻 34 · 🔀 55 · 📋 1.8K - 20% open · ⏱️ 08.11.2019):
+- **[GitHub](https://github.com/WallarooLabs/wallaroo)** (👨‍💻 34 · 🔀 55 · 📋 1.8K - 20% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/WallarooLabs/wallaroo
@@ -1470,7 +1496,7 @@ _Query Engines,..._
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/influxdata/kapacitor">kapacitor</a></b> (🥉17 ·  ⭐ 1.8K) - Open source framework for processing, monitoring, and alerting on.. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/influxdata/kapacitor">kapacitor</a></b> (🥉17 ·  ⭐ 1.8K) - Open source framework for processing, monitoring, and alerting on time series data. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
 
 - **[GitHub](https://github.com/influxdata/kapacitor)** (👨‍💻 87 · 🔀 410 · 📋 1.6K - 42% open · ⏱️ 07.10.2019):
 
@@ -1478,9 +1504,9 @@ _Query Engines,..._
 	git clone https://github.com/influxdata/kapacitor
 	```
 </details>
-<details><summary><b><a href="https://github.com/apache/samza">Samza</a></b> (🥉17 ·  ⭐ 590) - Near-realtime, asynchronous computational framework for stream.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/apache/samza">Samza</a></b> (🥉17 ·  ⭐ 600) - Near-realtime, asynchronous computational framework for stream processing. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/apache/samza)** (👨‍💻 170 · 🔀 250 · ⏱️ 08.11.2019):
+- **[GitHub](https://github.com/apache/samza)** (👨‍💻 170 · 🔀 250 · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/apache/samza
@@ -1496,7 +1522,7 @@ _Query Engines,..._
 	```
 </details>
 <details><summary>Show 1 hidden projects...</summary>
-<br><details><summary><b><a href="https://github.com/onyx-platform/onyx">Onyx</a></b> (🥉15 ·  ⭐ 1.9K) - Distributed, masterless, high performance, fault tolerant data.. <code><a href="https://tldrlegal.com/search?q=EPL-1.0">❗️EPL-1.0</a></code></summary>
+<br><details><summary><b><a href="https://github.com/onyx-platform/onyx">Onyx</a></b> (🥉15 ·  ⭐ 1.9K) - Distributed, masterless, high performance, fault tolerant data processing. <code><a href="https://tldrlegal.com/search?q=EPL-1.0">❗️EPL-1.0</a></code></summary>
 
 - **[GitHub](https://github.com/onyx-platform/onyx)** (👨‍💻 62 · 🔀 200 · 📋 590 - 13% open · ⏱️ 31.08.2019):
 
@@ -1511,27 +1537,29 @@ _Query Engines,..._
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://i.ibb.co/2PS8bhR/up-arrow.png" alt="Back to top"></a>
 
-<details><summary><b><a href="https://github.com/tzutalin/labelImg">LabelImg</a></b> (🥇26 ·  ⭐ 8.8K) - LabelImg is a graphical image annotation tool and label object.. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
+_Tools to label and annotate any type of data (e.g. images, text, videos, and audio)._
+
+<details><summary><b><a href="https://github.com/tzutalin/labelImg">LabelImg</a></b> (🥇26 ·  ⭐ 8.9K) - LabelImg is a graphical image annotation tool and label object bounding boxes in.. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
 
 - **[GitHub](https://github.com/tzutalin/labelImg)** (👨‍💻 64 · 🔀 3K · 📦 40 · 📋 410 - 37% open · ⏱️ 29.10.2019):
 
 	```
 	git clone https://github.com/tzutalin/labelImg
 	```
-- **[PyPi](https://pypi.org/project/labelImg)** (📥 4.2K / month · 📦 6 · ⏱️ 26.05.2019):
+- **[PyPi](https://pypi.org/project/labelImg)** (📥 4.1K / month · 📦 6 · ⏱️ 26.05.2019):
 
 	```
 	pip install labelImg
 	```
 </details>
-<details><summary><b><a href="https://github.com/wkentaro/labelme">Labelme</a></b> (🥇25 ·  ⭐ 3.5K) - Image Polygonal Annotation with Python (polygon, rectangle, circle,.. <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)">❗️GPL-3.0</a></code></summary>
+<details><summary><b><a href="https://github.com/wkentaro/labelme">Labelme</a></b> (🥇24 ·  ⭐ 3.5K) - Image Polygonal Annotation with Python (polygon, rectangle, circle, line, point.. <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)">❗️GPL-3.0</a></code></summary>
 
-- **[GitHub](https://github.com/wkentaro/labelme)** (👨‍💻 29 · 🔀 1.1K · 📥 5.4K · 📦 36 · 📋 300 - 13% open · ⏱️ 07.11.2019):
+- **[GitHub](https://github.com/wkentaro/labelme)** (👨‍💻 29 · 🔀 1.1K · 📥 5.5K · 📦 36 · 📋 300 - 13% open · ⏱️ 07.11.2019):
 
 	```
 	git clone https://github.com/wkentaro/labelme
 	```
-- **[PyPi](https://pypi.org/project/labelme)** (📥 8.1K / month · 📦 5 · ⏱️ 23.08.2019):
+- **[PyPi](https://pypi.org/project/labelme)** (📥 7.8K / month · 📦 5 · ⏱️ 23.08.2019):
 
 	```
 	pip install labelme
@@ -1555,7 +1583,7 @@ _Query Engines,..._
 	docker pull chakkiworks/doccano
 	```
 </details>
-<details><summary><b><a href="https://github.com/microsoft/VoTT">VoTT</a></b> (🥈20 ·  ⭐ 1.9K) - Visual Object Tagging Tool: An electron app for building end to end.. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/microsoft/VoTT">VoTT</a></b> (🥈20 ·  ⭐ 1.9K) - Visual Object Tagging Tool: An electron app for building end to end Object Detection.. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
 
 - **[GitHub](https://github.com/microsoft/VoTT)** (👨‍💻 13 · 🔀 390 · 📥 37K · 📋 380 - 41% open · ⏱️ 04.10.2019):
 
@@ -1571,9 +1599,9 @@ _Query Engines,..._
 	git clone https://github.com/opencv/cvat
 	```
 </details>
-<details><summary><b><a href="https://github.com/heartexlabs/label-studio">Label Studio</a></b> (🥈16 ·  ⭐ 1.9K · 🐣) - Label Studio is a multi-type data labeling and annotation tool with.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/heartexlabs/label-studio">Label Studio</a></b> (🥈16 ·  ⭐ 2K · 🐣) - Label Studio is a multi-type data labeling and annotation tool with.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/heartexlabs/label-studio)** (👨‍💻 11 · 🔀 100 · 📥 1 · 📋 34 - 32% open · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/heartexlabs/label-studio)** (👨‍💻 11 · 🔀 100 · 📥 1 · 📦 1 · 📋 34 - 32% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/heartexlabs/label-studio
@@ -1583,7 +1611,7 @@ _Query Engines,..._
 	```
 	npm install label-studio
 	```
-- **[Dockerhub](https://hub.docker.com/r/heartexlabs/label-studio)** (📥 75 · ⏱️ 02.10.2019):
+- **[Dockerhub](https://hub.docker.com/r/heartexlabs/label-studio)** (📥 76 · ⏱️ 02.10.2019):
 
 	```
 	docker pull heartexlabs/label-studio
@@ -1597,7 +1625,7 @@ _Query Engines,..._
 	git clone https://github.com/abreheret/PixelAnnotationTool
 	```
 </details>
-<details><summary><b><a href="https://github.com/Labelbox/Labelbox">Labelbox</a></b> (🥉15 ·  ⭐ 1.2K) - Labelbox is the fastest way to annotate data to build and ship.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/Labelbox/Labelbox">Labelbox</a></b> (🥉15 ·  ⭐ 1.2K) - Labelbox is the fastest way to annotate data to build and ship computer vision.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
 - **[GitHub](https://github.com/Labelbox/Labelbox)** (👨‍💻 14 · 🔀 190 · ⏱️ 15.10.2019):
 
@@ -1605,7 +1633,7 @@ _Query Engines,..._
 	git clone https://github.com/Labelbox/Labelbox
 	```
 </details>
-<details><summary><b><a href="https://github.com/NaturalIntelligence/imglab">ImgLab</a></b> (🥉15 ·  ⭐ 520) - To speedup and simplify image labeling/ annotation process with.. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/NaturalIntelligence/imglab">ImgLab</a></b> (🥉15 ·  ⭐ 520) - To speedup and simplify image labeling/ annotation process with multiple supported.. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
 
 - **[GitHub](https://github.com/NaturalIntelligence/imglab)** (👨‍💻 29 · 🔀 280 · 📋 100 - 27% open · ⏱️ 19.10.2019):
 
@@ -1626,14 +1654,14 @@ _Query Engines,..._
 	docker pull hitachiail/semantic-segmentation-editor
 	```
 </details>
-<details><summary><b><a href="https://github.com/l3p-cv/lost">LOST</a></b> (🥉15 ·  ⭐ 250) - Label Objects and Save Time (LOST) - Design your own smart Image.. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/l3p-cv/lost">LOST</a></b> (🥉15 ·  ⭐ 250) - Label Objects and Save Time (LOST) - Design your own smart Image Annotation process in a.. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
 
-- **[GitHub](https://github.com/l3p-cv/lost)** (👨‍💻 5 · 🔀 31 · 📋 45 - 35% open · ⏱️ 17.10.2019):
+- **[GitHub](https://github.com/l3p-cv/lost)** (👨‍💻 5 · 🔀 31 · 📋 46 - 36% open · ⏱️ 17.10.2019):
 
 	```
 	git clone https://github.com/l3p-cv/lost
 	```
-- **[Dockerhub](https://hub.docker.com/r/l3pcv/lost)** (📥 430 · ⏱️ 17.10.2019):
+- **[Dockerhub](https://hub.docker.com/r/l3pcv/lost)** (📥 440 · ⏱️ 17.10.2019):
 
 	```
 	docker pull l3pcv/lost
@@ -1656,14 +1684,14 @@ _Query Engines,..._
 	```
 </details>
 <details><summary>Show 2 hidden projects...</summary>
-<br><details><summary><b><a href="https://github.com/ideonate/jupyter-innotater">jupyter-innotater</a></b> (🥉12 ·  ⭐ 24) - Inline data annotator for Jupyter notebooks. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
+<br><details><summary><b><a href="https://github.com/ideonate/jupyter-innotater">jupyter-innotater</a></b> (🥉12 ·  ⭐ 26) - Inline data annotator for Jupyter notebooks. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
 
-- **[GitHub](https://github.com/ideonate/jupyter-innotater)** (👨‍💻 1 · 🔀 3 · 📋 8 - 37% open · ⏱️ 29.07.2019):
+- **[GitHub](https://github.com/ideonate/jupyter-innotater)** (👨‍💻 1 · 🔀 3 · 📋 9 - 33% open · ⏱️ 29.07.2019):
 
 	```
 	git clone https://github.com/ideonate/jupyter-innotater
 	```
-- **[PyPi](https://pypi.org/project/jupyter_innotater)** (📥 92 / month · ⏱️ 29.07.2019):
+- **[PyPi](https://pypi.org/project/jupyter_innotater)** (📥 91 / month · ⏱️ 29.07.2019):
 
 	```
 	pip install jupyter_innotater
@@ -1684,14 +1712,16 @@ _Query Engines,..._
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://i.ibb.co/2PS8bhR/up-arrow.png" alt="Back to top"></a>
 
-<details><summary><b><a href="https://github.com/grafana/grafana">Grafana</a></b> (🥇33 ·  ⭐ 33K) - The tool for beautiful monitoring and metric analytics & dashboards.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+_GUI tools to visualize, explore, and analyze data._
 
-- **[GitHub](https://github.com/grafana/grafana)** (👨‍💻 1.1K · 🔀 6.2K · 📦 6 · 📋 14K - 16% open · ⏱️ 08.11.2019):
+<details><summary><b><a href="https://github.com/grafana/grafana">Grafana</a></b> (🥇33 ·  ⭐ 33K) - The tool for beautiful monitoring and metric analytics & dashboards for Graphite,.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+
+- **[GitHub](https://github.com/grafana/grafana)** (👨‍💻 1.1K · 🔀 6.2K · 📦 6 · 📋 14K - 16% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/grafana/grafana
 	```
-- **[Dockerhub](https://hub.docker.com/r/grafana/grafana)** (📥 590M · ⭐ 1.3K · ⏱️ 08.11.2019):
+- **[Dockerhub](https://hub.docker.com/r/grafana/grafana)** (📥 590M · ⭐ 1.3K · ⏱️ 11.11.2019):
 
 	```
 	docker pull grafana/grafana
@@ -1699,7 +1729,7 @@ _Query Engines,..._
 </details>
 <details><summary><b><a href="https://github.com/elastic/kibana">Kibana</a></b> (🥇31 ·  ⭐ 15K) - Your window into the Elastic Stack. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/elastic/kibana)** (👨‍💻 480 · 🔀 5.2K · 📦 5 · 📋 20K - 27% open · ⏱️ 08.11.2019):
+- **[GitHub](https://github.com/elastic/kibana)** (👨‍💻 480 · 🔀 5.2K · 📦 5 · 📋 20K - 27% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/elastic/kibana
@@ -1712,12 +1742,12 @@ _Query Engines,..._
 </details>
 <details><summary><b><a href="https://github.com/biolab/orange3">Orange</a></b> (🥈27 ·  ⭐ 2K) - Orange: Interactive data analysis https://orange.biolab.si. <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)">❗️GPL-3.0</a></code></summary>
 
-- **[GitHub](https://github.com/biolab/orange3)** (👨‍💻 96 · 🔀 570 · 📥 140 · 📦 230 · 📋 1.3K - 5% open · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/biolab/orange3)** (👨‍💻 96 · 🔀 570 · 📥 140 · 📦 230 · 📋 1.3K - 5% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/biolab/orange3
 	```
-- **[PyPi](https://pypi.org/project/orange3)** (📥 4.8K / month · 📦 100 · ⏱️ 27.06.2019):
+- **[PyPi](https://pypi.org/project/orange3)** (📥 4.5K / month · 📦 100 · ⏱️ 27.06.2019):
 
 	```
 	pip install orange3
@@ -1752,20 +1782,20 @@ _Query Engines,..._
 	```
 	git clone https://github.com/CartoDB/cartodb
 	```
-- **[Dockerhub](https://hub.docker.com/r/sverhoeven/cartodb)** (📥 15K · ⭐ 37 · ⏱️ 07.11.2019):
+- **[Dockerhub](https://hub.docker.com/r/sverhoeven/cartodb)** (📥 16K · ⭐ 37 · ⏱️ 07.11.2019):
 
 	```
 	docker pull sverhoeven/cartodb
 	```
 </details>
-<details><summary><b><a href="https://github.com/microsoft/SandDance">SandDance</a></b> (🥉20 ·  ⭐ 3.4K) - Visually explore, understand, and present your data. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/microsoft/SandDance">SandDance</a></b> (🥉20 ·  ⭐ 3.5K) - Visually explore, understand, and present your data. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
 
 - **[GitHub](https://github.com/microsoft/SandDance)** (👨‍💻 7 · 🔀 210 · 📋 72 - 54% open · ⏱️ 08.11.2019):
 
 	```
 	git clone https://github.com/microsoft/SandDance
 	```
-- **[NPM](https://www.npmjs.com/package/@msrvida/sanddance)** (📥 650 / month · 📦 2 · ⏱️ 08.11.2019):
+- **[NPM](https://www.npmjs.com/package/@msrvida/sanddance)** (📥 640 / month · 📦 2 · ⏱️ 08.11.2019):
 
 	```
 	npm install @msrvida/sanddance
@@ -1778,7 +1808,7 @@ _Query Engines,..._
 	```
 	git clone https://github.com/vega/voyager
 	```
-- **[NPM](https://www.npmjs.com/package/datavoyager)** (📥 290 / month · 📦 12 · ⏱️ 06.07.2018):
+- **[NPM](https://www.npmjs.com/package/datavoyager)** (📥 280 / month · 📦 12 · ⏱️ 06.07.2018):
 
 	```
 	npm install datavoyager
@@ -1786,7 +1816,7 @@ _Query Engines,..._
 </details>
 <details><summary><b><a href="https://github.com/Kitware/ParaView">ParaView</a></b> (🥉19 ·  ⭐ 550) - VTK-based Data Analysis and Visualization Application. <code><a href="https://tldrlegal.com/license/bsd-3-clause-license-(revised)">BSD-3</a></code></summary>
 
-- **[GitHub](https://github.com/Kitware/ParaView)** (👨‍💻 260 · 🔀 240 · ⏱️ 08.11.2019):
+- **[GitHub](https://github.com/Kitware/ParaView)** (👨‍💻 260 · 🔀 240 · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/Kitware/ParaView
@@ -1800,9 +1830,9 @@ _Query Engines,..._
 	git clone https://github.com/facette/facette
 	```
 </details>
-<details><summary><b><a href="https://github.com/datawrapper/datawrapper">Datawrapper</a></b> (🥉18 ·  ⭐ 1K) - An open source data visualization platform helping everyone to.. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/datawrapper/datawrapper">Datawrapper</a></b> (🥉18 ·  ⭐ 1K) - An open source data visualization platform helping everyone to create simple,.. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
 
-- **[GitHub](https://github.com/datawrapper/datawrapper)** (👨‍💻 46 · 🔀 240 · ⏱️ 08.11.2019):
+- **[GitHub](https://github.com/datawrapper/datawrapper)** (👨‍💻 46 · 🔀 240 · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/datawrapper/datawrapper
@@ -1810,12 +1840,12 @@ _Query Engines,..._
 </details>
 <details><summary><b><a href="https://github.com/uwdata/falcon">Falcon</a></b> (🥉17 ·  ⭐ 400) - Brushing and linking for big data. <code><a href="https://tldrlegal.com/license/bsd-3-clause-license-(revised)">BSD-3</a></code></summary>
 
-- **[GitHub](https://github.com/uwdata/falcon)** (👨‍💻 5 · 🔀 22 · 📋 98 - 9% open · ⏱️ 28.10.2019):
+- **[GitHub](https://github.com/uwdata/falcon)** (👨‍💻 5 · 🔀 22 · 📋 98 - 9% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/uwdata/falcon
 	```
-- **[NPM](https://www.npmjs.com/package/falcon-vis)** (📥 73 / month · ⏱️ 29.08.2019):
+- **[NPM](https://www.npmjs.com/package/falcon-vis)** (📥 56 / month · ⏱️ 29.08.2019):
 
 	```
 	npm install falcon-vis
@@ -1838,14 +1868,14 @@ _Query Engines,..._
 	```
 </details>
 <details><summary>Show 3 hidden projects...</summary>
-<br><details><summary><b><a href="https://github.com/facebookresearch/visdom">Visdom</a></b> (🥈26 ·  ⭐ 6.7K) - A flexible tool for creating, organizing, and sharing visualizations.. <code><a href="https://tldrlegal.com/search?q=CC-BY-NC-4.0">❗️CC-BY-NC-4.0</a></code></summary>
+<br><details><summary><b><a href="https://github.com/facebookresearch/visdom">Visdom</a></b> (🥈26 ·  ⭐ 6.7K) - A flexible tool for creating, organizing, and sharing visualizations of.. <code><a href="https://tldrlegal.com/search?q=CC-BY-NC-4.0">❗️CC-BY-NC-4.0</a></code></summary>
 
 - **[GitHub](https://github.com/facebookresearch/visdom)** (👨‍💻 94 · 🔀 800 · 📦 1.5K · 📋 450 - 13% open · ⏱️ 30.09.2019):
 
 	```
 	git clone https://github.com/facebookresearch/visdom
 	```
-- **[PyPi](https://pypi.org/project/visdom)** (📥 32K / month · 📦 410 · ⏱️ 12.09.2019):
+- **[PyPi](https://pypi.org/project/visdom)** (📥 30K / month · 📦 410 · ⏱️ 12.09.2019):
 
 	```
 	pip install visdom
@@ -1864,14 +1894,14 @@ _Query Engines,..._
 	docker pull chronograf
 	```
 </details>
-<details><summary><b><a href="https://github.com/ArcadeAnalytics/arcadeanalytics">Arcade Analytics</a></b> (🥉14 ·  ⭐ 95) - Arcade Analytics is the first Open Source Graph Analytics platform... <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/ArcadeAnalytics/arcadeanalytics">Arcade Analytics</a></b> (🥉14 ·  ⭐ 96) - Arcade Analytics is the first Open Source Graph Analytics platform... <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/ArcadeAnalytics/arcadeanalytics)** (👨‍💻 6 · 🔀 22 · 📋 81 - 49% open · ⏱️ 03.11.2019):
+- **[GitHub](https://github.com/ArcadeAnalytics/arcadeanalytics)** (👨‍💻 6 · 🔀 22 · 📋 83 - 48% open · ⏱️ 03.11.2019):
 
 	```
 	git clone https://github.com/ArcadeAnalytics/arcadeanalytics
 	```
-- **[Dockerhub](https://hub.docker.com/r/arcadeanalytics/arcadeanalytics)** (📥 7.8K · ⭐ 1 · ⏱️ 09.11.2019):
+- **[Dockerhub](https://hub.docker.com/r/arcadeanalytics/arcadeanalytics)** (📥 7.8K · ⭐ 1 · ⏱️ 11.11.2019):
 
 	```
 	docker pull arcadeanalytics/arcadeanalytics
@@ -1884,14 +1914,16 @@ _Query Engines,..._
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://i.ibb.co/2PS8bhR/up-arrow.png" alt="Back to top"></a>
 
-<details><summary><b><a href="https://github.com/lutzroeder/netron">Netron</a></b> (🥇24 ·  ⭐ 6.9K) - Visualizer for neural network, deep learning and machine learning.. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
+_Tools to visualize, explore, and understand neural networks and other machine learning models._
 
-- **[GitHub](https://github.com/lutzroeder/netron)** (👨‍💻 2 · 🔀 840 · 📥 75K · 📋 340 - 5% open · ⏱️ 10.11.2019):
+<details><summary><b><a href="https://github.com/lutzroeder/netron">Netron</a></b> (🥇24 ·  ⭐ 6.9K) - Visualizer for neural network, deep learning and machine learning models. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
+
+- **[GitHub](https://github.com/lutzroeder/netron)** (👨‍💻 2 · 🔀 840 · 📥 81K · 📋 340 - 5% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/lutzroeder/netron
 	```
-- **[PyPi](https://pypi.org/project/netron)** (📥 1.5K / month · 📦 3 · ⏱️ 09.11.2019):
+- **[PyPi](https://pypi.org/project/netron)** (📥 1.4K / month · 📦 3 · ⏱️ 09.11.2019):
 
 	```
 	pip install netron
@@ -1899,18 +1931,18 @@ _Query Engines,..._
 </details>
 <details><summary><b><a href="https://github.com/tensorspace-team/tensorspace">TensorSpace.js</a></b> (🥈18 ·  ⭐ 4K · 💤) - Neural network 3D visualization framework, build interactive and.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/tensorspace-team/tensorspace)** (👨‍💻 10 · 🔀 360 · 📦 10 · 📋 200 - 12% open · ⏱️ 21.04.2019):
+- **[GitHub](https://github.com/tensorspace-team/tensorspace)** (👨‍💻 10 · 🔀 350 · 📦 10 · 📋 200 - 12% open · ⏱️ 21.04.2019):
 
 	```
 	git clone https://github.com/tensorspace-team/tensorspace
 	```
-- **[NPM](https://www.npmjs.com/package/tensorspace)** (📥 70 / month · 📦 1 · ⏱️ 02.04.2019):
+- **[NPM](https://www.npmjs.com/package/tensorspace)** (📥 72 / month · 📦 1 · ⏱️ 02.04.2019):
 
 	```
 	npm install tensorspace
 	```
 </details>
-<details><summary><b><a href="https://github.com/benmaier/netwulf">Netwulf</a></b> (🥈18 ·  ⭐ 160) - Interactive visualization of networks based on Ulf Aslak's d3 web app. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/benmaier/netwulf">Netwulf</a></b> (🥈18 ·  ⭐ 170) - Interactive visualization of networks based on Ulf Aslak's d3 web app. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
 
 - **[GitHub](https://github.com/benmaier/netwulf)** (👨‍💻 5 · 🔀 15 · 📦 5 · 📋 29 - 20% open · ⏱️ 02.10.2019):
 
@@ -1931,7 +1963,7 @@ _Query Engines,..._
 	git clone https://github.com/HarisIqbal88/PlotNeuralNet
 	```
 </details>
-<details><summary><b><a href="https://github.com/jessevig/bertviz">BertViz</a></b> (🥉14 ·  ⭐ 1K) - Tool for visualizing attention in the Transformer model (BERT,.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/jessevig/bertviz">BertViz</a></b> (🥉14 ·  ⭐ 1K) - Tool for visualizing attention in the Transformer model (BERT, GPT-2, XLNet, and.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
 - **[GitHub](https://github.com/jessevig/bertviz)** (👨‍💻 3 · 🔀 180 · 📋 19 - 57% open · ⏱️ 29.09.2019):
 
@@ -1947,16 +1979,16 @@ _Query Engines,..._
 	git clone https://github.com/Cloud-CV/Fabrik
 	```
 </details>
-<details><summary><b><a href="https://github.com/CSAILVision/gandissect">GANDissect</a></b> (🥉13 ·  ⭐ 1.4K · 💤) - Pytorch-based tools for visualizing and understanding the neurons of.. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/CSAILVision/gandissect">GANDissect</a></b> (🥉13 ·  ⭐ 1.4K · 💤) - Pytorch-based tools for visualizing and understanding the neurons of a GAN... <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
 
-- **[GitHub](https://github.com/CSAILVision/gandissect)** (👨‍💻 3 · 🔀 210 · 📋 12 - 50% open · ⏱️ 11.03.2019):
+- **[GitHub](https://github.com/CSAILVision/gandissect)** (👨‍💻 3 · 🔀 220 · 📋 12 - 50% open · ⏱️ 11.03.2019):
 
 	```
 	git clone https://github.com/CSAILVision/gandissect
 	```
 </details>
 <details><summary>Show 1 hidden projects...</summary>
-<br><details><summary><b><a href="https://github.com/bhoov/exbert">exBERT</a></b> (🥉8 ·  ⭐ 100 · 🐣) - A Visual Analysis Tool to Explore Learned Representations in.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<br><details><summary><b><a href="https://github.com/bhoov/exbert">exBERT</a></b> (🥉8 ·  ⭐ 100 · 🐣) - A Visual Analysis Tool to Explore Learned Representations in Transformers Models. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
 - **[GitHub](https://github.com/bhoov/exbert)** (👨‍💻 3 · 🔀 14 · 📋 4 - 75% open · ⏱️ 15.10.2019):
 
@@ -1971,45 +2003,47 @@ _Query Engines,..._
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://i.ibb.co/2PS8bhR/up-arrow.png" alt="Back to top"></a>
 
-<details><summary><b><a href="https://github.com/tensorflow/tfjs">TensorFlow.js</a></b> (🥇32 ·  ⭐ 12K) - A WebGL accelerated JavaScript library for training and deploying ML.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+_Tools and platforms to deploy, run, and serve machine learning models._
 
-- **[GitHub](https://github.com/tensorflow/tfjs)** (👨‍💻 210 · 🔀 940 · 📥 12 · 📦 5.4K · 📋 1.8K - 25% open · ⏱️ 09.11.2019):
+<details><summary><b><a href="https://github.com/tensorflow/tfjs">TensorFlow.js</a></b> (🥇32 ·  ⭐ 12K) - A WebGL accelerated JavaScript library for training and deploying ML models. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+
+- **[GitHub](https://github.com/tensorflow/tfjs)** (👨‍💻 210 · 🔀 940 · 📥 12 · 📦 5.4K · 📋 1.8K - 25% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/tensorflow/tfjs
 	```
-- **[NPM](https://www.npmjs.com/package/@tensorflow/tfjs)** (📥 52K / month · 📦 1K · ⏱️ 30.10.2019):
+- **[NPM](https://www.npmjs.com/package/@tensorflow/tfjs)** (📥 50K / month · 📦 1.2K · ⏱️ 30.10.2019):
 
 	```
 	npm install @tensorflow/tfjs
 	```
 </details>
-<details><summary><b><a href="https://github.com/tensorflow/serving">TensorFlow Serving</a></b> (🥇30 ·  ⭐ 4K) - A flexible, high-performance serving system for machine learning.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/tensorflow/serving">TensorFlow Serving</a></b> (🥇30 ·  ⭐ 4K) - A flexible, high-performance serving system for machine learning models. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/tensorflow/serving)** (👨‍💻 140 · 🔀 1.5K · 📋 1K - 3% open · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/tensorflow/serving)** (👨‍💻 140 · 🔀 1.5K · 📋 1K - 3% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/tensorflow/serving
 	```
-- **[PyPi](https://pypi.org/project/tensorflow-serving-api)** (📥 670K / month · 📦 58 · ⏱️ 09.10.2019):
+- **[PyPi](https://pypi.org/project/tensorflow-serving-api)** (📥 690K / month · 📦 58 · ⏱️ 09.10.2019):
 
 	```
 	pip install tensorflow-serving-api
 	```
-- **[Dockerhub](https://hub.docker.com/r/tensorflow/serving)** (📥 8.2M · ⭐ 67 · ⏱️ 09.11.2019):
+- **[Dockerhub](https://hub.docker.com/r/tensorflow/serving)** (📥 8.2M · ⭐ 67 · ⏱️ 11.11.2019):
 
 	```
 	docker pull tensorflow/serving
 	```
 </details>
-<details><summary><b><a href="https://github.com/microsoft/onnxruntime">ONNX Runtime</a></b> (🥇27 ·  ⭐ 1.3K) - ONNX Runtime: cross-platform, high performance scoring engine for ML.. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/microsoft/onnxruntime">ONNX Runtime</a></b> (🥇27 ·  ⭐ 1.4K) - ONNX Runtime: cross-platform, high performance scoring engine for ML models. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
 
-- **[GitHub](https://github.com/microsoft/onnxruntime)** (👨‍💻 120 · 🔀 300 · 📥 4.3K · 📦 98 · 📋 590 - 22% open · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/microsoft/onnxruntime)** (👨‍💻 120 · 🔀 300 · 📥 4.3K · 📦 100 · 📋 590 - 22% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/microsoft/onnxruntime
 	```
-- **[PyPi](https://pypi.org/project/onnxruntime)** (📥 57K / month · 📦 22 · ⏱️ 29.10.2019):
+- **[PyPi](https://pypi.org/project/onnxruntime)** (📥 56K / month · 📦 22 · ⏱️ 29.10.2019):
 
 	```
 	pip install onnxruntime
@@ -2022,43 +2056,56 @@ _Query Engines,..._
 </details>
 <details><summary><b><a href="https://github.com/SeldonIO/seldon-core">Seldon</a></b> (🥈26 ·  ⭐ 1.2K) - Machine Learning Deployment for Kubernetes. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/SeldonIO/seldon-core)** (👨‍💻 63 · 🔀 250 · 📋 570 - 15% open · ⏱️ 07.11.2019):
+- **[GitHub](https://github.com/SeldonIO/seldon-core)** (👨‍💻 63 · 🔀 250 · 📋 570 - 15% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/SeldonIO/seldon-core
 	```
-- **[PyPi](https://pypi.org/project/seldon-core)** (📥 5.4K / month · 📦 11 · ⏱️ 06.11.2019):
+- **[PyPi](https://pypi.org/project/seldon-core)** (📥 5.2K / month · 📦 11 · ⏱️ 06.11.2019):
 
 	```
 	pip install seldon-core
 	```
-- **[Dockerhub](https://hub.docker.com/r/seldonio/seldon-core-operator)** (📥 690K · ⏱️ 01.11.2019):
+- **[Dockerhub](https://hub.docker.com/r/seldonio/seldon-core-operator)** (📥 710K · ⏱️ 11.11.2019):
 
 	```
 	docker pull seldonio/seldon-core-operator
 	```
 </details>
+<details><summary><b><a href="https://github.com/plaidml/plaidml">plaidML</a></b> (🥈25 ·  ⭐ 2.6K) - PlaidML is a framework for making deep learning work everywhere. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+
+- **[GitHub](https://github.com/plaidml/plaidml)** (👨‍💻 37 · 🔀 230 · 📥 200 · 📋 330 - 32% open · ⏱️ 11.11.2019):
+
+	```
+	git clone https://github.com/plaidml/plaidml
+	```
+- **[PyPi](https://pypi.org/project/plaidml-keras)** (📥 36K / month · 📦 10 · ⏱️ 06.08.2019):
+
+	```
+	pip install plaidml-keras
+	```
+</details>
 <details><summary><b><a href="https://github.com/microsoft/pai">OpenPAI</a></b> (🥈24 ·  ⭐ 1.4K) - Resource scheduling and cluster management for AI. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
 
-- **[GitHub](https://github.com/microsoft/pai)** (👨‍💻 80 · 🔀 330 · 📋 1.3K - 15% open · ⏱️ 08.11.2019):
+- **[GitHub](https://github.com/microsoft/pai)** (👨‍💻 80 · 🔀 330 · 📋 1.3K - 15% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/Microsoft/pai
 	```
-- **[PyPi](https://pypi.org/project/paicli)** (📥 18K / month · ⏱️ 22.07.2019):
+- **[PyPi](https://pypi.org/project/paicli)** (📥 17K / month · ⏱️ 22.07.2019):
 
 	```
 	pip install paicli
 	```
 </details>
-<details><summary><b><a href="https://github.com/combust/mleap">MLeap</a></b> (🥈24 ·  ⭐ 940) - MLeap: Deploy Spark Pipelines to Production. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/combust/mleap">MLeap</a></b> (🥈24 ·  ⭐ 950) - MLeap: Deploy Spark Pipelines to Production. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
 - **[GitHub](https://github.com/combust/mleap)** (👨‍💻 52 · 🔀 230 · 📦 61 · 📋 320 - 25% open · ⏱️ 05.11.2019):
 
 	```
 	git clone https://github.com/combust/mleap
 	```
-- **[PyPi](https://pypi.org/project/mleap)** (📥 260K / month · 📦 2 · ⏱️ 09.10.2017):
+- **[PyPi](https://pypi.org/project/mleap)** (📥 250K / month · 📦 2 · ⏱️ 09.10.2017):
 
 	```
 	pip install mleap
@@ -2078,19 +2125,19 @@ _Query Engines,..._
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/awslabs/mxnet-model-server">MXNet Model Server</a></b> (🥈23 ·  ⭐ 530) - Model Server for Apache MXNet is a tool for serving neural net.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/awslabs/mxnet-model-server">MXNet Model Server</a></b> (🥈23 ·  ⭐ 530) - Model Server for Apache MXNet is a tool for serving neural net models.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
 - **[GitHub](https://github.com/awslabs/mxnet-model-server)** (👨‍💻 53 · 🔀 140 · 📦 11 · 📋 320 - 7% open · ⏱️ 08.11.2019):
 
 	```
 	git clone https://github.com/awslabs/mxnet-model-server
 	```
-- **[PyPi](https://pypi.org/project/mxnet-model-server)** (📥 4.5K / month · 📦 2 · ⏱️ 09.11.2019):
+- **[PyPi](https://pypi.org/project/mxnet-model-server)** (📥 4.1K / month · 📦 2 · ⏱️ 11.11.2019):
 
 	```
 	pip install mxnet-model-server
 	```
-- **[Dockerhub](https://hub.docker.com/r/awsdeeplearningteam/mxnet-model-server)** (📥 30K · ⭐ 4 · ⏱️ 09.11.2019):
+- **[Dockerhub](https://hub.docker.com/r/awsdeeplearningteam/mxnet-model-server)** (📥 31K · ⭐ 4 · ⏱️ 11.11.2019):
 
 	```
 	docker pull awsdeeplearningteam/mxnet-model-server
@@ -2109,7 +2156,7 @@ _Query Engines,..._
 	docker pull jolibrain/deepdetect_cpu
 	```
 </details>
-<details><summary><b><a href="https://github.com/PipelineAI/pipeline">PipelineAI</a></b> (🥈20 ·  ⭐ 3.9K) - PipelineAI Kubeflow Distribution. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/PipelineAI/pipeline">PipelineAI</a></b> (🥉20 ·  ⭐ 3.9K) - PipelineAI Kubeflow Distribution. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
 - **[GitHub](https://github.com/PipelineAI/pipeline)** (👨‍💻 13 · 🔀 940 · 📋 250 - 0% open · ⏱️ 02.11.2019):
 
@@ -2122,27 +2169,45 @@ _Query Engines,..._
 	pip install cli-pipeline
 	```
 </details>
-<details><summary><b><a href="https://github.com/microsoft/onnxjs">ONNX.js</a></b> (🥈20 ·  ⭐ 930) - ONNX.js: run ONNX models using JavaScript. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/microsoft/onnxjs">ONNX.js</a></b> (🥉20 ·  ⭐ 930) - ONNX.js: run ONNX models using JavaScript. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
 
-- **[GitHub](https://github.com/microsoft/onnxjs)** (👨‍💻 10 · 🔀 61 · 📦 43 · 📋 54 - 37% open · ⏱️ 01.06.2019):
+- **[GitHub](https://github.com/microsoft/onnxjs)** (👨‍💻 10 · 🔀 61 · 📦 44 · 📋 54 - 37% open · ⏱️ 01.06.2019):
 
 	```
 	git clone https://github.com/microsoft/onnxjs
 	```
-- **[NPM](https://www.npmjs.com/package/onnxjs)** (📥 350 / month · 📦 10 · ⏱️ 01.06.2019):
+- **[NPM](https://www.npmjs.com/package/onnxjs)** (📥 340 / month · 📦 10 · ⏱️ 01.06.2019):
 
 	```
 	npm install onnxjs
 	```
 </details>
-<details><summary><b><a href="https://github.com/kubeflow/kfserving">KFServing</a></b> (🥈20 ·  ⭐ 210) - Serverless Inferencing on Kubernetes. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/bentoml/BentoML">BentoML</a></b> (🥉20 ·  ⭐ 580) - A platform for serving and deploying machine learning models. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/kubeflow/kfserving)** (👨‍💻 29 · 🔀 70 · 📥 33 · 📦 4 · 📋 210 - 35% open · ⏱️ 08.11.2019):
+- **[GitHub](https://github.com/bentoml/BentoML)** (👨‍💻 8 · 🔀 72 · 📥 53 · 📦 6 · 📋 60 - 11% open · ⏱️ 10.11.2019):
+
+	```
+	git clone https://github.com/bentoml/bentoml
+	```
+- **[PyPi](https://pypi.org/project/bentoml)** (📥 880 / month · 📦 4 · ⏱️ 24.10.2019):
+
+	```
+	pip install bentoml
+	```
+- **[Dockerhub](https://hub.docker.com/r/bentoml/bento_api_server)**:
+
+	```
+	docker pull bentoml/bento_api_server
+	```
+</details>
+<details><summary><b><a href="https://github.com/kubeflow/kfserving">KFServing</a></b> (🥉20 ·  ⭐ 210) - Serverless Inferencing on Kubernetes. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+
+- **[GitHub](https://github.com/kubeflow/kfserving)** (👨‍💻 29 · 🔀 72 · 📥 33 · 📦 4 · 📋 220 - 35% open · ⏱️ 10.11.2019):
 
 	```
 	git clone https://github.com/kubeflow/kfserving
 	```
-- **[PyPi](https://pypi.org/project/kfserving)** (📥 850 / month · 📦 4 · ⏱️ 08.11.2019):
+- **[PyPi](https://pypi.org/project/kfserving)** (📥 830 / month · 📦 4 · ⏱️ 08.11.2019):
 
 	```
 	pip install kfserving
@@ -2155,59 +2220,41 @@ _Query Engines,..._
 	```
 	git clone https://github.com/ucbrise/clipper
 	```
-- **[PyPi](https://pypi.org/project/clipper-admin)** (📥 310 / month · ⏱️ 07.06.2019):
+- **[PyPi](https://pypi.org/project/clipper-admin)** (📥 300 / month · ⏱️ 07.06.2019):
 
 	```
 	pip install clipper-admin
 	```
-- **[Dockerhub](https://hub.docker.com/r/clipper/management_frontend)** (📥 1M · ⏱️ 08.11.2019):
+- **[Dockerhub](https://hub.docker.com/r/clipper/management_frontend)** (📥 1.1M · ⏱️ 10.11.2019):
 
 	```
 	docker pull clipper/management_frontend
 	```
 </details>
-<details><summary><b><a href="https://github.com/NVIDIA/tensorrt-inference-server">TensorRT Inference Server</a></b> (🥉19 ·  ⭐ 830) - The TensorRT Inference Server provides a cloud inferencing solution.. <code><a href="https://tldrlegal.com/license/bsd-3-clause-license-(revised)">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/NVIDIA/tensorrt-inference-server">TensorRT Inference Server</a></b> (🥉19 ·  ⭐ 830) - The TensorRT Inference Server provides a cloud inferencing.. <code><a href="https://tldrlegal.com/license/bsd-3-clause-license-(revised)">BSD-3</a></code></summary>
 
-- **[GitHub](https://github.com/NVIDIA/tensorrt-inference-server)** (👨‍💻 20 · 🔀 170 · 📥 7.5K · 📋 250 - 7% open · ⏱️ 08.11.2019):
+- **[GitHub](https://github.com/NVIDIA/tensorrt-inference-server)** (👨‍💻 20 · 🔀 170 · 📥 7.6K · 📋 250 - 7% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/NVIDIA/tensorrt-inference-server
 	```
 </details>
-<details><summary><b><a href="https://github.com/tobegit3hub/simple_tensorflow_serving">Simple TensorFlow Serving</a></b> (🥉19 ·  ⭐ 620) - Generic and easy-to-use serving service for machine learning models. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/tobegit3hub/simple_tensorflow_serving">Simple TensorFlow Serving</a></b> (🥉19 ·  ⭐ 620) - Generic and easy-to-use serving service for machine learning.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/tobegit3hub/simple_tensorflow_serving)** (👨‍💻 7 · 🔀 150 · 📋 61 - 47% open · ⏱️ 24.09.2019):
+- **[GitHub](https://github.com/tobegit3hub/simple_tensorflow_serving)** (👨‍💻 8 · 🔀 150 · 📋 61 - 47% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/tobegit3hub/simple_tensorflow_serving
 	```
-- **[PyPi](https://pypi.org/project/simple_tensorflow_serving)** (📥 410 / month · ⏱️ 23.09.2019):
+- **[PyPi](https://pypi.org/project/simple_tensorflow_serving)** (📥 400 / month · ⏱️ 23.09.2019):
 
 	```
 	pip install simple_tensorflow_serving
 	```
-- **[Dockerhub](https://hub.docker.com/r/tobegit3hub/simple_tensorflow_serving)** (📥 3.4K · ⭐ 1 · ⏱️ 24.09.2019):
+- **[Dockerhub](https://hub.docker.com/r/tobegit3hub/simple_tensorflow_serving)** (📥 3.4K · ⭐ 1 · ⏱️ 11.11.2019):
 
 	```
 	docker pull tobegit3hub/simple_tensorflow_serving
-	```
-</details>
-<details><summary><b><a href="https://github.com/bentoml/BentoML">BentoML</a></b> (🥉19 ·  ⭐ 560) - A platform for serving and deploying machine learning models. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
-
-- **[GitHub](https://github.com/bentoml/BentoML)** (👨‍💻 8 · 🔀 72 · 📥 51 · 📦 5 · 📋 60 - 11% open · ⏱️ 08.11.2019):
-
-	```
-	git clone https://github.com/bentoml/bentoml
-	```
-- **[PyPi](https://pypi.org/project/bentoml)** (📥 940 / month · 📦 4 · ⏱️ 24.10.2019):
-
-	```
-	pip install bentoml
-	```
-- **[Dockerhub](https://hub.docker.com/r/bentoml/bento_api_server)**:
-
-	```
-	docker pull bentoml/bento_api_server
 	```
 </details>
 <details><summary><b><a href="https://github.com/Hydrospheredata/hydro-serving">Hydrosphere Serving</a></b> (🥉18 ·  ⭐ 170) - Machine Learning Serving cluster. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
@@ -2217,7 +2264,7 @@ _Query Engines,..._
 	```
 	git clone https://github.com/Hydrospheredata/hydro-serving
 	```
-- **[PyPi](https://pypi.org/project/hs)** (📥 150 / month · ⏱️ 12.07.2019):
+- **[PyPi](https://pypi.org/project/hs)** (📥 180 / month · ⏱️ 12.07.2019):
 
 	```
 	pip install hs
@@ -2230,13 +2277,13 @@ _Query Engines,..._
 </details>
 <details><summary><b><a href="https://github.com/cortexlabs/cortex">Cortex</a></b> (🥉17 ·  ⭐ 1.4K) - Deploy machine learning models in production. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/cortexlabs/cortex)** (👨‍💻 7 · 🔀 71 · 📋 310 - 17% open · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/cortexlabs/cortex)** (👨‍💻 7 · 🔀 71 · 📋 310 - 18% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/cortexlabs/cortex
 	```
 </details>
-<details><summary><b><a href="https://github.com/opencv/dldt">OpenVINO DLDT</a></b> (🥉14 ·  ⭐ 890) - OpenVINO Toolkit - Deep Learning Deployment Toolkit repository. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/opencv/dldt">OpenVINO DLDT</a></b> (🥉14 ·  ⭐ 900) - OpenVINO Toolkit - Deep Learning Deployment Toolkit repository. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
 - **[GitHub](https://github.com/opencv/dldt)** (👨‍💻 7 · 🔀 290 · 📥 98 · 📋 280 - 68% open · ⏱️ 06.11.2019):
 
@@ -2247,12 +2294,12 @@ _Query Engines,..._
 <details><summary>Show 3 hidden projects...</summary>
 <br><details><summary><b><a href="https://github.com/RedisAI/RedisAI">RedisAI</a></b> (🥉15 ·  ⭐ 260) - A Redis module for serving tensors and executing deep learning graphs. <code><a href="https://tldrlegal.com/search?q=RSAL">❗️RSAL</a></code></summary>
 
-- **[GitHub](https://github.com/RedisAI/RedisAI)** (👨‍💻 15 · 🔀 30 · 📋 110 - 28% open · ⏱️ 06.11.2019):
+- **[GitHub](https://github.com/RedisAI/RedisAI)** (👨‍💻 15 · 🔀 30 · 📋 110 - 28% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/RedisAI/RedisAI
 	```
-- **[Dockerhub](https://hub.docker.com/r/redisai/redisai)** (📥 13K · ⏱️ 06.11.2019):
+- **[Dockerhub](https://hub.docker.com/r/redisai/redisai)** (📥 13K · ⏱️ 11.11.2019):
 
 	```
 	docker pull redisai/redisai
@@ -2265,7 +2312,7 @@ _Query Engines,..._
 	```
 	git clone https://github.com/oracle/graphpipe
 	```
-- **[PyPi](https://pypi.org/project/graphpipe)** (📥 280 / month · 📦 2 · ⏱️ 15.08.2018):
+- **[PyPi](https://pypi.org/project/graphpipe)** (📥 250 / month · 📦 2 · ⏱️ 15.08.2018):
 
 	```
 	pip install graphpipe
@@ -2276,7 +2323,7 @@ _Query Engines,..._
 	docker pull sleepsonthefloor/graphpipe-tf
 	```
 </details>
-<details><summary><b><a href="https://github.com/openscoring/openscoring">Openscoring</a></b> (🥉13 ·  ⭐ 480) - REST web service for the true real-time scoring (1 ms) of R, Scikit-.. <code><a href="https://tldrlegal.com/license/gnu-affero-general-public-license-v3-(agpl-3.0)">❗️AGPL-3.0</a></code></summary>
+<details><summary><b><a href="https://github.com/openscoring/openscoring">Openscoring</a></b> (🥉13 ·  ⭐ 480) - REST web service for the true real-time scoring (1 ms) of R, Scikit-Learn.. <code><a href="https://tldrlegal.com/license/gnu-affero-general-public-license-v3-(agpl-3.0)">❗️AGPL-3.0</a></code></summary>
 
 - **[GitHub](https://github.com/openscoring/openscoring)** (👨‍💻 1 · 🔀 140 · 📥 1.4K · 📋 50 - 12% open · ⏱️ 19.06.2019):
 
@@ -2300,7 +2347,9 @@ _Query Engines,..._
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://i.ibb.co/2PS8bhR/up-arrow.png" alt="Back to top"></a>
 
-<details><summary><b><a href="https://github.com/justadudewhohacks/face-api.js">face-api.js</a></b> (🥇27 ·  ⭐ 7.8K) - JavaScript API for face detection and face recognition in the.. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
+_Task-specific machine learning applications and services._
+
+<details><summary><b><a href="https://github.com/justadudewhohacks/face-api.js">face-api.js</a></b> (🥇27 ·  ⭐ 7.8K) - JavaScript API for face detection and face recognition in the browser and nodejs.. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
 
 - **[GitHub](https://github.com/justadudewhohacks/face-api.js)** (👨‍💻 19 · 🔀 1.3K · 📦 780 · 📋 400 - 30% open · ⏱️ 15.09.2019):
 
@@ -2313,7 +2362,7 @@ _Query Engines,..._
 	npm install face-api.js
 	```
 </details>
-<details><summary><b><a href="https://github.com/hanxiao/bert-as-service">bert-as-service</a></b> (🥇25 ·  ⭐ 5.9K) - Mapping a variable-length sentence to a fixed-length vector using.. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/hanxiao/bert-as-service">bert-as-service</a></b> (🥇25 ·  ⭐ 6K) - Mapping a variable-length sentence to a fixed-length vector using BERT model. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
 
 - **[GitHub](https://github.com/hanxiao/bert-as-service)** (👨‍💻 32 · 🔀 1.2K · 📋 360 - 41% open · ⏱️ 17.10.2019):
 
@@ -2326,14 +2375,14 @@ _Query Engines,..._
 	pip install bert-serving-server
 	```
 </details>
-<details><summary><b><a href="https://github.com/gnes-ai/gnes">GNES</a></b> (🥈22 ·  ⭐ 800 · 🐣) - GNES is Generic Neural Elastic Search, a cloud-native semantic.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/gnes-ai/gnes">GNES</a></b> (🥈22 ·  ⭐ 810 · 🐣) - GNES is Generic Neural Elastic Search, a cloud-native semantic search system.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
 - **[GitHub](https://github.com/gnes-ai/gnes)** (👨‍💻 11 · 🔀 150 · 📦 2 · 📋 18 - 61% open · ⏱️ 24.10.2019):
 
 	```
 	git clone https://github.com/gnes-ai/gnes
 	```
-- **[PyPi](https://pypi.org/project/gnes)** (📥 820 / month · 📦 1 · ⏱️ 06.11.2019):
+- **[PyPi](https://pypi.org/project/gnes)** (📥 800 / month · 📦 1 · ⏱️ 06.11.2019):
 
 	```
 	pip install gnes
@@ -2357,7 +2406,7 @@ _Query Engines,..._
 	docker pull hastic/server
 	```
 </details>
-<details><summary><b><a href="https://github.com/CorentinJ/Real-Time-Voice-Cloning">Real-Time-Voice-Cloning</a></b> (🥈17 ·  ⭐ 9.2K · 🐣) - Clone a voice in 5 seconds to generate arbitrary speech in real-time. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/CorentinJ/Real-Time-Voice-Cloning">Real-Time-Voice-Cloning</a></b> (🥈17 ·  ⭐ 9.2K · 🐣) - Clone a voice in 5 seconds to generate arbitrary speech in real-.. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
 
 - **[GitHub](https://github.com/CorentinJ/Real-Time-Voice-Cloning)** (👨‍💻 9 · 🔀 1.4K · 📋 170 - 25% open · ⏱️ 08.11.2019):
 
@@ -2365,7 +2414,7 @@ _Query Engines,..._
 	git clone https://github.com/CorentinJ/Real-Time-Voice-Cloning
 	```
 </details>
-<details><summary><b><a href="https://github.com/jantic/DeOldify">DeOldify</a></b> (🥈17 ·  ⭐ 8.3K) - A Deep Learning based project for colorizing and restoring old.. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/jantic/DeOldify">DeOldify</a></b> (🥈17 ·  ⭐ 8.3K) - A Deep Learning based project for colorizing and restoring old images (and video!). <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
 
 - **[GitHub](https://github.com/jantic/DeOldify)** (👨‍💻 21 · 🔀 890 · 📋 120 - 12% open · ⏱️ 30.10.2019):
 
@@ -2373,15 +2422,15 @@ _Query Engines,..._
 	git clone https://github.com/jantic/DeOldify
 	```
 </details>
-<details><summary><b><a href="https://github.com/iperov/DeepFaceLab">DeepFaceLab</a></b> (🥉16 ·  ⭐ 11K) - DeepFaceLab is a tool that utilizes machine learning to replace.. <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)">❗️GPL-3.0</a></code></summary>
+<details><summary><b><a href="https://github.com/iperov/DeepFaceLab">DeepFaceLab</a></b> (🥉16 ·  ⭐ 11K) - DeepFaceLab is a tool that utilizes machine learning to replace faces in.. <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)">❗️GPL-3.0</a></code></summary>
 
-- **[GitHub](https://github.com/iperov/DeepFaceLab)** (👨‍💻 17 · 🔀 2.5K · 📋 410 - 28% open · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/iperov/DeepFaceLab)** (👨‍💻 17 · 🔀 2.5K · 📋 410 - 28% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/iperov/DeepFaceLab
 	```
 </details>
-<details><summary><b><a href="https://github.com/zzw922cn/Automatic_Speech_Recognition">Automatic-Speech-Recognition</a></b> (🥉15 ·  ⭐ 2.6K) - End-to-end Automatic Speech Recognition for Madarian and English in.. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/zzw922cn/Automatic_Speech_Recognition">Automatic-Speech-Recognition</a></b> (🥉15 ·  ⭐ 2.6K) - End-to-end Automatic Speech Recognition for Madarian and English.. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
 
 - **[GitHub](https://github.com/zzw922cn/Automatic_Speech_Recognition)** (👨‍💻 9 · 🔀 510 · 📋 86 - 77% open · ⏱️ 17.10.2019):
 
@@ -2397,7 +2446,7 @@ _Query Engines,..._
 	git clone https://github.com/anishathalye/neural-style
 	```
 </details>
-<details><summary><b><a href="https://github.com/junyanz/interactive-deep-colorization">Deep Colorization</a></b> (🥉14 ·  ⭐ 2K) - Deep learning software for colorizing black and white images with a.. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/junyanz/interactive-deep-colorization">Deep Colorization</a></b> (🥉14 ·  ⭐ 2K) - Deep learning software for colorizing black and white images with a few clicks. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
 
 - **[GitHub](https://github.com/junyanz/interactive-deep-colorization)** (👨‍💻 7 · 🔀 330 · 📋 63 - 31% open · ⏱️ 03.10.2019):
 
@@ -2437,7 +2486,7 @@ _Query Engines,..._
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://i.ibb.co/2PS8bhR/up-arrow.png" alt="Back to top"></a>
 
-_Compilers..._
+_Compilers, accelerators, and libraries to improve compute performance and optimize machine learning models._
 
 <details><summary><b><a href="https://github.com/cython/cython">Cython</a></b> (🥇36 ·  ⭐ 4.6K) - The most widely used Python to C compiler. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
@@ -2446,7 +2495,7 @@ _Compilers..._
 	```
 	git clone https://github.com/cython/cython
 	```
-- **[PyPi](https://pypi.org/project/Cython)** (📥 3.9M / month · 📦 26K · ⏱️ 01.11.2019):
+- **[PyPi](https://pypi.org/project/Cython)** (📥 3.8M / month · 📦 26K · ⏱️ 01.11.2019):
 
 	```
 	pip install Cython
@@ -2457,14 +2506,14 @@ _Compilers..._
 	conda install -c anaconda cython
 	```
 </details>
-<details><summary><b><a href="https://github.com/numba/numba">Numba</a></b> (🥇34 ·  ⭐ 4.7K) - NumPy aware dynamic Python compiler using LLVM. <code><a href="https://tldrlegal.com/license/bsd-2-clause-license-(freebsd)">BSD-2</a></code></summary>
+<details><summary><b><a href="https://github.com/numba/numba">Numba</a></b> (🥈34 ·  ⭐ 4.7K) - NumPy aware dynamic Python compiler using LLVM. <code><a href="https://tldrlegal.com/license/bsd-2-clause-license-(freebsd)">BSD-2</a></code></summary>
 
 - **[GitHub](https://github.com/numba/numba)** (👨‍💻 160 · 🔀 570 · 📦 12K · 📋 2.7K - 36% open · ⏱️ 07.11.2019):
 
 	```
 	git clone https://github.com/numba/numba
 	```
-- **[PyPi](https://pypi.org/project/numba)** (📥 920K / month · 📦 2.9K · ⏱️ 10.10.2019):
+- **[PyPi](https://pypi.org/project/numba)** (📥 880K / month · 📦 2.9K · ⏱️ 10.10.2019):
 
 	```
 	pip install numba
@@ -2477,33 +2526,20 @@ _Compilers..._
 </details>
 <details><summary><b><a href="https://github.com/cupy/cupy">CuPy</a></b> (🥈29 ·  ⭐ 3.7K) - NumPy-like API accelerated with CUDA. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
 
-- **[GitHub](https://github.com/cupy/cupy)** (👨‍💻 220 · 🔀 320 · 📋 690 - 41% open · ⏱️ 08.11.2019):
+- **[GitHub](https://github.com/cupy/cupy)** (👨‍💻 220 · 🔀 320 · 📋 700 - 41% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/cupy/cupy
 	```
-- **[PyPi](https://pypi.org/project/cupy)** (📥 12K / month · 📦 170 · ⏱️ 25.10.2019):
+- **[PyPi](https://pypi.org/project/cupy)** (📥 11K / month · 📦 170 · ⏱️ 25.10.2019):
 
 	```
 	pip install cupy
 	```
-- **[Dockerhub](https://hub.docker.com/r/cupy/cupy)** (📥 43K · ⭐ 4 · ⏱️ 08.11.2019):
+- **[Dockerhub](https://hub.docker.com/r/cupy/cupy)** (📥 43K · ⭐ 5 · ⏱️ 11.11.2019):
 
 	```
 	docker pull cupy/cupy
-	```
-</details>
-<details><summary><b><a href="https://github.com/plaidml/plaidml">plaidML</a></b> (🥈25 ·  ⭐ 2.6K) - PlaidML is a framework for making deep learning work everywhere. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
-
-- **[GitHub](https://github.com/plaidml/plaidml)** (👨‍💻 37 · 🔀 230 · 📥 200 · 📋 330 - 32% open · ⏱️ 09.11.2019):
-
-	```
-	git clone https://github.com/plaidml/plaidml
-	```
-- **[PyPi](https://pypi.org/project/plaidml-keras)** (📥 37K / month · 📦 10 · ⏱️ 06.08.2019):
-
-	```
-	pip install plaidml-keras
 	```
 </details>
 <details><summary><b><a href="https://github.com/intel/mkl-dnn">mkl-dnn</a></b> (🥈24 ·  ⭐ 1.7K) - Deep Neural Network Library (DNNL). <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
@@ -2519,22 +2555,22 @@ _Compilers..._
 	conda install -c anaconda mkl
 	```
 </details>
-<details><summary><b><a href="https://github.com/NervanaSystems/ngraph">nGraph</a></b> (🥉22 ·  ⭐ 1.1K) - nGraph - open source C++ library, compiler and runtime for Deep.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/NervanaSystems/ngraph">nGraph</a></b> (🥉22 ·  ⭐ 1.1K) - nGraph - open source C++ library, compiler and runtime for Deep Learning. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/NervanaSystems/ngraph)** (👨‍💻 85 · 🔀 160 · 📦 1 · 📋 250 - 39% open · ⏱️ 08.11.2019):
+- **[GitHub](https://github.com/NervanaSystems/ngraph)** (👨‍💻 85 · 🔀 160 · 📦 1 · 📋 250 - 39% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/NervanaSystems/ngraph
 	```
-- **[PyPi](https://pypi.org/project/ngraph-core)** (📥 350 / month · ⏱️ 09.11.2019):
+- **[PyPi](https://pypi.org/project/ngraph-core)** (📥 510 / month · ⏱️ 09.11.2019):
 
 	```
 	pip install ngraph-core
 	```
 </details>
-<details><summary><b><a href="https://github.com/apache/incubator-tvm">TVM</a></b> (🥉21 ·  ⭐ 4.6K) - Open deep learning compiler stack for cpu, gpu and specialized.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/apache/incubator-tvm">TVM</a></b> (🥉21 ·  ⭐ 4.6K) - Open deep learning compiler stack for cpu, gpu and specialized accelerators. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/apache/incubator-tvm)** (👨‍💻 290 · 🔀 1.2K · 📋 1.2K - 10% open · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/apache/incubator-tvm)** (👨‍💻 290 · 🔀 1.2K · 📋 1.2K - 10% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/apache/incubator-tvm
@@ -2545,9 +2581,9 @@ _Compilers..._
 	docker pull tvmai/demo-cpu
 	```
 </details>
-<details><summary><b><a href="https://github.com/xianyi/OpenBLAS">OpenBLAS</a></b> (🥉21 ·  ⭐ 3K) - OpenBLAS is an optimized BLAS library based on GotoBLAS2 1.13 BSD.. <code><a href="https://tldrlegal.com/license/bsd-3-clause-license-(revised)">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/xianyi/OpenBLAS">OpenBLAS</a></b> (🥉21 ·  ⭐ 3K) - OpenBLAS is an optimized BLAS library based on GotoBLAS2 1.13 BSD version. <code><a href="https://tldrlegal.com/license/bsd-3-clause-license-(revised)">BSD-3</a></code></summary>
 
-- **[GitHub](https://github.com/xianyi/OpenBLAS)** (👨‍💻 150 · 🔀 800 · 📥 970 · 📋 1.4K - 10% open · ⏱️ 06.11.2019):
+- **[GitHub](https://github.com/xianyi/OpenBLAS)** (👨‍💻 150 · 🔀 800 · 📥 980 · 📋 1.4K - 10% open · ⏱️ 06.11.2019):
 
 	```
 	git clone https://github.com/xianyi/OpenBLAS
@@ -2560,21 +2596,21 @@ _Compilers..._
 </details>
 <details><summary><b><a href="https://github.com/pytorch/glow">Glow</a></b> (🥉17 ·  ⭐ 1.8K) - Compiler for Neural Network hardware accelerators. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/pytorch/glow)** (👨‍💻 120 · 🔀 310 · 📋 550 - 32% open · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/pytorch/glow)** (👨‍💻 120 · 🔀 310 · 📋 550 - 32% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/pytorch/glow
 	```
 </details>
-<details><summary><b><a href="https://github.com/NVIDIA/TensorRT">TensorRT</a></b> (🥉17 ·  ⭐ 1.5K · 🐣) - TensorRT is a C++ library for high performance inference on NVIDIA.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/NVIDIA/TensorRT">TensorRT</a></b> (🥉17 ·  ⭐ 1.5K · 🐣) - TensorRT is a C++ library for high performance inference on NVIDIA GPUs and.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/NVIDIA/TensorRT)** (👨‍💻 7 · 🔀 280 · 📋 170 - 22% open · ⏱️ 08.11.2019):
+- **[GitHub](https://github.com/NVIDIA/TensorRT)** (👨‍💻 7 · 🔀 290 · 📋 170 - 22% open · ⏱️ 08.11.2019):
 
 	```
 	git clone https://github.com/NVIDIA/TensorRT
 	```
 </details>
-<details><summary><b><a href="https://github.com/Tencent/PocketFlow">PocketFlow</a></b> (🥉14 ·  ⭐ 2.3K) - An Automatic Model Compression (AutoMC) framework for developing.. <code><a href="https://tldrlegal.com/license/bsd-3-clause-license-(revised)">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/Tencent/PocketFlow">PocketFlow</a></b> (🥉14 ·  ⭐ 2.3K) - An Automatic Model Compression (AutoMC) framework for developing smaller and.. <code><a href="https://tldrlegal.com/license/bsd-3-clause-license-(revised)">BSD-3</a></code></summary>
 
 - **[GitHub](https://github.com/Tencent/PocketFlow)** (👨‍💻 11 · 🔀 440 · 📋 270 - 25% open · ⏱️ 28.05.2019):
 
@@ -2592,7 +2628,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 
 <details><summary><b><a href="https://github.com/elastic/elasticsearch">Elasticsearch</a></b> (🥇40 ·  ⭐ 49K) - Open Source, Distributed, RESTful Search Engine. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/elastic/elasticsearch)** (👨‍💻 1.5K · 🔀 15K · 📋 22K - 10% open · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/elastic/elasticsearch)** (👨‍💻 1.5K · 🔀 15K · 📋 22K - 10% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/elastic/elasticsearch
@@ -2602,7 +2638,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	pip install elasticsearch
 	```
-- **[NPM](https://www.npmjs.com/package/elasticsearch)** (📥 1.2M / month · 📦 7.8K · ⏱️ 31.10.2019):
+- **[NPM](https://www.npmjs.com/package/elasticsearch)** (📥 1.1M / month · 📦 7.8K · ⏱️ 31.10.2019):
 
 	```
 	npm install elasticsearch
@@ -2624,17 +2660,17 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 </details>
 <details><summary><b><a href="https://github.com/mongodb/mongo">MongoDB</a></b> (🥇38 ·  ⭐ 23K) - The MongoDB Database. <code><a href="https://tldrlegal.com/search?q=SSPL">❗️SSPL</a></code></summary>
 
-- **[GitHub](https://github.com/mongodb/mongo)** (👨‍💻 650 · 🔀 4.2K · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/mongodb/mongo)** (👨‍💻 650 · 🔀 4.2K · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/mongodb/mongo
 	```
-- **[PyPi](https://pypi.org/project/pymongo)** (📥 5.1M / month · 📦 33K · ⏱️ 14.08.2019):
+- **[PyPi](https://pypi.org/project/pymongo)** (📥 4.9M / month · 📦 33K · ⏱️ 14.08.2019):
 
 	```
 	pip install pymongo
 	```
-- **[NPM](https://www.npmjs.com/package/mongodb)** (📥 5.7M / month · 📦 210K · ⏱️ 06.11.2019):
+- **[NPM](https://www.npmjs.com/package/mongodb)** (📥 5.6M / month · 📦 210K · ⏱️ 06.11.2019):
 
 	```
 	npm install mongodb
@@ -2659,19 +2695,19 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/postgres/postgres">PostgreSQL</a></b> (🥇38 ·  ⭐ 15K) - Object-relational database that supports an extended subset of the.. <code><a href="https://tldrlegal.com/search?q=PostgreSQL">❗️PostgreSQL</a></code></summary>
+<details><summary><b><a href="https://github.com/postgres/postgres">PostgreSQL</a></b> (🥇38 ·  ⭐ 15K) - Object-relational database that supports an extended subset of the SQL.. <code><a href="https://tldrlegal.com/search?q=PostgreSQL">❗️PostgreSQL</a></code></summary>
 
-- **[GitHub](https://github.com/postgres/postgres)** (👨‍💻 50 · 🔀 2K · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/postgres/postgres)** (👨‍💻 50 · 🔀 2K · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/postgres/postgres
 	```
-- **[PyPi](https://pypi.org/project/psycopg2)** (📥 5.9M / month · 📦 120K · ⏱️ 14.04.2019):
+- **[PyPi](https://pypi.org/project/psycopg2)** (📥 5.7M / month · 📦 120K · ⏱️ 14.04.2019):
 
 	```
 	pip install psycopg2
 	```
-- **[NPM](https://www.npmjs.com/package/pg)** (📥 4M / month · 📦 84K · ⏱️ 09.08.2019):
+- **[NPM](https://www.npmjs.com/package/pg)** (📥 3.9M / month · 📦 84K · ⏱️ 09.08.2019):
 
 	```
 	npm install pg
@@ -2691,19 +2727,19 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/antirez/redis">Redis</a></b> (🥇36 ·  ⭐ 47K) - Redis is an in-memory database that persists on disk. The data model.. <code><a href="https://tldrlegal.com/license/bsd-3-clause-license-(revised)">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/antirez/redis">Redis</a></b> (🥇36 ·  ⭐ 47K) - Redis is an in-memory database that persists on disk. The data model is key-value, but.. <code><a href="https://tldrlegal.com/license/bsd-3-clause-license-(revised)">BSD-3</a></code></summary>
 
 - **[GitHub](https://github.com/antirez/redis)** (👨‍💻 390 · 🔀 15K · 📋 4.7K - 52% open · ⏱️ 06.11.2019):
 
 	```
 	git clone https://github.com/antirez/redis
 	```
-- **[PyPi](https://pypi.org/project/redis)** (📥 6.1M / month · 📦 48K · ⏱️ 19.08.2019):
+- **[PyPi](https://pypi.org/project/redis)** (📥 5.9M / month · 📦 48K · ⏱️ 19.08.2019):
 
 	```
 	pip install redis
 	```
-- **[NPM](https://www.npmjs.com/package/redis)** (📥 5.3M / month · 📦 79K · ⏱️ 08.08.2017):
+- **[NPM](https://www.npmjs.com/package/redis)** (📥 5.1M / month · 📦 79K · ⏱️ 08.08.2017):
 
 	```
 	npm install redis
@@ -2730,17 +2766,17 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 </details>
 <details><summary><b><a href="https://github.com/influxdata/influxdb">InfluxDB</a></b> (🥇36 ·  ⭐ 19K) - Scalable datastore for metrics, events, and real-time analytics. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
 
-- **[GitHub](https://github.com/influxdata/influxdb)** (👨‍💻 460 · 🔀 2.5K · 📋 8.8K - 6% open · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/influxdata/influxdb)** (👨‍💻 460 · 🔀 2.5K · 📋 8.9K - 6% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/influxdata/influxdb
 	```
-- **[PyPi](https://pypi.org/project/influxdb)** (📥 740K / month · 📦 1.9K · ⏱️ 26.08.2019):
+- **[PyPi](https://pypi.org/project/influxdb)** (📥 720K / month · 📦 1.9K · ⏱️ 26.08.2019):
 
 	```
 	pip install influxdb
 	```
-- **[NPM](https://www.npmjs.com/package/influx)** (📥 160K / month · 📦 950 · ⏱️ 31.10.2019):
+- **[NPM](https://www.npmjs.com/package/influx)** (📥 150K / month · 📦 950 · ⏱️ 31.10.2019):
 
 	```
 	npm install influx
@@ -2762,12 +2798,12 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 </details>
 <details><summary><b><a href="https://github.com/prometheus/prometheus">Prometheus</a></b> (🥈35 ·  ⭐ 28K) - The Prometheus monitoring system and time series database. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/prometheus/prometheus)** (👨‍💻 460 · 🔀 4K · 📥 11M · 📋 3.1K - 15% open · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/prometheus/prometheus)** (👨‍💻 460 · 🔀 4K · 📥 11M · 📋 3.1K - 15% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/prometheus/prometheus
 	```
-- **[PyPi](https://pypi.org/project/prometheus_client)** (📥 3.2M / month · 📦 1.2K · ⏱️ 20.06.2019):
+- **[PyPi](https://pypi.org/project/prometheus_client)** (📥 3M / month · 📦 1.2K · ⏱️ 20.06.2019):
 
 	```
 	pip install prometheus_client
@@ -2777,7 +2813,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	conda install -c conda-forge prometheus_client
 	```
-- **[Dockerhub](https://hub.docker.com/r/prom/prometheus)** (📥 420M · ⭐ 870 · ⏱️ 09.11.2019):
+- **[Dockerhub](https://hub.docker.com/r/prom/prometheus)** (📥 420M · ⭐ 870 · ⏱️ 11.11.2019):
 
 	```
 	docker pull prom/prometheus
@@ -2792,9 +2828,9 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/minio/minio">Minio</a></b> (🥈34 ·  ⭐ 19K) - MinIO is a high performance object storage server compatible with.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/minio/minio">Minio</a></b> (🥈34 ·  ⭐ 19K) - MinIO is a high performance object storage server compatible with Amazon S3 APIs. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/minio/minio)** (👨‍💻 200 · 🔀 1.8K · 📋 3.6K - 3% open · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/minio/minio)** (👨‍💻 200 · 🔀 1.8K · 📋 3.6K - 3% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/minio/minio
@@ -2814,7 +2850,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	conda install -c conda-forge minio
 	```
-- **[Dockerhub](https://hub.docker.com/r/minio/minio)** (📥 280M · ⭐ 270 · ⏱️ 09.11.2019):
+- **[Dockerhub](https://hub.docker.com/r/minio/minio)** (📥 280M · ⭐ 270 · ⏱️ 11.11.2019):
 
 	```
 	docker pull minio/minio
@@ -2831,17 +2867,17 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 </details>
 <details><summary><b><a href="https://github.com/neo4j/neo4j">Neo4j</a></b> (🥈34 ·  ⭐ 7.8K) - Graphs for Everyone. <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)">❗️GPL-3.0</a></code></summary>
 
-- **[GitHub](https://github.com/neo4j/neo4j)** (👨‍💻 260 · 🔀 1.7K · 📦 560 · 📋 2.7K - 8% open · ⏱️ 08.11.2019):
+- **[GitHub](https://github.com/neo4j/neo4j)** (👨‍💻 260 · 🔀 1.7K · 📦 560 · 📋 2.7K - 8% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/neo4j/neo4j
 	```
-- **[PyPi](https://pypi.org/project/neo4j)** (📥 68K / month · 📦 30 · ⏱️ 04.10.2019):
+- **[PyPi](https://pypi.org/project/neo4j)** (📥 67K / month · 📦 62 · ⏱️ 11.11.2019):
 
 	```
 	pip install neo4j
 	```
-- **[NPM](https://www.npmjs.com/package/neo4j-driver)** (📥 83K / month · 📦 900 · ⏱️ 04.11.2019):
+- **[NPM](https://www.npmjs.com/package/neo4j-driver)** (📥 81K / month · 📦 900 · ⏱️ 04.11.2019):
 
 	```
 	npm install neo4j-driver
@@ -2861,9 +2897,9 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/apache/arrow">Arrow</a></b> (🥈34 ·  ⭐ 4.7K) - Apache Arrow is a cross-language development platform for in-memory.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/apache/arrow">Arrow</a></b> (🥈34 ·  ⭐ 4.7K) - Apache Arrow is a cross-language development platform for in-memory data. It.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/apache/arrow)** (👨‍💻 390 · 🔀 1.2K · 📦 3 · 📋 490 - 14% open · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/apache/arrow)** (👨‍💻 390 · 🔀 1.2K · 📦 3 · 📋 480 - 12% open · ⏱️ 09.11.2019):
 
 	```
 	git clone https://github.com/apache/arrow
@@ -2895,17 +2931,17 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 </details>
 <details><summary><b><a href="https://github.com/apache/lucene-solr">Solr</a></b> (🥈34 ·  ⭐ 3.8K) - Apache Lucene and Solr open-source search software. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/apache/lucene-solr)** (👨‍💻 210 · 🔀 2K · 📦 2.7K · ⏱️ 08.11.2019):
+- **[GitHub](https://github.com/apache/lucene-solr)** (👨‍💻 210 · 🔀 2.1K · 📦 2.7K · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/apache/lucene-solr
 	```
-- **[PyPi](https://pypi.org/project/pysolr)** (📥 73K / month · 📦 2.3K · ⏱️ 03.10.2018):
+- **[PyPi](https://pypi.org/project/pysolr)** (📥 69K / month · 📦 2.3K · ⏱️ 03.10.2018):
 
 	```
 	pip install pysolr
 	```
-- **[NPM](https://www.npmjs.com/package/solr-client)** (📥 47K / month · 📦 840 · ⏱️ 19.05.2017):
+- **[NPM](https://www.npmjs.com/package/solr-client)** (📥 46K / month · 📦 840 · ⏱️ 19.05.2017):
 
 	```
 	npm install solr-client
@@ -2925,9 +2961,9 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/etcd-io/etcd">etcd</a></b> (🥈33 ·  ⭐ 28K) - Distributed reliable key-value store for the most critical data of a.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/etcd-io/etcd">etcd</a></b> (🥈33 ·  ⭐ 28K) - Distributed reliable key-value store for the most critical data of a distributed.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/etcd-io/etcd)** (👨‍💻 610 · 🔀 5.8K · 📥 21M · 📋 4.7K - 11% open · ⏱️ 06.11.2019):
+- **[GitHub](https://github.com/etcd-io/etcd)** (👨‍💻 610 · 🔀 5.8K · 📥 21M · 📋 4.7K - 11% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/etcd-io/etcd
@@ -2937,12 +2973,12 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	pip install etcd3
 	```
-- **[NPM](https://www.npmjs.com/package/etcd3)** (📥 9.7K / month · 📦 34 · ⏱️ 03.07.2019):
+- **[NPM](https://www.npmjs.com/package/etcd3)** (📥 9.5K / month · 📦 34 · ⏱️ 03.07.2019):
 
 	```
 	npm install etcd3
 	```
-- **[Dockerhub](https://hub.docker.com/r/bitnami/etcd)** (📥 2.8M · ⭐ 20 · ⏱️ 09.11.2019):
+- **[Dockerhub](https://hub.docker.com/r/bitnami/etcd)** (📥 2.8M · ⭐ 20 · ⏱️ 11.11.2019):
 
 	```
 	docker pull bitnami/etcd
@@ -2957,19 +2993,19 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/google/leveldb">LevelDB</a></b> (🥈33 ·  ⭐ 19K) - LevelDB is a fast key-value storage library written at Google that.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/google/leveldb">LevelDB</a></b> (🥈33 ·  ⭐ 19K) - LevelDB is a fast key-value storage library written at Google that provides an.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/google/leveldb)** (👨‍💻 46 · 🔀 4.5K · 📋 580 - 21% open · ⏱️ 08.11.2019):
+- **[GitHub](https://github.com/google/leveldb)** (👨‍💻 46 · 🔀 4.5K · 📋 580 - 21% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/google/leveldb
 	```
-- **[PyPi](https://pypi.org/project/plyvel)** (📥 32K / month · 📦 580 · ⏱️ 17.07.2018):
+- **[PyPi](https://pypi.org/project/plyvel)** (📥 31K / month · 📦 580 · ⏱️ 17.07.2018):
 
 	```
 	pip install plyvel
 	```
-- **[NPM](https://www.npmjs.com/package/levelup)** (📥 840K / month · 📦 15K · ⏱️ 04.10.2019):
+- **[NPM](https://www.npmjs.com/package/levelup)** (📥 820K / month · 📦 15K · ⏱️ 04.10.2019):
 
 	```
 	npm install levelup
@@ -2977,12 +3013,12 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 </details>
 <details><summary><b><a href="https://github.com/hazelcast/hazelcast">Hazelcast</a></b> (🥈33 ·  ⭐ 3.5K) - Open Source In-Memory Data Grid. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/hazelcast/hazelcast)** (👨‍💻 240 · 🔀 1.2K · 📦 8.9K · 📋 5.9K - 14% open · ⏱️ 08.11.2019):
+- **[GitHub](https://github.com/hazelcast/hazelcast)** (👨‍💻 240 · 🔀 1.2K · 📦 8.9K · 📋 5.9K - 14% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/hazelcast/hazelcast
 	```
-- **[PyPi](https://pypi.org/project/hazelcast-python-client)** (📥 9K / month · 📦 1 · ⏱️ 15.07.2019):
+- **[PyPi](https://pypi.org/project/hazelcast-python-client)** (📥 8.5K / month · 📦 1 · ⏱️ 15.07.2019):
 
 	```
 	pip install hazelcast-python-client
@@ -3007,9 +3043,9 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/apache/hbase">HBase</a></b> (🥈33 ·  ⭐ 3.2K) - Non-relational distributed database modeled after Google's Bigtable.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/apache/hbase">HBase</a></b> (🥈33 ·  ⭐ 3.2K) - Non-relational distributed database modeled after Google's Bigtable and written in.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/apache/hbase)** (👨‍💻 460 · 🔀 2.2K · 📦 2.6K · ⏱️ 08.11.2019):
+- **[GitHub](https://github.com/apache/hbase)** (👨‍💻 460 · 🔀 2.2K · 📦 2.6K · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/apache/hbase
@@ -3036,7 +3072,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	git clone https://github.com/rethinkdb/rethinkdb
 	```
-- **[PyPi](https://pypi.org/project/rethinkdb)** (📥 21K / month · 📦 870 · ⏱️ 02.11.2019):
+- **[PyPi](https://pypi.org/project/rethinkdb)** (📥 20K / month · 📦 870 · ⏱️ 02.11.2019):
 
 	```
 	pip install rethinkdb
@@ -3046,7 +3082,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	npm install rethinkdb
 	```
-- **[Dockerhub](https://hub.docker.com/r/_/rethinkdb)** (📥 51M · ⭐ 520 · ⏱️ 10.07.2019):
+- **[Dockerhub](https://hub.docker.com/r/_/rethinkdb)** (📥 51M · ⭐ 530 · ⏱️ 10.07.2019):
 
 	```
 	docker pull rethinkdb
@@ -3061,14 +3097,14 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/orientechnologies/orientdb">OrientDB</a></b> (🥈32 ·  ⭐ 4.1K) - OrientDB is the most versatile DBMS supporting Graph, Document,.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/orientechnologies/orientdb">OrientDB</a></b> (🥈32 ·  ⭐ 4.1K) - OrientDB is the most versatile DBMS supporting Graph, Document, Reactive, Full-.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
 - **[GitHub](https://github.com/orientechnologies/orientdb)** (👨‍💻 170 · 🔀 800 · 📦 340 · 📋 8.3K - 17% open · ⏱️ 06.11.2019):
 
 	```
 	git clone https://github.com/orientechnologies/orientdb
 	```
-- **[PyPi](https://pypi.org/project/pyorient)** (📥 3.5K / month · 📦 40 · ⏱️ 29.04.2017):
+- **[PyPi](https://pypi.org/project/pyorient)** (📥 3.4K / month · 📦 40 · ⏱️ 29.04.2017):
 
 	```
 	pip install pyorient
@@ -3093,19 +3129,19 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/arangodb/arangodb">ArangoDB</a></b> (🥉31 ·  ⭐ 9K) - ArangoDB is a native multi-model database with flexible data models.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/arangodb/arangodb">ArangoDB</a></b> (🥉31 ·  ⭐ 9K) - ArangoDB is a native multi-model database with flexible data models for.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/arangodb/arangodb)** (👨‍💻 120 · 🔀 570 · 📋 3.5K - 15% open · ⏱️ 08.11.2019):
+- **[GitHub](https://github.com/arangodb/arangodb)** (👨‍💻 120 · 🔀 570 · 📋 3.5K - 15% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/arangodb/arangodb
 	```
-- **[PyPi](https://pypi.org/project/pyarango)** (📥 7.7K / month · 📦 9 · ⏱️ 30.10.2019):
+- **[PyPi](https://pypi.org/project/pyarango)** (📥 7.5K / month · 📦 9 · ⏱️ 30.10.2019):
 
 	```
 	pip install pyarango
 	```
-- **[NPM](https://www.npmjs.com/package/arangojs)** (📥 22K / month · 📦 420 · ⏱️ 30.08.2019):
+- **[NPM](https://www.npmjs.com/package/arangojs)** (📥 21K / month · 📦 420 · ⏱️ 30.08.2019):
 
 	```
 	npm install arangojs
@@ -3127,40 +3163,40 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 </details>
 <details><summary><b><a href="https://github.com/ClickHouse/ClickHouse">ClickHouse</a></b> (🥉31 ·  ⭐ 8.9K) - ClickHouse is a free analytics DBMS for big data. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/ClickHouse/ClickHouse)** (👨‍💻 470 · 🔀 1.5K · 📋 3.3K - 34% open · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/ClickHouse/ClickHouse)** (👨‍💻 470 · 🔀 1.5K · 📋 3.3K - 33% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/ClickHouse/ClickHouse
 	```
-- **[PyPi](https://pypi.org/project/clickhouse-driver)** (📥 42K / month · 📦 18 · ⏱️ 20.09.2019):
+- **[PyPi](https://pypi.org/project/clickhouse-driver)** (📥 41K / month · 📦 18 · ⏱️ 20.09.2019):
 
 	```
 	pip install clickhouse-driver
 	```
-- **[NPM](https://www.npmjs.com/package/clickhouse)** (📥 5K / month · 📦 6 · ⏱️ 04.11.2018):
+- **[NPM](https://www.npmjs.com/package/clickhouse)** (📥 4.8K / month · 📦 6 · ⏱️ 04.11.2018):
 
 	```
 	npm install clickhouse
 	```
-- **[Dockerhub](https://hub.docker.com/r/yandex/clickhouse-server)** (📥 3.4M · ⭐ 190 · ⏱️ 08.11.2019):
+- **[Dockerhub](https://hub.docker.com/r/yandex/clickhouse-server)** (📥 3.5M · ⭐ 190 · ⏱️ 08.11.2019):
 
 	```
 	docker pull yandex/clickhouse-server
 	```
 </details>
-<details><summary><b><a href="https://github.com/apache/ignite">Ignite</a></b> (🥉31 ·  ⭐ 2.9K) - Memory-centric distributed database, caching and processing platform.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/apache/ignite">Ignite</a></b> (🥉31 ·  ⭐ 2.9K) - Memory-centric distributed database, caching and processing platform designed to.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/apache/ignite)** (👨‍💻 320 · 🔀 1.4K · 📦 1 · ⏱️ 08.11.2019):
+- **[GitHub](https://github.com/apache/ignite)** (👨‍💻 320 · 🔀 1.4K · 📦 1 · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/apache/ignite
 	```
-- **[PyPi](https://pypi.org/project/pyignite)** (📥 1.4K / month · ⏱️ 23.11.2018):
+- **[PyPi](https://pypi.org/project/pyignite)** (📥 1.3K / month · ⏱️ 23.11.2018):
 
 	```
 	pip install pyignite
 	```
-- **[NPM](https://www.npmjs.com/package/apache-ignite-client)** (📥 310 / month · ⏱️ 10.12.2018):
+- **[NPM](https://www.npmjs.com/package/apache-ignite-client)** (📥 300 / month · ⏱️ 10.12.2018):
 
 	```
 	npm install apache-ignite-client
@@ -3180,14 +3216,14 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/apache/cassandra">Cassandra</a></b> (🥉30 ·  ⭐ 6.6K) - Distributed, wide column store, NoSQL database designed to handle.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/apache/cassandra">Cassandra</a></b> (🥉30 ·  ⭐ 6.6K) - Distributed, wide column store, NoSQL database designed to handle large.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/apache/cassandra)** (👨‍💻 400 · 🔀 2.5K · ⏱️ 07.11.2019):
+- **[GitHub](https://github.com/apache/cassandra)** (👨‍💻 400 · 🔀 2.5K · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/apache/cassandra
 	```
-- **[PyPi](https://pypi.org/project/cassandra-driver)** (📥 260K / month · 📦 1.2K · ⏱️ 06.11.2019):
+- **[PyPi](https://pypi.org/project/cassandra-driver)** (📥 250K / month · 📦 1.2K · ⏱️ 06.11.2019):
 
 	```
 	pip install cassandra-driver
@@ -3214,7 +3250,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 </details>
 <details><summary><b><a href="https://github.com/graphite-project/graphite-web">Graphite</a></b> (🥉30 ·  ⭐ 4.8K) - A highly scalable real-time graphing system. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/graphite-project/graphite-web)** (👨‍💻 410 · 🔀 1.2K · 📦 45 · 📋 1.1K - 33% open · ⏱️ 24.10.2019):
+- **[GitHub](https://github.com/graphite-project/graphite-web)** (👨‍💻 410 · 🔀 1.2K · 📦 45 · 📋 1.1K - 33% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/graphite-project/graphite-web
@@ -3225,27 +3261,27 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	docker pull graphiteapp/graphite-statsd
 	```
 </details>
-<details><summary><b><a href="https://github.com/pingcap/tidb">TiDB</a></b> (🥉28 ·  ⭐ 21K) - TiDB is an open source distributed HTAP database compatible with the.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/pingcap/tidb">TiDB</a></b> (🥉28 ·  ⭐ 21K) - TiDB is an open source distributed HTAP database compatible with the MySQL protocol. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/pingcap/tidb)** (👨‍💻 360 · 🔀 3.2K · 📋 3.6K - 32% open · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/pingcap/tidb)** (👨‍💻 360 · 🔀 3.2K · 📋 3.6K - 32% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/pingcap/tidb
 	```
-- **[Dockerhub](https://hub.docker.com/r/pingcap/tidb)** (📥 450K · ⭐ 47 · ⏱️ 10.11.2019):
+- **[Dockerhub](https://hub.docker.com/r/pingcap/tidb)** (📥 450K · ⭐ 47 · ⏱️ 11.11.2019):
 
 	```
 	docker pull pingcap/tidb
 	```
 </details>
-<details><summary><b><a href="https://github.com/crate/crate">CrateDB</a></b> (🥉28 ·  ⭐ 2.7K) - CrateDB is a distributed SQL database that makes it simple to store.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/crate/crate">CrateDB</a></b> (🥉28 ·  ⭐ 2.7K) - CrateDB is a distributed SQL database that makes it simple to store and analyze.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/crate/crate)** (👨‍💻 79 · 🔀 340 · 📋 840 - 10% open · ⏱️ 07.11.2019):
+- **[GitHub](https://github.com/crate/crate)** (👨‍💻 79 · 🔀 340 · 📋 840 - 10% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/crate/crate
 	```
-- **[PyPi](https://pypi.org/project/crate)** (📥 4.2K / month · 📦 42 · ⏱️ 19.09.2019):
+- **[PyPi](https://pypi.org/project/crate)** (📥 4K / month · 📦 42 · ⏱️ 19.09.2019):
 
 	```
 	pip install crate
@@ -3272,12 +3308,12 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	git clone https://github.com/dgraph-io/dgraph
 	```
-- **[PyPi](https://pypi.org/project/pydgraph)** (📥 7.3K / month · 📦 10 · ⏱️ 10.09.2019):
+- **[PyPi](https://pypi.org/project/pydgraph)** (📥 7K / month · 📦 10 · ⏱️ 10.09.2019):
 
 	```
 	pip install pydgraph
 	```
-- **[NPM](https://www.npmjs.com/package/dgraph-js)** (📥 5K / month · 📦 16 · ⏱️ 01.10.2019):
+- **[NPM](https://www.npmjs.com/package/dgraph-js)** (📥 4.9K / month · 📦 16 · ⏱️ 01.10.2019):
 
 	```
 	npm install dgraph-js
@@ -3297,14 +3333,14 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/timescale/timescaledb">TimescaleDB</a></b> (🥉26 ·  ⭐ 7.8K) - An open-source time-series SQL database optimized for fast ingest.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/timescale/timescaledb">TimescaleDB</a></b> (🥉26 ·  ⭐ 7.8K) - An open-source time-series SQL database optimized for fast ingest and.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/timescale/timescaledb)** (👨‍💻 43 · 🔀 410 · 📥 3K · 📋 580 - 23% open · ⏱️ 08.11.2019):
+- **[GitHub](https://github.com/timescale/timescaledb)** (👨‍💻 43 · 🔀 410 · 📥 3K · 📋 580 - 22% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/timescale/timescaledb
 	```
-- **[Dockerhub](https://hub.docker.com/r/timescale/timescaledb)** (📥 14M · ⭐ 60 · ⏱️ 31.10.2019):
+- **[Dockerhub](https://hub.docker.com/r/timescale/timescaledb)** (📥 15M · ⭐ 60 · ⏱️ 31.10.2019):
 
 	```
 	docker pull timescale/timescaledb
@@ -3332,9 +3368,9 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/apache/geode">Geode</a></b> (🥉26 ·  ⭐ 1.7K) - Data management platform that provides real-time, consistent access.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/apache/geode">Geode</a></b> (🥉26 ·  ⭐ 1.7K) - Data management platform that provides real-time, consistent access to data-.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/apache/geode)** (👨‍💻 170 · 🔀 540 · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/apache/geode)** (👨‍💻 170 · 🔀 540 · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/apache/geode
@@ -3361,7 +3397,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	git clone https://github.com/omnisci/omniscidb
 	```
-- **[PyPi](https://pypi.org/project/pymapd)** (📥 2.4K / month · 📦 15 · ⏱️ 01.11.2019):
+- **[PyPi](https://pypi.org/project/pymapd)** (📥 2.2K / month · 📦 15 · ⏱️ 01.11.2019):
 
 	```
 	pip install pymapd
@@ -3394,15 +3430,15 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	npm install @cayleygraph/cayley
 	```
-- **[Dockerhub](https://hub.docker.com/r/cayleygraph/cayley)** (📥 590 · ⭐ 4 · ⏱️ 08.11.2019):
+- **[Dockerhub](https://hub.docker.com/r/cayleygraph/cayley)** (📥 660 · ⭐ 4 · ⏱️ 08.11.2019):
 
 	```
 	docker pull cayleygraph/cayley
 	```
 </details>
-<details><summary><b><a href="https://github.com/apache/incubator-druid">Druid</a></b> (🥉24 ·  ⭐ 8.8K) - Apache Druid (Incubating) - Column oriented distributed data store.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/apache/incubator-druid">Druid</a></b> (🥉24 ·  ⭐ 8.8K) - Apache Druid (Incubating) - Column oriented distributed data store ideal for.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/apache/incubator-druid)** (👨‍💻 380 · 🔀 2.2K · 📥 120 · 📋 3.2K - 28% open · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/apache/incubator-druid)** (👨‍💻 380 · 🔀 2.2K · 📥 120 · 📋 3.2K - 28% open · ⏱️ 10.11.2019):
 
 	```
 	git clone https://github.com/apache/incubator-druid
@@ -3420,7 +3456,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	git clone https://github.com/basho/riak
 	```
-- **[PyPi](https://pypi.org/project/riak)** (📥 8.2K / month · 📦 170 · ⏱️ 12.12.2016):
+- **[PyPi](https://pypi.org/project/riak)** (📥 7.9K / month · 📦 170 · ⏱️ 12.12.2016):
 
 	```
 	pip install riak
@@ -3460,30 +3496,30 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 </details>
 <details><summary><b><a href="https://github.com/quiltdata/quilt">Quilt</a></b> (🥉23 ·  ⭐ 840) - Quilt is a versioned data portal for AWS. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/quiltdata/quilt)** (👨‍💻 27 · 🔀 47 · 📦 14 · 📋 99 - 57% open · ⏱️ 08.11.2019):
+- **[GitHub](https://github.com/quiltdata/quilt)** (👨‍💻 27 · 🔀 47 · 📦 14 · 📋 99 - 57% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/quiltdata/quilt
 	```
-- **[PyPi](https://pypi.org/project/quilt3)** (📥 1.8K / month · 📦 4 · ⏱️ 10.10.2019):
+- **[PyPi](https://pypi.org/project/quilt3)** (📥 1.6K / month · 📦 4 · ⏱️ 10.10.2019):
 
 	```
 	pip install quilt3
 	```
 </details>
-<details><summary><b><a href="https://github.com/valeriansaliou/sonic">Sonic</a></b> (🥉22 ·  ⭐ 7.7K) - Fast, lightweight & schema-less search backend. An alternative to.. <code><a href="https://tldrlegal.com/license/mozilla-public-license-2.0-(mpl-2)">MPL-2.0</a></code></summary>
+<details><summary><b><a href="https://github.com/valeriansaliou/sonic">Sonic</a></b> (🥉22 ·  ⭐ 7.7K) - Fast, lightweight & schema-less search backend. An alternative to Elasticsearch.. <code><a href="https://tldrlegal.com/license/mozilla-public-license-2.0-(mpl-2)">MPL-2.0</a></code></summary>
 
-- **[GitHub](https://github.com/valeriansaliou/sonic)** (👨‍💻 21 · 🔀 210 · 📋 160 - 10% open · ⏱️ 14.10.2019):
+- **[GitHub](https://github.com/valeriansaliou/sonic)** (👨‍💻 21 · 🔀 220 · 📋 160 - 10% open · ⏱️ 14.10.2019):
 
 	```
 	git clone https://github.com/valeriansaliou/sonic
 	```
-- **[PyPi](https://pypi.org/project/sonic-client)** (📥 600 / month · ⏱️ 03.08.2019):
+- **[PyPi](https://pypi.org/project/sonic-client)** (📥 630 / month · ⏱️ 03.08.2019):
 
 	```
 	pip install sonic-client
 	```
-- **[NPM](https://www.npmjs.com/package/sonic-channel)** (📥 360 / month · ⏱️ 26.04.2019):
+- **[NPM](https://www.npmjs.com/package/sonic-channel)** (📥 340 / month · ⏱️ 26.04.2019):
 
 	```
 	npm install sonic-channel
@@ -3537,7 +3573,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 </details>
 <details><summary><b><a href="https://github.com/apache/incubator-doris">Doris</a></b> (🥉21 ·  ⭐ 1.4K) - MPP-based interactive SQL data warehousing for reporting and analysis. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/apache/incubator-doris)** (👨‍💻 63 · 🔀 370 · 📋 650 - 35% open · ⏱️ 08.11.2019):
+- **[GitHub](https://github.com/apache/incubator-doris)** (👨‍💻 63 · 🔀 370 · 📋 650 - 35% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/apache/incubator-doris
@@ -3548,14 +3584,14 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	docker pull apachedoris/doris-dev
 	```
 </details>
-<details><summary><b><a href="https://github.com/gchq/Gaffer">Gaffer</a></b> (🥉19 ·  ⭐ 1.6K) - A large-scale entity and relation database supporting aggregation of.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/gchq/Gaffer">Gaffer</a></b> (🥉20 ·  ⭐ 1.6K) - A large-scale entity and relation database supporting aggregation of properties. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/gchq/Gaffer)** (👨‍💻 38 · 🔀 320 · 📥 26 · 📋 1.1K - 8% open · ⏱️ 08.11.2019):
+- **[GitHub](https://github.com/gchq/Gaffer)** (👨‍💻 38 · 🔀 320 · 📥 26 · 📋 1.1K - 8% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/gchq/Gaffer
 	```
-- **[Maven](https://search.maven.org/artifact/uk.gov.gchq.gaffer/graph)** (📦 2 · ⏱️ 25.09.2019):
+- **[Maven](https://search.maven.org/artifact/uk.gov.gchq.gaffer/graph)** (📦 8 · ⏱️ 25.09.2019):
 
 	```
 	<dependency>
@@ -3572,12 +3608,12 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	git clone https://github.com/edgedb/edgedb
 	```
-- **[PyPi](https://pypi.org/project/edgedb)** (📥 450 / month · ⏱️ 11.04.2019):
+- **[PyPi](https://pypi.org/project/edgedb)** (📥 430 / month · ⏱️ 11.04.2019):
 
 	```
 	pip install edgedb
 	```
-- **[Dockerhub](https://hub.docker.com/r/edgedb/edgedb)** (📥 500 · ⭐ 2 · ⏱️ 17.10.2019):
+- **[Dockerhub](https://hub.docker.com/r/edgedb/edgedb)** (📥 580 · ⭐ 2 · ⏱️ 17.10.2019):
 
 	```
 	docker pull edgedb/edgedb
@@ -3585,19 +3621,19 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 </details>
 <details><summary><b><a href="https://github.com/vesoft-inc/nebula">Nebula</a></b> (🥉18 ·  ⭐ 1.3K) - A high performance distributed Graph Database. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/vesoft-inc/nebula)** (👨‍💻 30 · 🔀 160 · 📥 140 · 📋 510 - 36% open · ⏱️ 08.11.2019):
+- **[GitHub](https://github.com/vesoft-inc/nebula)** (👨‍💻 30 · 🔀 160 · 📥 140 · 📋 520 - 36% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/vesoft-inc/nebula
 	```
-- **[Dockerhub](https://hub.docker.com/r/vesoft/nebula-graph)** (📥 1.8K · ⭐ 3 · ⏱️ 09.11.2019):
+- **[Dockerhub](https://hub.docker.com/r/vesoft/nebula-graph)** (📥 1.8K · ⭐ 3 · ⏱️ 11.11.2019):
 
 	```
 	docker pull vesoft/nebula-graph
 	```
 </details>
 <details><summary>Show 4 hidden projects...</summary>
-<br><details><summary><b><a href="https://github.com/mysql/mysql-server">MySQL</a></b> (🥈34 ·  ⭐ 23K) - MySQL Server, the world's most popular open source database, and.. <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v2">❗️GPL-2.0</a></code></summary>
+<br><details><summary><b><a href="https://github.com/mysql/mysql-server">MySQL</a></b> (🥈34 ·  ⭐ 23K) - MySQL Server, the world's most popular open source database, and MySQL Cluster, a.. <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v2">❗️GPL-2.0</a></code></summary>
 
 - **[GitHub](https://github.com/mysql/mysql-server)** (👨‍💻 560 · 🔀 2K · ⏱️ 20.09.2019):
 
@@ -3609,7 +3645,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	pip install mysqlclient
 	```
-- **[NPM](https://www.npmjs.com/package/mysql)** (📥 2.2M / month · 📦 84K · ⏱️ 18.04.2019):
+- **[NPM](https://www.npmjs.com/package/mysql)** (📥 2.1M / month · 📦 84K · ⏱️ 18.04.2019):
 
 	```
 	npm install mysql
@@ -3634,14 +3670,14 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/MariaDB/server">MariaDB</a></b> (🥉27 ·  ⭐ 6.1K) - MariaDB server is a community developed fork of MySQL server... <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v2">❗️GPL-2.0</a></code></summary>
+<details><summary><b><a href="https://github.com/MariaDB/server">MariaDB</a></b> (🥉27 ·  ⭐ 6.1K) - MariaDB server is a community developed fork of MySQL server. Started by core.. <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v2">❗️GPL-2.0</a></code></summary>
 
-- **[GitHub](https://github.com/MariaDB/server)** (👨‍💻 1.6K · 🔀 900 · ⏱️ 08.11.2019):
+- **[GitHub](https://github.com/MariaDB/server)** (👨‍💻 1.6K · 🔀 900 · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/MariaDB/server
 	```
-- **[NPM](https://www.npmjs.com/package/mariadb)** (📥 35K / month · 📦 160 · ⏱️ 19.07.2017):
+- **[NPM](https://www.npmjs.com/package/mariadb)** (📥 33K / month · 📦 160 · ⏱️ 19.07.2017):
 
 	```
 	npm install mariadb
@@ -3654,7 +3690,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 </details>
 <details><summary><b><a href="https://github.com/ravendb/ravendb">RavenDB</a></b> (🥉25 ·  ⭐ 2.4K) - ACID Document Database. <code><a href="https://tldrlegal.com/license/gnu-affero-general-public-license-v3-(agpl-3.0)">❗️AGPL-3.0</a></code></summary>
 
-- **[GitHub](https://github.com/ravendb/ravendb)** (👨‍💻 320 · 🔀 690 · 📦 2.1K · ⏱️ 06.11.2019):
+- **[GitHub](https://github.com/ravendb/ravendb)** (👨‍💻 320 · 🔀 690 · 📦 2.1K · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/ravendb/ravendb
@@ -3664,7 +3700,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	pip install pyravendb
 	```
-- **[NPM](https://www.npmjs.com/package/ravendb)** (📥 430 / month · 📦 28 · ⏱️ 16.09.2019):
+- **[NPM](https://www.npmjs.com/package/ravendb)** (📥 440 / month · 📦 28 · ⏱️ 16.09.2019):
 
 	```
 	npm install ravendb
@@ -3686,17 +3722,17 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 </details>
 <details><summary><b><a href="https://github.com/graknlabs/grakn">Grakn</a></b> (🥉24 ·  ⭐ 1.8K) - Grakn Core: The Knowledge Graph. <code><a href="https://tldrlegal.com/license/gnu-affero-general-public-license-v3-(agpl-3.0)">❗️AGPL-3.0</a></code></summary>
 
-- **[GitHub](https://github.com/graknlabs/grakn)** (👨‍💻 54 · 🔀 220 · 📥 11K · 📦 18 · 📋 1.9K - 11% open · ⏱️ 08.11.2019):
+- **[GitHub](https://github.com/graknlabs/grakn)** (👨‍💻 54 · 🔀 220 · 📥 11K · 📦 18 · 📋 1.9K - 11% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/graknlabs/grakn
 	```
-- **[PyPi](https://pypi.org/project/grakn-client)** (📥 690 / month · 📦 2 · ⏱️ 06.09.2019):
+- **[PyPi](https://pypi.org/project/grakn-client)** (📥 640 / month · 📦 2 · ⏱️ 06.09.2019):
 
 	```
 	pip install grakn-client
 	```
-- **[NPM](https://www.npmjs.com/package/grakn-client)** (📥 640 / month · 📦 2 · ⏱️ 28.10.2019):
+- **[NPM](https://www.npmjs.com/package/grakn-client)** (📥 630 / month · 📦 2 · ⏱️ 28.10.2019):
 
 	```
 	npm install grakn-client
@@ -3723,14 +3759,16 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://i.ibb.co/2PS8bhR/up-arrow.png" alt="Back to top"></a>
 
+_GUI tools for database administration and data management for a variety of databases._
+
 <details><summary><b><a href="https://github.com/vrana/adminer">Adminer</a></b> (🥇29 ·  ⭐ 4.1K) - Database management in a single PHP file. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/vrana/adminer)** (👨‍💻 120 · 🔀 740 · 📥 2.1M · 📦 87 · ⏱️ 08.11.2019):
+- **[GitHub](https://github.com/vrana/adminer)** (👨‍💻 130 · 🔀 740 · 📥 2.1M · 📦 87 · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/vrana/adminer
 	```
-- **[Dockerhub](https://hub.docker.com/r/_/adminer)** (📥 82M · ⭐ 300 · ⏱️ 31.10.2019):
+- **[Dockerhub](https://hub.docker.com/r/_/adminer)** (📥 83M · ⭐ 300 · ⏱️ 31.10.2019):
 
 	```
 	docker pull adminer
@@ -3738,25 +3776,25 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 </details>
 <details><summary><b><a href="https://github.com/mongo-express/mongo-express">mongo-express</a></b> (🥇29 ·  ⭐ 4K) - Web-based MongoDB admin interface, written with Node.js and express. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
 
-- **[GitHub](https://github.com/mongo-express/mongo-express)** (👨‍💻 110 · 🔀 650 · 📦 570 · 📋 320 - 24% open · ⏱️ 01.11.2019):
+- **[GitHub](https://github.com/mongo-express/mongo-express)** (👨‍💻 110 · 🔀 650 · 📦 570 · 📋 320 - 24% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/mongo-express/mongo-express
 	```
-- **[NPM](https://www.npmjs.com/package/mongo-express)** (📥 5.3K / month · 📦 380 · ⏱️ 20.07.2019):
+- **[NPM](https://www.npmjs.com/package/mongo-express)** (📥 5.2K / month · 📦 380 · ⏱️ 20.07.2019):
 
 	```
 	npm install mongo-express
 	```
-- **[Dockerhub](https://hub.docker.com/r/_/mongo-express)** (📥 34M · ⭐ 550 · ⏱️ 29.10.2019):
+- **[Dockerhub](https://hub.docker.com/r/_/mongo-express)** (📥 35M · ⭐ 550 · ⏱️ 29.10.2019):
 
 	```
 	docker pull mongo-express
 	```
 </details>
-<details><summary><b><a href="https://github.com/sqlitebrowser/sqlitebrowser">SQLite Browser</a></b> (🥇26 ·  ⭐ 12K) - Official home of the DB Browser for SQLite (DB4S) project... <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/sqlitebrowser/sqlitebrowser">SQLite Browser</a></b> (🥇26 ·  ⭐ 12K) - Official home of the DB Browser for SQLite (DB4S) project. Previously.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/sqlitebrowser/sqlitebrowser)** (👨‍💻 120 · 🔀 1.4K · 📥 7.6M · 📋 1.7K - 22% open · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/sqlitebrowser/sqlitebrowser)** (👨‍💻 120 · 🔀 1.4K · 📥 7.6M · 📋 1.7K - 22% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/sqlitebrowser/sqlitebrowser
@@ -3764,7 +3802,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 </details>
 <details><summary><b><a href="https://github.com/dbeaver/dbeaver">DBeaver</a></b> (🥈25 ·  ⭐ 11K) - Free universal database tool and SQL client. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/dbeaver/dbeaver)** (👨‍💻 140 · 🔀 960 · 📥 320K · 📋 6.6K - 21% open · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/dbeaver/dbeaver)** (👨‍💻 140 · 🔀 960 · 📥 320K · 📋 6.6K - 21% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/dbeaver/dbeaver
@@ -3785,7 +3823,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 </details>
 <details><summary><b><a href="https://github.com/sequelpro/sequelpro">Sequel Pro</a></b> (🥈23 ·  ⭐ 7.1K) - MySQL/MariaDB database management for macOS. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
 
-- **[GitHub](https://github.com/sequelpro/sequelpro)** (👨‍💻 41 · 🔀 620 · 📥 3.8M · 📋 3.5K - 29% open · ⏱️ 30.09.2019):
+- **[GitHub](https://github.com/sequelpro/sequelpro)** (👨‍💻 41 · 🔀 630 · 📥 3.8M · 📋 3.5K - 29% open · ⏱️ 30.09.2019):
 
 	```
 	git clone https://github.com/sequelpro/sequelpro
@@ -3804,7 +3842,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	docker pull mobz/elasticsearch-head
 	```
 </details>
-<details><summary><b><a href="https://github.com/appbaseio/dejavu">Dejavu</a></b> (🥈22 ·  ⭐ 6.3K) - The Missing Web UI for Elasticsearch: Import, browse and edit data.. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/appbaseio/dejavu">Dejavu</a></b> (🥈22 ·  ⭐ 6.3K) - The Missing Web UI for Elasticsearch: Import, browse and edit data with rich filters.. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
 
 - **[GitHub](https://github.com/appbaseio/dejavu)** (👨‍💻 18 · 🔀 370 · 📋 280 - 10% open · ⏱️ 28.10.2019):
 
@@ -3882,12 +3920,12 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	git clone https://github.com/huggingface/Mongoku
 	```
-- **[NPM](https://www.npmjs.com/package/mongoku)** (📥 280 / month · ⏱️ 31.07.2019):
+- **[NPM](https://www.npmjs.com/package/mongoku)** (📥 270 / month · ⏱️ 31.07.2019):
 
 	```
 	npm install mongoku
 	```
-- **[Dockerhub](https://hub.docker.com/r/huggingface/mongoku)** (📥 170K · ⭐ 1 · ⏱️ 31.07.2019):
+- **[Dockerhub](https://hub.docker.com/r/huggingface/mongoku)** (📥 180K · ⭐ 1 · ⏱️ 31.07.2019):
 
 	```
 	docker pull huggingface/mongoku
@@ -3901,7 +3939,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	git clone https://github.com/Alecaddd/sequeler
 	```
 </details>
-<details><summary><b><a href="https://github.com/fastogt/fastonosql">FastoNoSQL</a></b> (🥉15 ·  ⭐ 590) - FastoNoSQL is a crossplatform Redis, Memcached, SSDB, LevelDB,.. <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)">❗️GPL-3.0</a></code></summary>
+<details><summary><b><a href="https://github.com/fastogt/fastonosql">FastoNoSQL</a></b> (🥉15 ·  ⭐ 590) - FastoNoSQL is a crossplatform Redis, Memcached, SSDB, LevelDB, RocksDB,.. <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)">❗️GPL-3.0</a></code></summary>
 
 - **[GitHub](https://github.com/fastogt/fastonosql)** (👨‍💻 3 · 🔀 47 · 📋 69 - 15% open · ⏱️ 21.10.2019):
 
@@ -3923,7 +3961,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 </details>
 <details><summary>Show 7 hidden projects...</summary>
-<br><details><summary><b><a href="https://github.com/nosqlclient/nosqlclient">Nosqlclient</a></b> (🥇26 ·  ⭐ 3.1K) - Cross-platform and self hosted, easy to use, intuitive mongodb.. <code><a href="https://tldrlegal.com/license/gnu-affero-general-public-license-v3-(agpl-3.0)">❗️AGPL-3.0</a></code></summary>
+<br><details><summary><b><a href="https://github.com/nosqlclient/nosqlclient">Nosqlclient</a></b> (🥇26 ·  ⭐ 3.1K) - Cross-platform and self hosted, easy to use, intuitive mongodb management.. <code><a href="https://tldrlegal.com/license/gnu-affero-general-public-license-v3-(agpl-3.0)">❗️AGPL-3.0</a></code></summary>
 
 - **[GitHub](https://github.com/nosqlclient/nosqlclient)** (👨‍💻 27 · 🔀 320 · 📥 170K · 📦 180 · 📋 390 - 5% open · ⏱️ 25.09.2019):
 
@@ -3938,13 +3976,13 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 </details>
 <details><summary><b><a href="https://github.com/phpmyadmin/phpmyadmin">phpMyAdmin</a></b> (🥈23 ·  ⭐ 4.5K) - A web interface for MySQL and MariaDB. <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v2">❗️GPL-2.0</a></code></summary>
 
-- **[GitHub](https://github.com/phpmyadmin/phpmyadmin)** (👨‍💻 1.6K · 🔀 2.5K · 📋 12K - 3% open · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/phpmyadmin/phpmyadmin)** (👨‍💻 1.6K · 🔀 2.5K · 📋 12K - 3% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/phpmyadmin/phpmyadmin
 	```
 </details>
-<details><summary><b><a href="https://github.com/sqlectron/sqlectron-gui">Sqlectron</a></b> (🥉20 ·  ⭐ 2.8K · 💀) - UNMAINTAINED - SEE BELOW. A simple and lightweight SQL client.. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/sqlectron/sqlectron-gui">Sqlectron</a></b> (🥉20 ·  ⭐ 2.9K · 💀) - UNMAINTAINED - SEE BELOW. A simple and lightweight SQL client desktop with.. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
 
 - **[GitHub](https://github.com/sqlectron/sqlectron-gui)** (👨‍💻 29 · 🔀 320 · 📥 180K · 📋 330 - 30% open · ⏱️ 31.10.2018):
 
@@ -3954,20 +3992,20 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 </details>
 <details><summary><b><a href="https://github.com/postgres/pgadmin4">pgAdmin</a></b> (🥉20 ·  ⭐ 760) - Web-based administration tool for the PostgreSQL database. <code><a href="https://tldrlegal.com/search?q=PostgreSQL">❗️PostgreSQL</a></code></summary>
 
-- **[GitHub](https://github.com/postgres/pgadmin4)** (👨‍💻 96 · 🔀 140 · ⏱️ 08.11.2019):
+- **[GitHub](https://github.com/postgres/pgadmin4)** (👨‍💻 96 · 🔀 140 · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/postgres/pgadmin4
 	```
-- **[Dockerhub](https://hub.docker.com/r/dpage/pgadmin4)** (📥 21M · ⭐ 430 · ⏱️ 10.11.2019):
+- **[Dockerhub](https://hub.docker.com/r/dpage/pgadmin4)** (📥 21M · ⭐ 430 · ⏱️ 11.11.2019):
 
 	```
 	docker pull dpage/pgadmin4
 	```
 </details>
-<details><summary><b><a href="https://github.com/mickael-kerjean/filestash">Filestash</a></b> (🥉18 ·  ⭐ 2K) - A modern web client for SFTP, S3, FTP, WebDAV, Git, S3, FTPS, Minio,.. <code><a href="https://tldrlegal.com/license/gnu-affero-general-public-license-v3-(agpl-3.0)">❗️AGPL-3.0</a></code></summary>
+<details><summary><b><a href="https://github.com/mickael-kerjean/filestash">Filestash</a></b> (🥉18 ·  ⭐ 2K) - A modern web client for SFTP, S3, FTP, WebDAV, Git, S3, FTPS, Minio, LDAP,.. <code><a href="https://tldrlegal.com/license/gnu-affero-general-public-license-v3-(agpl-3.0)">❗️AGPL-3.0</a></code></summary>
 
-- **[GitHub](https://github.com/mickael-kerjean/filestash)** (👨‍💻 17 · 🔀 110 · 📥 190 · 📋 180 - 15% open · ⏱️ 07.11.2019):
+- **[GitHub](https://github.com/mickael-kerjean/filestash)** (👨‍💻 17 · 🔀 110 · 📥 190 · 📋 180 - 14% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/mickael-kerjean/filestash
@@ -3978,9 +4016,9 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	docker pull machines/filestash
 	```
 </details>
-<details><summary><b><a href="https://github.com/HeidiSQL/HeidiSQL">HeidiSQL</a></b> (🥉18 ·  ⭐ 1.5K) - A lightweight client for managing MariaDB, MySQL, SQL Server and.. <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v2">❗️GPL-2.0</a></code></summary>
+<details><summary><b><a href="https://github.com/HeidiSQL/HeidiSQL">HeidiSQL</a></b> (🥉18 ·  ⭐ 1.6K) - A lightweight client for managing MariaDB, MySQL, SQL Server and PostgreSQL,.. <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v2">❗️GPL-2.0</a></code></summary>
 
-- **[GitHub](https://github.com/HeidiSQL/HeidiSQL)** (👨‍💻 24 · 🔀 170 · 📋 770 - 39% open · ⏱️ 07.11.2019):
+- **[GitHub](https://github.com/HeidiSQL/HeidiSQL)** (👨‍💻 24 · 🔀 170 · 📋 770 - 39% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/HeidiSQL/HeidiSQL
@@ -4003,12 +4041,12 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 
 <details><summary><b><a href="https://github.com/netdata/netdata">Netdata</a></b> (🥇29 ·  ⭐ 42K) - Real-time performance monitoring, done right! https://my-netdata.io/. <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)">❗️GPL-3.0</a></code></summary>
 
-- **[GitHub](https://github.com/netdata/netdata)** (👨‍💻 340 · 🔀 3.8K · 📥 350K · 📋 4.3K - 14% open · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/netdata/netdata)** (👨‍💻 340 · 🔀 3.8K · 📥 350K · 📋 4.3K - 14% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/netdata/netdata
 	```
-- **[Dockerhub](https://hub.docker.com/r/netdata/netdata)** (📥 73M · ⭐ 120 · ⏱️ 09.11.2019):
+- **[Dockerhub](https://hub.docker.com/r/netdata/netdata)** (📥 73M · ⭐ 120 · ⏱️ 11.11.2019):
 
 	```
 	docker pull netdata/netdata
@@ -4016,7 +4054,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 </details>
 <details><summary><b><a href="https://github.com/ApolloAuto/apollo">Apollo</a></b> (🥇29 ·  ⭐ 15K) - An open autonomous driving platform. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/ApolloAuto/apollo)** (👨‍💻 290 · 🔀 5.2K · 📥 34K · 📋 2K - 23% open · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/ApolloAuto/apollo)** (👨‍💻 290 · 🔀 5.2K · 📥 34K · 📋 2K - 23% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/ApolloAuto/apollo
@@ -4027,14 +4065,14 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	docker pull apolloauto/apollo
 	```
 </details>
-<details><summary><b><a href="https://github.com/nicolargo/glances">Glances</a></b> (🥇29 ·  ⭐ 14K) - Glances an Eye on your system. A top/htop alternative for GNU/Linux,.. <code><a href="https://tldrlegal.com/license/gnu-lesser-general-public-license-v3-(lgpl-3)">❗️LGPL-3.0</a></code></summary>
+<details><summary><b><a href="https://github.com/nicolargo/glances">Glances</a></b> (🥇29 ·  ⭐ 14K) - Glances an Eye on your system. A top/htop alternative for GNU/Linux, BSD, Mac.. <code><a href="https://tldrlegal.com/license/gnu-lesser-general-public-license-v3-(lgpl-3)">❗️LGPL-3.0</a></code></summary>
 
-- **[GitHub](https://github.com/nicolargo/glances)** (👨‍💻 110 · 🔀 950 · 📥 350 · 📦 160 · 📋 1.1K - 10% open · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/nicolargo/glances)** (👨‍💻 110 · 🔀 950 · 📥 350 · 📦 160 · 📋 1.1K - 10% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/nicolargo/glances
 	```
-- **[PyPi](https://pypi.org/project/glances)** (📥 48K / month · 📦 44 · ⏱️ 27.08.2019):
+- **[PyPi](https://pypi.org/project/glances)** (📥 47K / month · 📦 44 · ⏱️ 27.08.2019):
 
 	```
 	pip install glances
@@ -4047,12 +4085,12 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 </details>
 <details><summary><b><a href="https://github.com/FredrikNoren/ungit">ungit</a></b> (🥈27 ·  ⭐ 8.6K) - The easiest way to use git. On any platform. Anywhere. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
 
-- **[GitHub](https://github.com/FredrikNoren/ungit)** (👨‍💻 90 · 🔀 560 · 📦 48 · 📋 730 - 26% open · ⏱️ 07.11.2019):
+- **[GitHub](https://github.com/FredrikNoren/ungit)** (👨‍💻 90 · 🔀 560 · 📦 48 · 📋 730 - 26% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/FredrikNoren/ungit
 	```
-- **[NPM](https://www.npmjs.com/package/ungit)** (📥 5.7K / month · 📦 32 · ⏱️ 16.09.2019):
+- **[NPM](https://www.npmjs.com/package/ungit)** (📥 5.6K / month · 📦 32 · ⏱️ 16.09.2019):
 
 	```
 	npm install ungit
@@ -4060,12 +4098,12 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 </details>
 <details><summary><b><a href="https://github.com/filebrowser/filebrowser">File Browser</a></b> (🥈25 ·  ⭐ 6K) - Web File Browser which can be used as a middleware or standalone app. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/filebrowser/filebrowser)** (👨‍💻 72 · 🔀 780 · 📥 25K · 📋 650 - 18% open · ⏱️ 04.11.2019):
+- **[GitHub](https://github.com/filebrowser/filebrowser)** (👨‍💻 72 · 🔀 780 · 📥 26K · 📋 650 - 18% open · ⏱️ 10.11.2019):
 
 	```
 	git clone https://github.com/filebrowser/filebrowser
 	```
-- **[Dockerhub](https://hub.docker.com/r/filebrowser/filebrowser)** (📥 9.1M · ⭐ 58 · ⏱️ 04.11.2019):
+- **[Dockerhub](https://hub.docker.com/r/filebrowser/filebrowser)** (📥 9.2M · ⭐ 58 · ⏱️ 04.11.2019):
 
 	```
 	docker pull filebrowser/filebrowser
@@ -4089,9 +4127,9 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	docker pull scrapinghub/portia
 	```
 </details>
-<details><summary><b><a href="https://github.com/OpenRefine/OpenRefine">OpenRefine</a></b> (🥈24 ·  ⭐ 6.7K) - OpenRefine is a free, open source power tool for working with messy.. <code><a href="https://tldrlegal.com/license/bsd-3-clause-license-(revised)">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/OpenRefine/OpenRefine">OpenRefine</a></b> (🥈24 ·  ⭐ 6.7K) - OpenRefine is a free, open source power tool for working with messy data and.. <code><a href="https://tldrlegal.com/license/bsd-3-clause-license-(revised)">BSD-3</a></code></summary>
 
-- **[GitHub](https://github.com/OpenRefine/OpenRefine)** (👨‍💻 130 · 🔀 1.1K · 📥 880K · 📋 1.6K - 26% open · ⏱️ 07.11.2019):
+- **[GitHub](https://github.com/OpenRefine/OpenRefine)** (👨‍💻 130 · 🔀 1.1K · 📥 890K · 📋 1.6K - 26% open · ⏱️ 10.11.2019):
 
 	```
 	git clone https://github.com/OpenRefine/OpenRefine
@@ -4102,27 +4140,27 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	docker pull vimagick/openrefine
 	```
 </details>
-<details><summary><b><a href="https://github.com/guess-js/guess">guess</a></b> (🥈24 ·  ⭐ 5.8K) - Libraries & tools for enabling Machine Learning driven user-.. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/guess-js/guess">guess</a></b> (🥈24 ·  ⭐ 5.8K) - Libraries & tools for enabling Machine Learning driven user-experiences on the web. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
 
-- **[GitHub](https://github.com/guess-js/guess)** (👨‍💻 17 · 🔀 140 · 📋 59 - 10% open · ⏱️ 08.11.2019):
+- **[GitHub](https://github.com/guess-js/guess)** (👨‍💻 17 · 🔀 140 · 📋 61 - 11% open · ⏱️ 10.11.2019):
 
 	```
 	git clone https://github.com/guess-js/guess
 	```
-- **[NPM](https://www.npmjs.com/package/guess-webpack)** (📥 53K / month · 📦 62 · ⏱️ 27.09.2019):
+- **[NPM](https://www.npmjs.com/package/guess-webpack)** (📥 50K / month · 📦 76 · ⏱️ 10.11.2019):
 
 	```
 	npm install guess-webpack
 	```
 </details>
-<details><summary><b><a href="https://github.com/apache/kylin">Kylin</a></b> (🥉22 ·  ⭐ 2.4K) - Distributed Analytics Engine that provides SQL interface and multi-.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/apache/kylin">Kylin</a></b> (🥉22 ·  ⭐ 2.4K) - Distributed Analytics Engine that provides SQL interface and multi-dimensional.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/apache/kylin)** (👨‍💻 220 · 🔀 1.1K · 📦 1 · ⏱️ 07.11.2019):
+- **[GitHub](https://github.com/apache/kylin)** (👨‍💻 220 · 🔀 1.1K · 📦 1 · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/apache/kylin
 	```
-- **[PyPi](https://pypi.org/project/kylinpy)** (📥 560 / month · ⏱️ 07.04.2019):
+- **[PyPi](https://pypi.org/project/kylinpy)** (📥 540 / month · ⏱️ 07.04.2019):
 
 	```
 	pip install kylinpy
@@ -4135,25 +4173,25 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 </details>
 <details><summary><b><a href="https://github.com/pravega/pravega">Pravega</a></b> (🥉22 ·  ⭐ 810) - Pravega - Streaming as a new software defined storage primitive. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/pravega/pravega)** (👨‍💻 56 · 🔀 190 · 📥 4.3K · 📋 2.5K - 13% open · ⏱️ 08.11.2019):
+- **[GitHub](https://github.com/pravega/pravega)** (👨‍💻 56 · 🔀 190 · 📥 4.3K · 📋 2.5K - 13% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/pravega/pravega
 	```
-- **[Dockerhub](https://hub.docker.com/r/pravega/pravega)** (📥 120K · ⭐ 1 · ⏱️ 07.11.2019):
+- **[Dockerhub](https://hub.docker.com/r/pravega/pravega)** (📥 130K · ⭐ 1 · ⏱️ 07.11.2019):
 
 	```
 	docker pull pravega/pravega
 	```
 </details>
-<details><summary><b><a href="https://github.com/alephdata/aleph">Aleph</a></b> (🥉20 ·  ⭐ 920) - Search and browse documents and data; find the people and companies.. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/alephdata/aleph">Aleph</a></b> (🥉20 ·  ⭐ 920) - Search and browse documents and data; find the people and companies you look for. <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code></summary>
 
 - **[GitHub](https://github.com/alephdata/aleph)** (👨‍💻 38 · 🔀 130 · 📋 450 - 8% open · ⏱️ 04.11.2019):
 
 	```
 	git clone https://github.com/alephdata/aleph
 	```
-- **[Dockerhub](https://hub.docker.com/r/alephdata/aleph)** (📥 190K · ⏱️ 09.11.2019):
+- **[Dockerhub](https://hub.docker.com/r/alephdata/aleph)** (📥 190K · ⏱️ 11.11.2019):
 
 	```
 	docker pull alephdata/aleph
@@ -4161,7 +4199,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 </details>
 <details><summary><b><a href="https://github.com/rstudio/tensorflow">TensorFlow for R</a></b> (🥉19 ·  ⭐ 1.2K) - TensorFlow for R. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/rstudio/tensorflow)** (👨‍💻 21 · 🔀 320 · 📥 8 · 📋 250 - 2% open · ⏱️ 22.10.2019):
+- **[GitHub](https://github.com/rstudio/tensorflow)** (👨‍💻 21 · 🔀 320 · 📥 8 · 📋 250 - 2% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/rstudio/tensorflow
@@ -4182,12 +4220,12 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 </details>
 <details><summary><b><a href="https://github.com/gojek/feast">Feast</a></b> (🥉19 ·  ⭐ 510) - Feature Store for Machine Learning. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/gojek/feast)** (👨‍💻 15 · 🔀 73 · 📥 300 · 📦 4 · 📋 140 - 26% open · ⏱️ 09.10.2019):
+- **[GitHub](https://github.com/gojek/feast)** (👨‍💻 15 · 🔀 74 · 📥 300 · 📦 4 · 📋 140 - 26% open · ⏱️ 09.10.2019):
 
 	```
 	git clone https://github.com/gojek/feast
 	```
-- **[PyPi](https://pypi.org/project/feast)** (📥 560 / month · ⏱️ 29.08.2019):
+- **[PyPi](https://pypi.org/project/feast)** (📥 580 / month · ⏱️ 29.08.2019):
 
 	```
 	pip install feast
@@ -4200,7 +4238,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	git clone https://github.com/danijar/handout
 	```
-- **[PyPi](https://pypi.org/project/handout)** (📥 250 / month · 📦 1 · ⏱️ 08.11.2019):
+- **[PyPi](https://pypi.org/project/handout)** (📥 260 / month · 📦 1 · ⏱️ 08.11.2019):
 
 	```
 	pip install handout
@@ -4214,9 +4252,9 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	git clone https://github.com/rstudio/shiny
 	```
 </details>
-<details><summary><b><a href="https://github.com/google/mediapipe">MediaPipe</a></b> (🥉15 ·  ⭐ 3.6K · 🐣) - MediaPipe is a cross-platform framework for building multimodal.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/google/mediapipe">MediaPipe</a></b> (🥉15 ·  ⭐ 3.6K · 🐣) - MediaPipe is a cross-platform framework for building multimodal applied.. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/google/mediapipe)** (👨‍💻 2 · 🔀 600 · 📋 220 - 16% open · ⏱️ 29.10.2019):
+- **[GitHub](https://github.com/google/mediapipe)** (👨‍💻 2 · 🔀 600 · 📋 230 - 16% open · ⏱️ 29.10.2019):
 
 	```
 	git clone https://github.com/google/mediapipe
@@ -4224,12 +4262,12 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 </details>
 <details><summary><b><a href="https://github.com/sql-machine-learning/sqlflow">SQLFlow</a></b> (🥉15 ·  ⭐ 3.3K) - Brings SQL and AI together. <code><a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">Apache-2</a></code></summary>
 
-- **[GitHub](https://github.com/sql-machine-learning/sqlflow)** (👨‍💻 26 · 🔀 500 · 📋 430 - 22% open · ⏱️ 09.11.2019):
+- **[GitHub](https://github.com/sql-machine-learning/sqlflow)** (👨‍💻 26 · 🔀 500 · 📋 440 - 22% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/sql-machine-learning/sqlflow
 	```
-- **[Dockerhub](https://hub.docker.com/r/sqlflow/sqlflow)** (📥 5.9K · ⭐ 1 · ⏱️ 10.11.2019):
+- **[Dockerhub](https://hub.docker.com/r/sqlflow/sqlflow)** (📥 6K · ⭐ 1 · ⏱️ 11.11.2019):
 
 	```
 	docker pull sqlflow/sqlflow
@@ -4242,7 +4280,7 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 	git clone https://github.com/perone/euclidesdb
 	```
-- **[PyPi](https://pypi.org/project/euclides)** (📥 170 / month · ⏱️ 12.02.2019):
+- **[PyPi](https://pypi.org/project/euclides)** (📥 180 / month · ⏱️ 12.02.2019):
 
 	```
 	pip install euclides
@@ -4254,14 +4292,14 @@ _Dart Storage tools such as relational, document, graph, time-series, and key-va
 	```
 </details>
 <details><summary>Show 2 hidden projects...</summary>
-<br><details><summary><b><a href="https://github.com/botpress/botpress">Botpress</a></b> (🥈26 ·  ⭐ 7.8K) - The open-source Conversational Platform with built-in language.. <code><a href="https://tldrlegal.com/license/gnu-affero-general-public-license-v3-(agpl-3.0)">❗️AGPL-3.0</a></code></summary>
+<br><details><summary><b><a href="https://github.com/botpress/botpress">Botpress</a></b> (🥈26 ·  ⭐ 7.8K) - The open-source Conversational Platform with built-in language understanding.. <code><a href="https://tldrlegal.com/license/gnu-affero-general-public-license-v3-(agpl-3.0)">❗️AGPL-3.0</a></code></summary>
 
-- **[GitHub](https://github.com/botpress/botpress)** (👨‍💻 110 · 🔀 890 · 📦 340 · 📋 860 - 13% open · ⏱️ 08.11.2019):
+- **[GitHub](https://github.com/botpress/botpress)** (👨‍💻 110 · 🔀 890 · 📦 340 · 📋 860 - 13% open · ⏱️ 11.11.2019):
 
 	```
 	git clone https://github.com/botpress/botpress
 	```
-- **[NPM](https://www.npmjs.com/package/botpress)** (📥 940 / month · 📦 170 · ⏱️ 19.01.2019):
+- **[NPM](https://www.npmjs.com/package/botpress)** (📥 920 / month · 📦 170 · ⏱️ 19.01.2019):
 
 	```
 	npm install botpress
