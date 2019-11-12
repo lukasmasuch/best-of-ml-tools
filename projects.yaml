@@ -7,13 +7,13 @@ configuration:
 categories:
 - category: "dev-environments"
   title: "IDEs & Notebook Editors"
-  subtitle: "Development Environments, Collaboration Tools..."
+  subtitle: "Development environments and notebook editors suitable for machine learning & data science projects."
 - category: "ml-platforms"
   title: "Machine Learning Platforms"
-  subtitle: "Distributed, scalable, ..."
+  subtitle: "Platforms that enable large-scale and distributed machine learning."
 - category: "business-intelligence"
   title: "Business Intelligence"
-  subtitle: "Data Analytics, SQL.."
+  subtitle: "GUI-based business intelligence tools combining SQL query engines, data analytics, visualization, and dashboarding features."
 - category: "job-scheduler"
   title: "Job Scheduler & Pipelines"
   subtitle: "Platforms and tools to schedule, orchestrate, and monitor jobs for workflow automation and data pipeline tasks."
@@ -54,12 +54,6 @@ projects:
   pypi_id: jupyter
   github_id: jupyter/notebook
   dockerhub_id: jupyter/datascience-notebook
-  # label: web
-  category: dev-environments
-- name: JupyterHub
-  pypi_id: jupyterhub
-  github_id: jupyterhub/jupyterhub
-  dockerhub_id: jupyterhub/jupyterhub
   # label: web
   category: dev-environments
 - name: JupyterLab
@@ -132,6 +126,7 @@ projects:
   category: dev-environments
 - name: polynote
   github_id: polynote/polynote
+  dockerhub_id: polynote/polynote
   # label: web
   category: dev-environments
 - name: h2o-flow
@@ -1321,6 +1316,13 @@ projects:
 - name: ML Hub
   github_id: ml-tooling/ml-hub
   dockerhub_id: mltooling/ml-hub
+  show: True
+  # label: web
+  category: ml-platforms
+- name: JupyterHub
+  pypi_id: jupyterhub
+  github_id: jupyterhub/jupyterhub
+  dockerhub_id: jupyterhub/jupyterhub
   # label: web
   category: ml-platforms
 # Job Scheduler & Pipelines
