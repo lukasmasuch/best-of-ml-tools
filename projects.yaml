@@ -48,6 +48,24 @@ categories:
   title: "Database GUIs"
   subtitle: "GUI tools for database administration and data management for a variety of databases."
 
+labels:
+- label: "tensorflow"
+  image: "https://www.gstatic.com/devrel-devsite/v741200ba74cbd1989790411f8b27fb588884a771dac0e0472d95190dde1f7e2f/tensorflow/images/favicon.png"
+  url: "https://www.tensorflow.org/"
+  description: "Project is related to Tensorflow"
+- label: "sklearn"
+  image: "https://scikit-learn.org/stable/_static/favicon.ico"
+  url: "https://scikit-learn.org"
+  description: "Project is related to Sklearn"
+- label: "pytorch"
+  image: "https://pytorch.org/favicon.ico"
+  url: "https://pytorch.org"
+  description: "Project is related to PyTorch"
+- label: "mxnet"
+  image: "https://mxnet.apache.org/assets/img/mxnet_m.png"
+  url: "https://mxnet.apache.org"
+  description: "Project is related to MxNet"
+
 projects:
 # IDEs & Notebook Editors
 - name: Jupyter
@@ -154,7 +172,22 @@ projects:
   license: BSD-3-Clause
   # label: web
   category: dev-environments
+- name: Judge0 IDE
+  github_id: judge0/ide
+  # label: web
+  category: dev-environments
+- name: Pyodide
+  github_id: iodide-project/pyodide
+  dockerhub_id: iodide/pyodide-env
+  # label: web
+  category: dev-environments
 # Data Ingestion & Integration
+- name: Amundsen
+  github_id: lyft/amundsen
+  dockerhub_id: amundsendev/amundsen-search
+  description: "Metadata driven application for improving the productivity of data engineers when interacting with data."
+  # label: web
+  category: data-integration
 - name: Hive
   github_id: apache/hive
   description: "Data warehouse software facilitates reading, writing, and managing large datasets residing in distributed storage using SQL."
@@ -345,6 +378,11 @@ projects:
   github_id: PatMartin/Dex
   # label: native
   category: data-viz
+- name: Bumblebee
+  github_id: ironmussa/bumblebee
+  dockerhub_id: ironmussa/bumblebee
+  # label: web
+  category: data-viz
 - name: Grafana
   github_id: grafana/grafana
   apt_id: grafana
@@ -374,6 +412,12 @@ projects:
 - name: ParaView
   github_id: Kitware/ParaView
   # label: native
+  license: BSD-3-Clause
+  category: data-viz
+- name: Papaya
+  github_id: rii-mango/Papaya
+  npm_id: papaya-viewer
+  # label: web
   license: BSD-3-Clause
   category: data-viz
 # Business Intelligence
@@ -422,6 +466,7 @@ projects:
 - name: Blazer
   github_id: ankane/blazer
   gem_id: blazer
+  description: "Explore your data with SQL. Easily create charts and dashboards, and share them with your team."
   # label: web
   category: business-intelligence
 - name: CBoard
@@ -608,8 +653,12 @@ projects:
 - name: BERTsearch
   github_id: Hironsan/bertsearch
   category: ml-applications
+- name: Presidio
+  github_id: microsoft/presidio
+  dockerhub_id: mcr.microsoft.com/presidio-api
+  category: ml-applications
 - name: face-api.js
-  github_id: justadudewhohacks/face-api.js
+  github_id: microsoft/presidio
   npm_id: face-api.js
   category: ml-applications
 - name: DeOldify
@@ -647,6 +696,13 @@ projects:
   dockerhub_id: hastic/server
   # label: web
   category: ml-applications
+- name: OCRmyPDF
+  github_id: jbarlow83/OCRmyPDF
+  apt_id: ocrmypdf
+  brew_id: ocrmypdf
+  pypi_id: ocrmypdf
+  # label: cmd
+  category: ml-applications
 # Data Labeling & Annotation
 - name: Labelme
   github_id: wkentaro/labelme
@@ -672,6 +728,7 @@ projects:
 - name: Label Studio
   github_id: heartexlabs/label-studio
   dockerhub_id: heartexlabs/label-studio
+  pypi_id: label-studio
   npm_id: label-studio
   # label: web
   category: data-labeling
@@ -1154,6 +1211,14 @@ projects:
   go_id: github.com/expectedsh/go-sonic
   maven_id: com.github.twohou:java-sonic
   category: data-storage
+- name: TileDB-Inc/TileDB
+  github_id: TileDB-Inc/TileDB
+  brew_id: tiledb-inc/stable/tiledb
+  conda_id: conda-forge/tiledb
+  pip_id: tiledb
+  go_id: github.com/TileDB-Inc/TileDB-Go
+  dockerhub_id: tiledb/tiledb
+  category: data-storage
 - name: etcd
   github_id: etcd-io/etcd
   dockerhub_id: bitnami/etcd
@@ -1264,6 +1329,11 @@ projects:
   description: "Data management platform that provides real-time, consistent access to data-intensive applications throughout widely distributed cloud architectures."
   category: data-storage
 # ML Platforms
+- name: Flyte
+  github_id: lyft/flyte
+  pypi_id: flytekit
+  dockerhub_id: lyft/flyteadmin
+  category: ml-platforms
 - name: Kubeflow
   github_id: kubeflow/kubeflow
   pypi_id: kfp
@@ -1319,10 +1389,9 @@ projects:
   show: True
   # label: web
   category: ml-platforms
-- name: JupyterHub
-  pypi_id: jupyterhub
-  github_id: jupyterhub/jupyterhub
-  dockerhub_id: jupyterhub/jupyterhub
+- name: FfDL
+  github_id: IBM/FfDL
+  dockerhub_id: ffdlops/ffdl
   # label: web
   category: ml-platforms
 # Job Scheduler & Pipelines
